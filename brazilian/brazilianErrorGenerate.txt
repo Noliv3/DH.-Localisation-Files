@@ -1,0 +1,36 @@
+﻿Example error~~~error message text:~~~_conveyorImage
+SKAA~~~SKAAAAAAAA a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa
+Building too small~~~Construindo muito pequeno
+Insufficient funds.~~~Fundos insuficientes
+Must be built on a Claw Track.~~~Deve ser construído sobre trilho de garra.
+Must be built on Claw Track.~~~Deve ser construído sobre trilho de garra.
+Can't build here.~~~Não é possível construir aqui
+Can't build here~~~Não é possível construir aqui
+Cannot build here.~~~Não é possível construir aqui
+Only connects to Load/Unload Stations~~~Conecta-se apenas a:~~~_loadStationImage~~~_unloadStationImage
+Must be built inside~~~Deve ser construído dentro de casa.
+Must be built inside.~~~Deve ser construído dentro de casa.
+Must be built outside~~~Deve ser construído dentro de casa.
+Must be built outside.~~~Deve ser construído dentro de casa.
+Structure doesn't accept water~~~Estrutura não aceita água
+Cannot build under transfer tube.~~~Não é possível construir sob o tubo de transferência
+Cannot connect occupied tracks.~~~Não é possível conectar os trilhos em uso
+Factory too small.~~~Fábrica é muito pequena
+Transfer tubes don't connect to transfer tubes.~~~Os tubos de transferência não se conectam aos tubos de transferência
+Only connects to straight tracks.~~~Conecta-se apenas a trilhos retos
+Output only connects to conveyors or mine tracks.~~~A saída se conecta apenas a:~~~_conveyorImage~~~_mineTrackImage
+Port doesn't accept input.~~~A abertura não aceita entrada.
+Port only for water pipes.~~~Abrindo apenas para tubulações de água.
+Input only connects to conveyors or mine tracks.~~~A entrada se conecta apenas a:~~~_conveyorImage~~~_mineTrackImage
+Port doesn't output.~~~A abertura não gera
+Only connects to conveyors.~~~Only connects to:~~~_conveyorImage
+Must be built into a cliffside.~~~Deve ser construído em um penhasco
+Cannot be built over turn.~~~Não pode ser construído em turnos
+Not enough powered drone bays.~~~Baias de drones insuficientes
+Doesn't interact with conveyors~~~Não interage com:~~~_conveyorImage
+Doesn't interact with Transfer Tubes~~~Não interage com tubos de transferência
+Can't build under claw track.~~~O trilho de garra está impedindo sua capacidade de construir
+Can't build over mine track.~~~trilho do carrinho está bloqueando sua construção
+Must have another entrance in proximity.~~~Deve ter outra entrada nas proximidades
+Must have another Rocket Launchpad in proximity.~~~Deve haver outro foguete nas proximidades
+Must have another Research Dome in proximity.~~~Deve haver outra cúpula de tecnologia por perto

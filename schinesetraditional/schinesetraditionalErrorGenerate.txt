@@ -1,0 +1,36 @@
+Example error~~~error message text:~~~_conveyorImage
+SKAA~~~SKAAAAAAAA a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa
+Building too small~~~建築物太小
+Insufficient funds.~~~資金不足
+Must be built on a Claw Track.~~~必須興建於吊爪軌道上
+Must be built on Claw Track.~~~必須興建於吊爪軌道上
+Can't build here.~~~無法建造在這
+Can't build here~~~無法建造在這
+Cannot build here.~~~無法建造在這
+Only connects to Load/Unload Stations~~~必須連接至：~~~_loadStationImage~~~_unloadStationImage
+Must be built inside~~~必須建置於廠房內
+Must be built inside.~~~必須建置於廠房內
+Must be built outside~~~必須建置於戶外
+Must be built outside.~~~必須建置於戶外
+Structure doesn't accept water~~~建築不接受水接入
+Cannot build under transfer tube.~~~無法建置在輸送管之下
+Cannot connect occupied tracks.~~~無法連接已經被占用的軌道
+Factory too small.~~~廠房太小
+Transfer tubes don't connect to transfer tubes.~~~輸送管沒有連接至另個輸送管
+Only connects to straight tracks.~~~只能連接至直線軌道
+Output only connects to conveyors or mine tracks.~~~輸出連接方式：~~~_conveyorImage~~~_mineTrackImage
+Port doesn't accept input.~~~不接受輸入資源
+Port only for water pipes.~~~僅接受水資源輸入
+Input only connects to conveyors or mine tracks.~~~輸入連接方式：~~~_conveyorImage~~~_mineTrackImage
+Port doesn't output.~~~不提供輸出
+Only connects to conveyors.~~~連接方式：~~~_conveyorImage
+Must be built into a cliffside.~~~必須建置在山壁邊
+Cannot be built over turn.~~~無法建置
+Not enough powered drone bays.~~~可用的無人機庫房不足
+Doesn't interact with conveyors~~~無效的互動方式：~~~_conveyorImage
+Doesn't interact with Transfer Tubes~~~無法與傳輸管互動
+Can't build under claw track.~~~無法建置在吊爪軌道下方
+Can't build over mine track.~~~無法建置在礦車軌道上
+Must have another entrance in proximity.~~~必須在範圍內有另一個山洞入口
+Must have another Rocket Launchpad in proximity.~~~必須在範圍內有另一個火箭發射平台
+Must have another Research Dome in proximity.~~~必須在範圍內有另一個研究室

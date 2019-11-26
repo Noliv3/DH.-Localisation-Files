@@ -1,0 +1,377 @@
+This will destroy the factory and all of its contents, are you sure?~~~This will destroy the factory and all of its contents, are you sure?
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~Holds up to X cratesworth of a singular resource type. Allows the transfer of resources in and out via transfer-tube.
+Transfers Crates from one Conveyor to another Conveyor.~~~Transfers crates from one step-conveyor to another step-conveyor. Must be built in a factory.
+CRATE MAKER~~~CRATE MAKER
+GREEN GRASS~~~GREEN GRASS
+NO~~~NO
+YES~~~YES
+GREEN~~~GREEN
+RED~~~RED
+DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Only connects to:##_conveyorImage
+Must unlock Water Works before unlocking farms~~~Must unlock Water Works before unlocking farms
+This will destroy the factory and all of its contents, are you sure?~~~This will destroy the factory and all of its contents, are you sure?
+FACTORY~~~FACTORY
+POWER CONNECTED~~~POWER CONNECTED
+WATER CONNECTED~~~WATER CONNECTED
+CONTAINER~~~CONTAINER
+ACCEPTED RESOURCE:~~~ACCEPTED RESOURCE:
+ACCEPTED RESOURCES:~~~ACCEPTED RESOURCES:
+CONTAINS:~~~CONTAINS:
+DESTROY CONTENTS~~~DESTROY CONTENTS
+ANY~~~ANY
+REMOTE CONNECTOR~~~REMOTE CONNECTOR
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~Directly connects to a container within the same factory. The container must be set to a matching color in order to form the connection. Only one container per factory can be set to a given color.
+TRANSFER-CLAW~~~TRANSFER-CLAW
+POWER STATION~~~POWER STATION
+POWER STATIONDESC~~~Generates electric power which certain structures require in order to function.
+POWER POLEDESC~~~Carries electric power from a power station to the various structures which require it.
+ACCEPTED CONTENTS:~~~ACCEPTED CONTENTS:
+ALL~~~ALL
+NONE~~~NONE
+SKIP EVERY:~~~SKIP EVERY:
+OFF~~~OFF
+ON~~~ON
+DRONE PRIORITY:~~~DRONE PRIORITY:
+ACTIVE CRATES:~~~ACTIVE CRATES:
+HIGH~~~HIGH
+MEDIUM~~~MEDIUM
+LOW~~~LOW
+OFF~~~OFF
+CONTENTS~~~CONTENTS
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~Constructs and outputs crates onto a conveyor or unload station. Has optional input ports which allow crates to be filled during creation. Can be built inside or outside. (Limited to producing X crates which must be sold or destroyed before more crates can be made.)
+ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~Commands the passing claw to attempt to pick up a crate at the load/unload station under it.
+CLAWTRAIN PICK-UP STOP~~~CLAWTRAIN PICK-UP STOP
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~Commands the passing claw to attempt to drop-off its currently held crate onto the load/unload station under it.
+CLAWTRAIN DROP-OFF STOP~~~CLAWTRAIN DROP-OFF STOP
+CLAWTRAIN TRUCK LOADER~~~CLAWTRAIN TRUCK LOADER
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~Is built onto a road pitstop. Commands passing claws to drop-off their currently held crates onto the truck under it.
+CLAWTRAIN CRATE GATE~~~CLAWTRAIN CRATE GATE
+ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~Forms a gate for a clawtrain which can be set to block its passage if minimum or maximum carried crate threshold requirements haven't been met.
+PASS REQUIREMENTS:~~~PASS REQUIREMENTS:
+MAXIMUM CRATES~~~MAXIMUM CRATES
+MINIMUM CRATES~~~MINIMUM CRATES
+NEVER ALLOW~~~NEVER ALLOW
+TRANSFER-TUBE G2G~~~TRANSFER-TUBE G2G
+Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~Transfers resources from one structure's ground port into another structure's ground port.
+TRANSFER-TUBE G2T~~~TRANSFER-TUBE G2T
+TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~Transfers resources from a structure's ground port to a step-conveyor or minecart.
+TRANSFER-TUBE T2G~~~TRANSFER-TUBE T2G
+TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~Transfers resources from a step-conveyor or minecart into a structure's ground port.
+LOAD-STATION~~~LOAD-STATION
+LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~Drones can be set to drop off crates here. Also connects with clawtrain dropoff/pickup stops.
+UNLOAD-STATION~~~UNLOAD-STATION
+UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~Drones can be set to pick up crates here. Also connects with clawtrain dropoff/pickup stops. (empty crates which reach the end get destroyed)
+DESTROY ALL CRATES:~~~DESTROY ALL CRATES:
+ROAD PITSTOP~~~ROAD PITSTOP
+ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~Trucks stop here and wait to get loaded up with crates of resources to be sold. Drones or clawtrains can be set to drop off crates on the trucks which stop here.
+TRAIN LOADING-SILO~~~TRAIN LOADING-SILO
+TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~Transfers resources from the silo into passing train boxcars. Holds X cratesworth of a singular resource type.
+DRONE BAY~~~DRONE BAY
+DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~Provides wireless computation power for 4 Drones. Houses a neural network super computer.
+MINING RIG~~~MINING RIG
+MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~Extracts raw resources from the ground, such as coal ore, iron ore, and gold ore. Must be built on a resource deposit.
+CURRENTLY MINING:~~~CURRENTLY MINING:
+1 PER~~~1 PER
+SECONDS~~~SECONDS
+OIL DERRICK~~~OIL DERRICK
+OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~Extracts crude oil from the ground. Must be built on an oil deposit. Wirelessly uses $X of power per month.
+CURRENTLY EXTRACTING:~~~CURRENTLY EXTRACTING:
+FARM PLATFORM~~~FARM PLATFORM
+FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~Serves as the growing platform for grass. Wirelessly uses $X of power per month.
+GRASS TYPE~~~GRASS TYPE
+6 PER~~~6 PER
+REFINER~~~REFINER
+REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~Transforms resources from their unrefined form into their pure form. Must be built in a factory. Receives crates as input from a load station, step-conveyor, or cratemaker.
+CURRENTLY REFINING:~~~CURRENTLY REFINING:
+COMBINER~~~COMBINER
+COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~Combines together two resources, creating new resources in the process. Takes in resources from the side ports; outputs the final product to the front port. Must be built in a factory.
+CURRENTLY COMBINING:~~~CURRENTLY COMBINING:
+RESEARCH BAY~~~RESEARCH BAY
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~Generates research points which can be spent on the upgrades menu to improve various colony capabilities or unlock new structures. Receives any resource as input, returns research points equivalent to the dollar value of the given resource. Research points become claimable after bay processes X crates.
+PROCESSING CONTENTS INTO:~~~PROCESSING CONTENTS INTO:
+RESEARCH POINTS~~~RESEARCH POINTS
+MINETRACK~~~MINETRACK
+MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~Serves as the track for a single train of minecarts. Carts which reach the end of a track reverse their direction. Each cart can hold 4 cratesworth of resources.
+MINECARTSMOVETITLE~~~MINETRACK S-MOVE
+MINECARTRAMPTITLE~~~MINETRACK RAMP
+CAPACITY~~~CAPACITY
+CARTS~~~CARTS
+ADD CART~~~ADD CART
+ADD~~~ADD
+REMOVE CART~~~REMOVE CART
+REMOVE~~~REMOVE
+CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~Serves as the track for a single train of claws. Claws which reach the end of the track reverse direction.
+CLAWS~~~CLAWS
+ADD CLAWS~~~ADD CLAWS
+ADD~~~ADD
+REMOVE CLAWS~~~REMOVE CLAWS
+REMOVE~~~REMOVE
+WATER RESERVOIR~~~WATER RESERVOIR
+COST~~~COST
+UNLOCK~~~UNLOCK
+GREENHOUSE UNLOCK TITLE~~~UNLOCK GREENHOUSE
+FARMING UNLOCK TITLE~~~UNLOCK FARMING
+WATERWORKS UNLOCK TITLE~~~UNLOCK WATERWORKS
+ROCKET UNLOCK TITLE~~~UNLOCK CARGO ROCKET
+OIL DERRICK UNLOCK TITLE~~~UNLOCK OIL DERRICK
+FREIGHT TRAIN UNLOCK TITLE~~~UNLOCK FREIGHT TRAIN
+REFINER UNLOCK TITLE~~~UNLOCK REFINER / FACTORY
+STEP CONVEYOR UNLOCK TITLE~~~UNLOCK STEP-CONVEYOR
+REMOTE CONNECTOR UNLOCK TITLE~~~UNLOCK REMOTE CONNECTOR
+COMBINER UNLOCK TITLE~~~UNLOCK COMBINER
+CLAWTRAIN CRATE GATE UNLOCK TITLE~~~UNLOCK CRATE GATE
+CLAWTRAIN TRUCK LOADER UNLOCK TITLE~~~UNLOCK CLAWTRACK TRUCK LOADER
+CLAW TRAIN UNLOCK TITLE~~~UNLOCK CLAWTRAIN
+FREIGHT TRAIN~~~FREIGHT TRAIN
+FARMING~~~FARMING
+GREENHOUSE UNLOCK DESC~~~Speed up your farm's growing speed by X% with the addition of a greenhouse.
+FARMING UNLOCK DESC~~~Grow various strains of grass on a hydroponic platform to add agricultural resources to your supply chain.
+WATERWORKS~~~WATERWORKS
+WATERWORKS UNLOCK DESC~~~Upgrade the capabilities/speed of various machines in your colony by connecting them to your water system.
+CARGO ROCKET~~~CARGO ROCKET
+ROCKET UNLOCK DESC~~~Launch freight rockets filled with crates to sell your resources in the galactic market. Due to high offworld demand, resources sold by rockets grant a weight/revenue bonus of X%.
+OIL DERRICK UNLOCK DESC~~~Pump that valuable black liquid out of the ground by constructing this machine.
+TRAIN UNLOCK DESC~~~Connect to this planet's underground railroad network, and bring freight trains through your colony as a highly efficient method to sell your resources. Rather than receiving crates, freight trains receive resources via loader silos. These silos can be loaded via minecart.
+REFINER UNLOCK DESC~~~Refine your light weight ores into (heavier) refined resources using the refiner. Also construct a factory, which the refiner and many other machines must be built inside of. The Refiner both inputs and outputs crates.
+STEP CONVEYOR UNLOCK DESC~~~Evenly and efficiently allocate crates between factory-based machines by using a step-conveyor system. You can also incorporate transfer-claws into your system to move crates between separate conveyors. Transfer tubes can even connect to passing crates on a step conveyor.
+REMOTE CONNECTOR UNLOCK DESC~~~Use this device to remotely connect to a container from a potentially distant location within a shared factory. The remote connector especially comes in handy when dealing with large combiner systems.
+COMBINER UNLOCK DESC~~~Combine refined resources together into (much heavier) combined resources by implementing this factory machine into your supply chain. Rather than receiving crates, the combiner inputs/outputs resources via transfer tube ports.
+CLAWTRAIN CRATE GATE UNLOCK DESC~~~Use this device to block a clawtrain from passing through a given stretch of track until it has either picked up or dropped off a specific threshold of crates.
+CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~Load trucks directly with clawtrains using this special clawtrack structure. Just build one right on top of a road's pitstop and connect your claw track.
+CLAW TRAIN UNLOCK DESC~~~Efficiently transport crates all around your colony using this inverted rail track system of grabber-claws. Just like drones, clawtrains can drop-off or pick-up crates from l	load/unload stations.
+WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~Pumps groundwater into pipes which can be connected to various structures. Wirelessly uses $X of power per month.
+ROAD ENTRY~~~ROAD ENTRY
+ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~Serves as the entry point for trucks entering your colony to buy crates of resources. Must be built near other road entry tunnels, if any others have previously been built.
+ROAD EXIT~~~ROAD EXIT
+ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~Serves as the exit point for trucks exiting your colony. Trucks pay you for their purchased crates as soon as they pass through the exit tunnel.
+POWER STATION~~~POWER STATION
+POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~Generates electric power which certain structures require in order to function.
+TRAIN TRACK ENTRY~~~TRAIN TRACK ENTRY
+TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~Serves as the entry point for freight trains entering your colony to buy your resources. Must be built near other train track entry tunnels, if any others have previously been built.
+TRAIN TRACK EXIT~~~TRAIN TRACK EXIT
+TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~Serves as the exit point for freight trains exiting your colony to sell their resources. Trains pay you for their purchased resources as soon as they pass through the exit tunnel.
+DRONE~~~DRONE
+DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~Transports crates from unload stations, to load stations or trucks at pitstops. Powered by a drone bay.
+Holding:~~~Holding:
+DESTROY CRATE~~~DESTROY CRATE
+ROCKET LAUNCHPAD~~~ROCKET LAUNCHPAD
+ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~Serves as the landing and launch pad for freight rockets. Receives crates via loading station, and loads them into the currently stationed rocket. Once the rocket is full, it ships off with the crates to be sold in the galactic market with a X% weight/revenue bonus. Wirelessly uses $X of power per month.
+PAD CONTENTS:~~~PAD CONTENTS:
+ROCKET CONTENTS:~~~ROCKET CONTENTS:
+FACTORY~~~FACTORY
+FACTORYDESC~~~Provides an indoor space in which refiners and combiners can be built. Must be connected to power in order to provide energy to housed machines.
+DOORWAY~~~DOORWAY
+DOORWAYDESC~~~Provides an entryway into a factory to be used by drones, minecarts, or clawtrains.
+SMALL CONTAINER~~~SMALL CONTAINER
+SMALLCONTAINERDESC~~~Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.
+LARGE CONTAINER~~~LARGE CONTAINER
+LARGECONTAINERDESC~~~Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.
+GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~Holds resources of a singular type. Allows the transfer of resources in and out via transfer-tube.
+WATER RESERVOIR~~~WATER RESERVOIR
+WATER RESERVOIRDESC~~~Pumps groundwater into pipes which can be connected to various structures. Wirelessly uses $X of power per month.
+WATER PIPE~~~WATER PIPE
+WATER PIPEDESC~~~Carries water from a water reservoir to various structures.
+GREENHOUSE UPGRADE~~~GREENHOUSE UPGRADE
+GREENHOUSE DESC~~~Upgrade for the farm platform, speeds up plant growth by X%.
+STEP CONVEYOR~~~STEP CONVEYOR
+STEP CONVEYORDESC~~~Moves Crates in one-second timed intervals. Doesn't trigger movement unless every held crate has a space to move to.
+RESEARCH UNLOCKS~~~RESEARCH UNLOCKS
++10% highway Minecart speed:~~~+10% highway Minecart speed
++20% highway Minecart speed:~~~+20% highway Minecart speed
++30% highway Minecart speed:~~~+30% highway Minecart speed
++40% highway Minecart speed:~~~+40% highway Minecart speed
++50% highway Minecart speed:~~~+50% highway Minecart speed
++10% Clawtrain speed~~~+10% Clawtrain speed
++20% Clawtrain speed~~~+20% Clawtrain speed
++30% Clawtrain speed~~~+30% Clawtrain speed
++40% Clawtrain speed~~~+40% Clawtrain speed
++50% Clawtrain speed~~~+50% Clawtrain speed
++10% Drone speed~~~+10% Drone speed
++20% Drone speed~~~+20% Drone speed
++30% Drone speed~~~+30% Drone speed
++40% Drone speed~~~+40% Drone speed
++50% Drone speed~~~+50% Drone speed
++2 Max Minecarts per track~~~+2 Max Minecarts per track
++4 Max Minecarts per track~~~+4 Max Minecarts per track
++6 Max Minecarts per track~~~+6 Max Minecarts per track
++8 Max Minecarts per track~~~+8 Max Minecarts per track
++10 Max Minecarts per track~~~+10 Max Minecarts per track
++2 Max Clawtrains per track~~~+2 Max Clawtrains per track
++4 Max Clawtrains per track~~~+4 Max Clawtrains per track
++6 Max Clawtrains per track~~~+6 Max Clawtrains per track
++8 Max Clawtrains per track~~~+8 Max Clawtrains per track
++10 Max Clawtrains per track~~~+10 Max Clawtrains per track
+Train interval -5 sec~~~Train interval -5 sec
+Train interval -10 sec~~~Train interval -10 sec
+Train interval -15 sec~~~Train interval -15 sec
+Train interval -20 sec~~~Train interval -20 sec
+Train interval -25 sec~~~Train interval -25 sec
+Truck interval -1.5 sec~~~Truck interval -1.5 sec
+Truck interval -3 sec~~~Truck interval -3 sec
+Truck interval -4.5 sec~~~Truck interval -4.5 sec
+Truck interval -6 sec~~~Truck interval -6 sec
+Truck interval -7.5 sec~~~Truck interval -7.5 sec
+FINANCES~~~FINANCES
+Previous month's revenue:~~~Previous month's revenue:
+Previous 3 month's revenue:~~~Previous 3 month's revenue:
+Previous 6 month's revenue:~~~Previous 6 month's revenue:
+Previous month's power and taxes:~~~Previous month's power and taxes:
+Previous 3 month's power and taxes:~~~Previous 3 month's power and taxes:
+Previous 6 month's power and taxes:~~~Previous 6 month's power and taxes:
+Record 3-month weight output:~~~Record 3-month weight output:
+CURRENT MONTH:~~~CURRENT MONTH:
+Current month's power and taxes:~~~Current month's power and taxes:
+Current month's revenue:~~~Current month's revenue:
+Current 3-month weight output:~~~Current 3-month weight output:
+DEMAND BONUS~~~DEMAND BONUS
+WEIGHTS~~~WEIGHTS
+WEIGHT PER 1 CRATESWORTH~~~WEIGHT PER 1 CRATESWORTH
+RECIPES~~~RECIPES
+Recipe For:~~~Recipe For:
+IncompatibleCombination~~~Incompatible`Combination
+TIPS~~~TIPS
+Minecart tracks are great for transporting resources from distant mining rigs, try it out!~~~Minecart tracks are great for transporting resources from distant mining rigs, try it out!
+MEDALLION~~~MEDALLION
+MEDALLION:~~~MEDALLION:
+MEDALLION DESC~~~As a secondary goal for every scenario, you can unlock a Master Seller's Medallion by achieving a monthly weight output stretch goal.``There is no time limit for the medallion, but you must first achieve the scenario's main goals within their time limit or the medallion is forfeit.
+MISSION OBJECTIVES~~~MISSION OBJECTIVES
+OPTIONS~~~OPTIONS
+Edge Panning:~~~Edge Panning:
+DOF Tilt-shift:~~~DOF Tilt-shift:
+Camera friction:~~~Camera friction:
+DOF Focus:~~~DOF Focus:
+Field of view:~~~Field of view:
+Reset FOV:~~~Reset FOV:
+SOUND VOLUME:~~~SOUND VOLUME:
+SAVE~~~SAVE
+SAVE AND EXIT~~~SAVE AND EXIT
+EXIT~~~EXIT
+TRAIN TRACKDESC~~~Serves as the track for freight trains passing through your colony to buy your resources.
+ROADDESC~~~Serves as a path for trucks passing through your colony to buy your crates of resources.
+[  ] to rotate.~~~[  ] to rotate.
+[  ] to untether.~~~[  ] to untether.
+[  ] to toggle turn.~~~[  ] to toggle turn type.
+Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.~~~Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.
+The processes for making every potential resource.~~~The processes for making every potential resource.
+Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.~~~Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.
+Weekly power costs:~~~Weekly power costs:
+Connecting water enables interior air conditioning.``Air conditioning lowers the monthly power costs of housed machines by X%.~~~Connecting water enables interior air conditioning.`Air conditioning lowers the monthly power costs of housed machines by X%.`Capacity use: 10
+Some housed machines require power to function.`Capacity use: 10~~~Some housed machines require power to function.`Capacity use: 10
+Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.~~~Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.
+Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).~~~Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).
+Only X crates created by this crate maker can be active in your colony at a time.`If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.~~~Only 30 crates created by this crate maker can be active in your colony at a time.``If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.
+Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.~~~Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.
+Sets which crates will be moved, depending on what resources they hold.~~~Sets which crates will be moved, depending on what resources they hold.
+Monthly power costs:~~~Monthly power costs:
+Monthly tax costs:~~~Monthly tax costs:
+Sets what resources will be accepted by trucks which stop here.~~~Sets what resources will be accepted by trucks which stop here.
+Sets the priority drones will give to this station relative to others.`Drone can be set to not bring crates here at all, if it's set to "OFF".~~~Sets the priority drones will give to this station relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".
+Sets the priority drones will take from this station.`Drone can be set to not take crates from here at all, if it's set to "OFF".~~~Sets the priority drones will take from this station.`Drones can be set to not take crates from here at all, if it's set to "OFF".
+Sets which remote connector to be connected to if any exist in this container's factory. Only one container per factory can be set to a given color.~~~Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.
+Sets what singular resource type will be allowed in.~~~Sets what singular resource type will be allowed in.
+Requires power to function.`Monthly costs: $X~~~Requires power to function.`Monthly costs: $X
+MiningRigWaterHover~~~Connecting water enables fracking.`Fracking increases extraction speed by X%.`Capacity use: 3
+oilDerrickWaterHover~~~Connecting water enables fracking.`Fracking increases extraction speed by X%.`Capacity use: 3
+RESEARCHBAYPOWERHOVER~~~Requires power to function.`Monthly costs: $X`Capacity use: 2
+miningRigPowerHover~~~Requires power to function.`Monthly costs: $X`Capacity use: 3
+refinerPowerHover~~~Requires power to function.`Monthly costs: $X`Power must be connected to the factory housing this machine.
+crateMakerPowerHover~~~Requires power to function.`Monthly costs: $X`Capacity use: 1 (when outside)`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).
+clawTrainCrateGateHover~~~-If “Never Allow” is turned on, no clawtrain will be able to pass in the arrow's direction.``-If “Minimum Crates” is turned on, a clawtrain must be holding at least the minimum amount of crates in order to pass.``-If “Minimum Crates” is turned on, a clawtrain must be holding under the maximum amount of crates in order to pass.
+researchBayWaterHover~~~Connecting water enables interior water cooling.`Water cooling increases research speed by 10%`Capacity use: 2
+researchBayProcessingHover~~~Converting contained resources into research points over time.`Research value equivlent to dollar value.
+combinerPowerHover~~~Requires power to function.`Monthly costs: $X`Power must be connected to the factory housing this machine.
+researchBayFillBar~~~Research points are able to be claimed once they fill the bar up to the blue notch.``Researching with specific resource types is required to unlock certain technologies.
+addMinecartHover~~~Add another cart to this train.`Costs $X.
+removeMinecartHover~~~Removes/sells a cart from this train.`Sells for $X.
+removeClawHover~~~Removes/sells a claw from this train.`Sells for $X.
+addClawHover~~~Add another claw to this train.`Costs $X.
+farmWaterHover~~~Requires water to function.`Capacity use: 3
+researchPointHover~~~Research points
+timeHover~~~Month - Year
+dronePopHover~~~Drone population
+mineTrackHighway~~~Minecarts move faster while traveling on highways (height level 2 or 3)
+Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.~~~Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.
+Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase~~~Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase
+Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.~~~Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.
+TRANFER-TUBE~~~TRANFER-TUBE
+To add minecarts or clawtrains to a track: select the track you've built and press the "add" button to buy some.~~~To add minecarts or clawtrains to a track: select the track you've built and press the "add" button to buy some.
+It's possible to transfer resources between a step conveyor and minetrack via this simple setup.~~~It's possible to transfer resources between a step conveyor and minetrack via this simple setup.
+Mouse-over a built structure and press [SPACEBAR] to duplicate the structure.~~~Mouse-over a built structure and press [SPACEBAR] to duplicate the structure.
+Containers can be useful for storing resources.~~~Containers can be useful for storing resources.
+Make use of research bays to unlock new structures and technology.~~~Make use of research bays to unlock new structures and technology.
+An unload stations can be set up to destroy the crates which reach the end. It also automatically destroys any empty crates which reach the end~~~An unload stations can be set up to destroy the crates which reach the end. It also automatically destroys any empty crates which reach the end
+Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.~~~Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.
+Transfer claws can be useful for connecting or splitting up step conveyor pathways.~~~Transfer claws can be useful for connecting or splitting up step conveyor pathways.
+The downward nozzle of a transfer tube can only connect to a step-conveyor or minetrack.~~~The downward nozzle of a transfer tube can only connect to a step-conveyor or minetrack.
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.
+Hold [TAB] to see inside all of your factories at the same time.~~~Hold [TAB] to see inside all of your factories at the same time.
+Avoid sending your drones on long journeys, travel-time matters when designing efficient transport systems.~~~Avoid sending your drones on long journeys, travel-time matters when designing efficient transport systems.
+Remote connectors can be a convenient way to move resources around a crowded factory interior.~~~Remote connectors can be a convenient way to move resources around a crowded factory interior.
+Don't expand to new resource deposits without fully utilizing your current ones. Bottlenecks in your system can cause major revenue deficiencies, don't let resources get backed up anywhere.~~~Don't expand to new resource deposits without fully utilizing your current ones. Bottlenecks in your system can cause major revenue deficiencies, don't let resources get backed up anywhere.
+MISSION~~~MISSION
+OK~~~OK
+Exit without saving, are you sure?~~~Exit without saving, are you sure?
+Goal:~~~Goal:
+Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.~~~Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.
+CONTINUE PLAYING~~~CONTINUE PLAYING
+SAVE AND EXIT~~~SAVE AND EXIT
+Weight Output: 25,000~~~Weight Output: 25,000
+Weight Goal:~~~Weight Goal:
+Game by:~~~Game by:
+Sean Cutino and Brad Hall~~~Sean Cutino and Brad Hall
+Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".~~~Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".
+droneBayPowerHover~~~Requires power to function.`Monthly costs: $X`Capacity use: 0
+trainPowerHover~~~Requires power to function.`Monthly costs: $X`Capacity use: 5
+Revenue~~~Revenue
+3-month Weight Output Goal:~~~3-month Weight Output Goal:
+3-month weight output record of:~~~3-month Weight Output
+MISSION OBJECTIVE~~~MISSION OBJECTIVE
+SAVED~~~SAVED
+Simple Fields~~~Split Valley
+Simple Fields Description~~~Work around a dried up riverbed jutting through the landscape splitting it in half
+Big Cliffs~~~Rocky Hills
+Big Cliffs Description~~~Big green cliffs surrounded by winding rivers and lakes provide the perfect backdrop for a factory base
+Open Space~~~Open Space
+Open Space Description~~~A simple, flat, open desert provides fertile grounds for your unconstrained creativity.
+Big Islands~~~Glacier Zone
+Big Islands Description~~~ Glaciers splitting off from a melting ice sheet, and rich in mineral deposits serve as floating platforms to build your base on.
+Level_Craters~~~Craters
+Level_CratersDescription~~~This field has had giant asteroids slam into it over thousands of years, each depositing valuable ores into the ground.
+Level_CoastLine~~~Coastline
+Level_CoastLineDescription~~~Build on the edge of the ocean on this lush forest planet, don't forget about the island of oil.
+Level_BigLake~~~Oasis Lake
+Level_BigLakeDescription~~~In the middle of the desert, there exists a beautiful lake surrounded by palm trees and foliage. Tap into the many surrounding resources.
+Level_IslandHopper~~~Island Hopper
+Level_IslandHopperDescription~~~Connect many tracks between these tiny tropical islands.
+Level_CenterMesa~~~Middle Mountain
+Level_CenterMesaDescription~~~A big hilly mountain serves as the base for many resource deposits, build around it.
+Level_Lakes~~~Ice Edge
+Level_LakesDescription~~~Bring resources in from the edge of the ice on this difficult piece of land.
+Level_CompactCanyon~~~Compact Canyon
+Level_CompactCanyonDescription~~~A tiny canyon contains your all of your structures on this hot volcanic planet. You'll need to figure out how to pack everything in to this small space.
+Level_BigCliffs_ResourceClusters~~~Snow Forest
+Level_BigCliffs_ResourceClustersDescription~~~Resources are heavily clustered in this snowy forest property.
+Level_OpenSpaceRocketsOnly~~~Rocket Master
+Level_OpenSpaceRocketsOnlyDescription~~~Start with rockets already unlocked on this strange green scum planet.
+Level_BigLake_CenterResources~~~Resource Rich
+Level_BigLake_CenterResourcesDescription~~~Every deposit is on an island in the center of this property.
+Per Month~~~Per Month
+PLAY~~~PLAY
+CREDITS~~~CREDITS
+QUIT~~~QUIT
+NEW COLONY~~~NEW COLONY
+LOAD COLONY~~~LOAD COLONY
+START~~~START
+CANCEL~~~CANCEL
+Starter Mode:~~~Starter Mode:
+Drone population.~~~Drone population.
+CURRENT TIME:~~~CURRENT TIME:
+MISSION:~~~MISSION:
+LOAD COLONY:~~~LOAD COLONY:
+IN PROGRESS~~~IN PROGRESS
+LOAD~~~LOAD
+DELETE~~~DELETE
+NAME YOUR COLONY:~~~NAME YOUR COLONY:
+DEMOLISH~~~DEMOLISH
+GREENHOUSE ENABLED~~~GREENHOUSE ENABLED
+CONNECTOR COLOR:~~~CONNECTOR COLOR:

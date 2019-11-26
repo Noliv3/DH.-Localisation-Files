@@ -1,0 +1,5 @@
+﻿Mouse over a built structure and press [SPACEBAR] to duplicate the structure.~~~構築された構造の上にカーソルを置き、[スペースバー]を押して構造を複製します。
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~トロッコは高速道路のレールをより速く移動します。ビルドモードでホットキー1、2、3を使用して、レールの高さを切り替えます。
+[X] is the hotkey for selling, you can sell structures for a full refund.~~~[X]は販売ホットキーです。全額払い戻しのために構造を販売できます。
+Don't be afraid to delete your system and rebuild it in a more efficient way, pausing can be useful while doing so.~~~システムを削除してより効率的な方法で再構築することを恐れないでください。これには一時停止が便利です。
+Hold [TAB] to see inside all of your factories at the same time.~~~[TAB]を押して、すべての工場の内部を同時に表示します。

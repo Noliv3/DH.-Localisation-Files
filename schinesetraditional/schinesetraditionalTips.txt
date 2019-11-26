@@ -1,0 +1,5 @@
+Mouse over a built structure and press [SPACEBAR] to duplicate the structure.~~~將滑鼠懸停在已構建的結構上，然後按[空格鍵]複製該結構。
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~礦車在高架路段上的行駛速度更快，在構建模式下使用快速鍵1,2,3可以切換軌道高度。
+[X] is the hotkey for selling, you can sell structures for a full refund.~~~[X]是銷售快速鍵，您可以出售結構以獲得全額退款。
+Don't be afraid to delete your system and rebuild it in a more efficient way, pausing can be useful while doing so.~~~不要害怕刪除您的系統並以更有效的方式重建它，您可以在時間暫停時來進行重新設計。
+Hold [TAB] to see inside all of your factories at the same time.~~~按住[TAB]可以同時查看所有工廠內部。

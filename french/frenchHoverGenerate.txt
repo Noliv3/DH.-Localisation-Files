@@ -1,0 +1,20 @@
+ARBO~~~ARBO
+Capacitors~~~Condensateurs
+Ash~~~Cendre
+AshAshAshAshAshAshAshAshAshAsh~~~I am the best there ever was I am the best there ever was I am the best there ever was
+Coal~~~Charbon
+Coal Ore~~~Minerai de charbon
+Ethanol~~~Éthanol
+Gold~~~Or
+Gold Fuel~~~Carburant d'or
+Gold Ore~~~Minerai d'or
+Green Grain~~~Grains verts
+Grain Meal~~~Farine de céréales
+Red Grain~~~Grains rouges
+Green Grass~~~L'herbe verte
+Red Grass~~~Herbe rouge
+Iron~~~Fer
+Iron Ore~~~Minerai de fer
+Oil~~~Pétrole
+Crude Oil~~~Huile brute
+Steel Plates~~~Plaques d'acier

@@ -1,0 +1,5 @@
+Mouse over a built structure and press [SPACEBAR] to duplicate the structure.~~~Mouse over a built structure and press [SPACEBAR] to duplicate the structure.
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.
+[X] is the hotkey for selling, you can sell structures for a full refund.~~~[X] is the hotkey for selling, you can sell structures for a full refund.
+Don't be afraid to delete your system and rebuild it in a more efficient way, pausing can be useful while doing so.~~~Don't be afraid to delete your system and rebuild it in a more efficient way, pausing can be useful while doing so.
+Hold [TAB] to see inside all of your factories at the same time.~~~Hold [TAB] to see inside all of your factories at the same time.

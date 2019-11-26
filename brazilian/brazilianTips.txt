@@ -1,0 +1,5 @@
+﻿Mouse over a built structure and press [SPACEBAR] to duplicate the structure.~~~Passe o mouse sobre uma estrutura construída e pressione [BARRA DE ESPAÇOS] para duplicar a estrutura.
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~Os troles movem-se mais rapidamente nos trilhos da estrada. Use as teclas de atalho 1,2,3 para alterar a altura do trilho no modo de construção.
+[X] is the hotkey for selling, you can sell structures for a full refund.~~~[X] é a tecla de atalho para venda, você pode vender estruturas para um reembolso total.
+Don't be afraid to delete your system and rebuild it in a more efficient way, pausing can be useful while doing so.~~~Não tenha medo de excluir seu sistema e reconstruí-lo com mais eficiência. A pausa pode ser útil para fazer isso.
+Hold [TAB] to see inside all of your factories at the same time.~~~Mantenha pressionado [TAB] para ver dentro de todas as suas fábricas ao mesmo tempo.

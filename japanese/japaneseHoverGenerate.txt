@@ -1,0 +1,20 @@
+﻿ARBO~~~ARBO
+Capacitors~~~コンデンサ
+Ash~~~灰
+AshAshAshAshAshAshAshAshAshAsh~~~I am the best there ever was I am the best there ever was I am the best there ever was
+Coal~~~石炭
+Coal Ore~~~石炭鉱石
+Ethanol~~~エタノール
+Gold~~~ゴールド
+Gold Fuel~~~金燃料
+Gold Ore~~~金鉱石
+Green Grain~~~緑の穀物
+Grain Meal~~~穀物の食事
+Red Grain~~~赤い粒
+Green Grass~~~緑の草
+Red Grass~~~赤い草
+Iron~~~鉄
+Iron Ore~~~鉄鉱石
+Oil~~~油
+Crude Oil~~~原油
+Steel Plates~~~鋼板

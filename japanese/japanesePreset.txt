@@ -1,0 +1,397 @@
+﻿BUY~~~購入
+TRANSFER-TUBE~~~移送チューブ
+POWER POLE~~~電柱
+LOAD STATION~~~ロードステーション
+UNLOAD STATION~~~アンロードステーション
+CLAWTRAIN TRACK~~~クレーンレール
+TRAIN TRACK~~~電車のレール
+ROAD~~~道路
+This will destroy the factory and all of its contents, are you sure?~~~これにより、工場とその中身がすべて破壊されます。大丈夫ですか？
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~容量は40です。リソースは、トランスファーチューブを介して出し入れできます。
+Transfers Crates from one Conveyor to another Conveyor.~~~ボックスをあるステップコンベヤから別のステップコンベヤに移動します。屋内で構築する必要があります。
+CRATE MAKER~~~ボックスメーカー
+GREEN GRASS~~~緑の草
+NO~~~番号
+YES~~~はい
+GREEN~~~緑
+RED~~~赤
+DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Only connects to:##_conveyorImage
+Must unlock Water Works before unlocking farms~~~農場のロックを解除する前に水をロック解除する必要があります
+This will destroy the factory and all of its contents, are you sure?~~~これにより、工場とその中身がすべて破壊されます。これでよろしいですか？
+FACTORY~~~工場
+POWER CONNECTED~~~力
+WATER CONNECTED~~~水
+CONTAINER~~~容器
+ACCEPTED RESOURCE:~~~受け入れられたリソース：
+ACCEPTED RESOURCES:~~~受け入れられたリソース：
+CONTAINS:~~~ホールド：
+DESTROY CONTENTS~~~コンテンツを破棄
+ANY~~~どれか
+REMOTE CONNECTOR~~~リモートコネクタ
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~同じ工場内のコンテナに直接接続します。 接続を形成するには、コンテナを一致する色に設定する必要があります。 特定の色に設定できるのは、工場ごとに1つのコンテナのみです。
+TRANSFER-CLAW~~~搬送クレーン
+POWER STATION~~~発電所
+POWER STATIONDESC~~~電気を作り出す
+POWER POLEDESC~~~発電所からの電力を、それを必要とするさまざまな構造物に運びます。
+ACCEPTED CONTENTS:~~~許容されるコンテンツ：
+ALL~~~すべて
+NONE~~~無し
+SKIP EVERY:~~~スキップ：
+OFF~~~オフ
+ON~~~オン
+DRONE PRIORITY:~~~ドローンの優先度：
+ACTIVE CRATES:~~~使用中のボックスの数：
+HIGH~~~高い
+MEDIUM~~~中間
+LOW~~~低い
+OFF~~~オフ
+CONTENTS~~~ホールディングス
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~クレートを構築し、コンベアまたはアンロードステーションに出力します。作成中にクレートを満たすことができるオプションの入力ポートがあります。 屋内でも屋外でも構築できます。 （30個のクレートの生産に制限されます。 クレートは、さらにクレートを作成する前に販売または破壊する必要があります。）
+ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~通過するクレーンに、その下のロード/アンロードステーションで木枠を拾うように指示します。
+CLAWTRAIN PICK-UP STOP~~~クレーン列車のピックアップストップ
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~通過するクレーンに、現在保持している木枠をその下のロード/アンロードステーションに降ろそうとするように命令します。
+CLAWTRAIN DROP-OFF STOP~~~クレーンレールドロップオフストップ
+CLAWTRAIN TRUCK LOADER~~~クレーン列車トラックローダー
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~道路のピットストップに建てられました。現在保持されているクレートをその下のトラックに降ろすために爪を渡すコマンド。
+CLAWTRAIN CRATE GATE~~~クレーン列車木枠ブロッカー
+ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~要件を満たしていないブロッククレーン列車。
+PASS REQUIREMENTS:~~~パスの要件：
+MAXIMUM CRATES~~~最大保有
+MINIMUM CRATES~~~最低保有
+NEVER ALLOW~~~パスを禁止
+TRANSFER-TUBE G2G~~~トランスファーチューブ
+Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~ある構造物のグランドポートから別の構造物のグランドポートにリソースを転送します。
+TRANSFER-TUBE G2T~~~トランスファーチューブ
+TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~構造物の接地ポートからステップコンベアまたはカートにリソースを転送します。
+TRANSFER-TUBE T2G~~~トランスファーチューブ
+TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~ステップコンベアまたはカートから構造物のグランドポートにリソースを転送します。
+LOAD-STATION~~~ローディングステーション
+LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~ドローンはここで木枠を降ろすように設定できます。クレーンレールのドロップオフ/ピックアップストップとも接続します。
+UNLOAD-STATION~~~ステーションのアンロード
+UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~ドローンは、ここで木製フレームを拾うように設定できます。  クローレールのドロップオフ/ピックアップストップにも接続されています。  （最後のボックスは破壊されます）
+DESTROY ALL CRATES:~~~すべてのボックスを破壊します。
+ROAD PITSTOP~~~ロードピットストップ
+ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~トラックはここで停止し、販売する箱でいっぱいになるのを待ちます。  ドローンまたはクレーントレインは、ここにボックスをドロップするように設定できます。
+TRAIN LOADING-SILO~~~列車積み込みサイロ
+TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~サイロから通過する列車の貨車にリソースを転送します。 単一のリソースタイプの16を保持します。
+DRONE BAY~~~ドローンベイ
+DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~4つのドローンにワイヤレスコンピューティングパワーを提供します。
+MINING RIG~~~マイニングリグ
+MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~石炭鉱石、鉄鉱石、金鉱石などの原料を地面から抽出します。  リソースデポジットに基づいて構築する必要があります。
+CURRENTLY MINING:~~~現在マイニング：
+1 PER~~~1毎
+SECONDS~~~秒数
+OIL DERRICK~~~オイルデリック
+OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~原油を地面から抽出します。オイルデポジットの上に構築する必要があります。 1か月あたり1,000ドルの電力をワイヤレスで使用します。
+CURRENTLY EXTRACTING:~~~現在抽出中：
+FARM PLATFORM~~~農場プラットフォーム
+FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~草の成長プラットフォームとして機能します。 1か月あたり400ドルの電力をワイヤレスで使用します。
+GRASS TYPE~~~ガラスタイプ
+6 PER~~~6毎
+REFINER~~~リファイナー
+REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~リソースを粗い形式から純粋な形式に変換します。 工場で組み立てる必要があります。  ロードステーション、ステップコンベア、ボックスメーカーからの入力としてボックスを受け取ります。
+CURRENTLY REFINING:~~~現在精製中：
+COMBINER~~~コンバイナー
+COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~2つのリソースを組み合わせて、プロセスで新しいリソースを作成します。 サイドポートからリソースを取り込みます。最終製品をフロントポートに出力します。 工場で建設する必要があります。
+CURRENTLY COMBINING:~~~現在の組み合わせ：
+RESEARCH BAY~~~リサーチベイ
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~アップグレードに使用できるテクノロジーポイントを生成します。入力としてリソースを受け取ります。 20個のボックスを処理した後にポイントを請求できます。
+PROCESSING CONTENTS INTO:~~~コンテンツ処理：
+RESEARCH POINTS~~~技術的なポイント
+MINETRACK~~~カートレール
+MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~単一のカートセットレールとして機能します。カートがレールの端に達すると、方向が逆になります。 各カートには4つのリソースを保持できます。
+MINECARTSMOVETITLE~~~カートレール
+MINECARTRAMPTITLE~~~カートレール
+CAPACITY~~~容量
+CARTS~~~カート
+ADD CART~~~カートを追加
+ADD~~~を増やす
+REMOVE CART~~~カートを削除
+REMOVE~~~削除
+CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~クレーンの単一レールセットとして機能します。 端部でのクレーンの逆方向
+CLAWS~~~クレーン
+ADD CLAWS~~~クレーンを追加
+REMOVE CLAWS~~~クレーンを取り外す
+WATER RESERVOIR~~~貯水池
+COST~~~コスト
+UNLOCK~~~ロック解除
+GREENHOUSE UNLOCK TITLE~~~グリーンハウスのロックを解除
+FARMING UNLOCK TITLE~~~農業のロックを解除
+WATERWORKS UNLOCK TITLE~~~水のロックを解除
+ROCKET UNLOCK TITLE~~~ロケットのロックを解除
+OIL DERRICK UNLOCK TITLE~~~オイルデリックのロックを解除
+FREIGHT TRAIN UNLOCK TITLE~~~貨物列車のロックを解除
+REFINER UNLOCK TITLE~~~リファイナー/ファクトリーのロック解除
+STEP CONVEYOR UNLOCK TITLE~~~ステップコンベヤーのロックを解除
+REMOTE CONNECTOR UNLOCK TITLE~~~リモートコネクタのロックを解除
+COMBINER UNLOCK TITLE~~~コンバイナのロック解除
+CLAWTRAIN CRATE GATE UNLOCK TITLE~~~クレーンブロッカーロック解除
+CLAWTRAIN TRUCK LOADER UNLOCK TITLE~~~木枠トラックローダーのロックを解除します
+CLAW TRAIN UNLOCK TITLE~~~クレーンのロックを解除します
+FREIGHT TRAIN~~~列車
+FARMING~~~農業
+GREENHOUSE UNLOCK DESC~~~成長を25％加速します。
+FARMING UNLOCK DESC~~~農業を利用して生産を増やしましょう。
+WATERWORKS~~~水
+WATERWORKS UNLOCK DESC~~~さまざまなマシンを水に接続することで、それらの機能をアップグレードします。
+CARGO ROCKET~~~ロケット
+ROCKET UNLOCK DESC~~~箱で満たされたロケットを発射して、リソースを販売します。 ロケットで販売されたリソースは、30％の重量と収益ボーナスを付与します。
+OIL DERRICK UNLOCK DESC~~~地面から油を抽出するために使用されます。
+TRAIN UNLOCK DESC~~~リソースを販売する効率的な方法として、コロニーで列車を使用します。列車は、ボックスを受け取るのではなく、。  ローダーサイロを介してリソースを受け取ります。これらのサイロはカートを介してロードできます。
+REFINER UNLOCK DESC~~~リファイナーを使用して、軽量鉱石をより重いリソースに精製します。  また、他の多くのマシンを組み込む必要がある工場を建設します。  リファイナーの入力および出力クレート。
+STEP CONVEYOR UNLOCK DESC~~~ステップコンベアを使用して、マシン間で均等かつ効率的に箱を割り当てます。 トランスファークレーンをシステムに組み込んで、別々のコンベア間でボックスを移動することもできます。 移送チューブは、ステップコンベア上の通過ボックスに接続することもできます。
+REMOTE CONNECTOR UNLOCK DESC~~~このデバイスを使用して、共有ファクトリ内の遠い場所からコンテナにリモート接続します。 リモートコネクタは、大規模なコンバイナシステムを扱うときに役立ちます。
+COMBINER UNLOCK DESC~~~精製されたリソースを（はるかに重い）結合リソースにグループ化します。 木枠を受け取る代わりに、コンバイナは移送チューブポートを介してリソースを入出力します。
+CLAWTRAIN CRATE GATE UNLOCK DESC~~~このデバイスを使用して、定義された条件下でクレーンがレールを通過できないようにします。
+CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~クレーンでトラックに直接積み込みます。道路のピットストップで構築します。
+CLAW TRAIN UNLOCK DESC~~~このレールを使用して、コロニーの周りに箱を効率的に輸送します。 クレーンは、積み込みステーションおよび積み降ろしステーションと相互作用します。
+WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~さまざまな構造物に接続できるパイプに水を送り込みます。ワイヤレスで毎月2,000ドルの電力を使用します。
+ROAD ENTRY~~~ロードエントリー
+ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~リソースの箱を購入するためにあなたのコロニーに入るトラックの入り口として機能します。 他の道路入口トンネルが既に建設されている場合、他の道路入口トンネルの近くに建設する必要があります。
+ROAD EXIT~~~道路出口
+ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~トラック出口として機能します。トラックは、出口トンネルを通過するとすぐに、購入したすべての箱の代金を支払います。
+POWER STATION~~~発電所
+POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~あなたのコロニーに電力を供給します
+TRAIN TRACK ENTRY~~~電車入場
+TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~電 車 の 入 り 口。 以 前 に 別 の 列 車 の 入 口 が 建 設 さ れ て い た 場 合、。 そ れ は 他 の 列 車 の 入 口 の 近 く に 建 設 さ れ な け れ ば な り ま せ ん。
+TRAIN TRACK EXIT~~~電車の出口
+TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~電車の出口として機能します。列車が出口トンネルを通過するとすぐに、。 列車は購入したリソースの代金を支払います。
+DRONE~~~ドローン
+DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~積み下ろしステーションからピットストップ積み込みステーションまたはトラックへの輸送。 ドローンベイが必要です。
+Holding:~~~ホールディング：
+DESTROY CRATE~~~削除ボックス
+ROCKET LAUNCHPAD~~~ロケット
+ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~ロードステーション経由でボックスを受け取ります。ロケットがいっぱいになると、 ロケットは30％の重量/収益ボーナスで販売されるボックスとともに飛び立ちます。 1か月あたり1,000ドルの電力をワイヤレスで使用します。
+PAD CONTENTS:~~~パッドの内容：
+ROCKET CONTENTS:~~~ロケットの内容：
+FACTORY~~~工場
+FACTORYDESC~~~リファイナーとコンバイナーを構築する必要がある屋内スペースを提供します。 収容されたマシンにエネルギーを供給するために、電源に接続する必要があります。
+DOORWAY~~~ドア
+DOORWAYDESC~~~ドローン、トロッコ、またはクロートレインが使用する工場への入り口を提供します。
+SMALL CONTAINER~~~小さい容器
+SMALLCONTAINERDESC~~~1種類のリソースを最大40個保持します。移送チューブを介したリソースの出し入れが可能です。
+LARGE CONTAINER~~~大型コンテナ
+LARGECONTAINERDESC~~~1種類のリソースを最大120個保持します。 Transfer-Tubesを介したリソースの転送を許可します。
+GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~特異なタイプのリソースを保持します。移送チューブを介したリソースの出し入れが可能です。
+WATER RESERVOIR~~~貯水池
+WATER RESERVOIRDESC~~~さまざまな構造物に接続できるパイプに水を送り込みます。 1か月あたり2,000ドルの電力をワイヤレスで使用します。
+WATER PIPE~~~水管
+WATER PIPEDESC~~~貯水池からさまざまな構造に水を運びます。
+GREENHOUSE UPGRADE~~~グリーンハウスのアップグレード
+GREENHOUSE DESC~~~ファームプラットフォーム用にアップグレードします。植物の成長を25％加速します。
+STEP CONVEYOR~~~ステップコンベア
+STEP CONVEYORDESC~~~1秒間隔でボックスを移動します。すべてのボックスに移動するスペースがない限り、移動をトリガーしません
+RESEARCH UNLOCKS~~~研究のロック解除
++10% highway Minecart speed:~~~+10％カート高速道路速度
++20% highway Minecart speed:~~~+20％カート高速道路速度
++30% highway Minecart speed:~~~+30％カート高速道路速度
++40% highway Minecart speed:~~~+40％カート高速道路速度
++50% highway Minecart speed:~~~+50％カート高速道路速度
++10% Clawtrain speed~~~+10% クレーン速度
++20% Clawtrain speed~~~+20% クレーン速度
++30% Clawtrain speed~~~+30% クレーン速度
++40% Clawtrain speed~~~+40% クレーン速度
++50% Clawtrain speed~~~+50% クレーン速度
++10% Drone speed~~~+10% ドローン速度
++20% Drone speed~~~+20% ドローン速度
++30% Drone speed~~~+30% ドローン速度
++40% Drone speed~~~+40% ドローン速度
++50% Drone speed~~~+50% ドローン速度
++2 Max Minecarts per track~~~+2 レールあたりの最大カート数
++4 Max Minecarts per track~~~+4 レールあたりの最大カート数
++6 Max Minecarts per track~~~+6 レールあたりの最大カート数
++8 Max Minecarts per track~~~+8 レールあたりの最大カート数
++10 Max Minecarts per track~~~+10 レールあたりの最大カート数
++2 Max Clawtrains per track~~~+2 レールあたりのクレーンの最大数
++4 Max Clawtrains per track~~~+4 レールあたりのクレーンの最大数
++6 Max Clawtrains per track~~~+6 レールあたりのクレーンの最大数
++8 Max Clawtrains per track~~~+8 レールあたりのクレーンの最大数
++10 Max Clawtrains per track~~~+10 レールあたりのクレーンの最大数
+Train interval -5 sec~~~列車間隔-5秒
+Train interval -10 sec~~~列車間隔-10秒
+Train interval -15 sec~~~列車間隔-15秒
+Train interval -20 sec~~~列車間隔-20秒
+Train interval -25 sec~~~列車間隔-25秒
+Truck interval -1.5 sec~~~トラック間隔-1.5秒
+Truck interval -3 sec~~~トラック間隔-3秒
+Truck interval -4.5 sec~~~トラック間隔-4.5秒
+Truck interval -6 sec~~~トラック間隔-6秒
+Truck interval -7.5 sec~~~トラック間隔-7.5秒
+FINANCES~~~資金
+Previous month's revenue:~~~前月の収益：
+Previous 3 month's revenue:~~~過去3か月の収益：
+Previous 6 month's revenue:~~~過去6か月の収益：
+Previous month's power and taxes:~~~前月の権力と税金：
+Previous 3 month's power and taxes:~~~過去3か月の電力と税金：
+Previous 6 month's power and taxes:~~~過去6か月の電力と税金：
+Record 3-month weight output:~~~3ヶ月間の体重出力を記録する：
+CURRENT MONTH:~~~今月：
+Current month's power and taxes:~~~今月の権力と税金：
+Current month's revenue:~~~今月の収益：
+Current 3-month weight output:~~~現在の3か月の体重出力：
+DEMAND BONUS~~~デマンドボーナス
+WEIGHTS~~~重量
+WEIGHT PER 1 CRATESWORTH~~~1箱あたりの重量
+RECIPES~~~レシピ
+Recipe For:~~~レシピ：
+IncompatibleCombination~~~互換性のない`の組み合わせ
+TIPS~~~ヒント
+Minecart tracks are great for transporting resources from distant mining rigs, try it out!~~~カートレールは、採掘リグからリソースを輸送するのに最適です。試してみてください。
+MEDALLION~~~メダリオン
+MEDALLION:~~~メダリオン：
+MEDALLION DESC~~~すべてのシナリオの第2の目標として、 毎月の体重出力ストレッチ目標を達成することにより、 マスターメダリオンのロックを解除できます。
+MISSION OBJECTIVES~~~ミッションの目的
+OPTIONS~~~オプション
+Edge Panning:~~~エッジパン：
+DOF Tilt-shift:~~~小さな眺め
+Camera friction:~~~カメラの摩擦：
+DOF Focus:~~~小さなフォーカス：
+Field of view:~~~視野：
+Reset FOV:~~~視野のリセット：
+SOUND VOLUME:~~~音量：
+SAVE~~~セーブ
+SAVE AND EXIT~~~保存して終了
+EXIT~~~出口
+TRAIN TRACKDESC~~~コロニーを通過する列車のレールとして機能します。
+ROADDESC~~~コロニーを通過するトラックの通路として機能します。
+[  ] to rotate.~~~[  ] 回転します。
+[  ] to untether.~~~[  ] リンク解除
+[  ] to toggle turn.~~~[  ]ターンタイプを切り替えます。
+Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.~~~市場の飽和の欠如からの需要が高いため、ほとんどのリソースは、特定のリソースの販売に付随する収益ボーナスから始まります。`` 与えられたリソースで市場を飽和させると、このボーナスは時間とともに低下します。 デマンドボーナスはリサーチポイントにも適用されます。
+The processes for making every potential resource.~~~すべての潜在的なリソースを作成するプロセス。
+Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.~~~電力コスト-すべての電力消費マシンは、毎月の電力費用に貢献します``税金-銀河政府は、 一定期間にわたって植民地で得た総利益に基づいて均衡税を徴収します（各週は総利益の2％を請求します）。 所得の赤字が発生した場合、調整するために税金が減ります。
+Weekly power costs:~~~毎週の電力コスト：
+Connecting water enables interior air conditioning.``Air conditioning lowers the monthly power costs of housed machines by X%.~~~水を接続すると、室内の空調が可能になります。`空調は、収容されたマシンの月々の電力コストを10％削減します。`使用容量：10
+Some housed machines require power to function.`Capacity use: 10~~~一部の収容されたマシンは、機能するために電力を必要とします。 `使用容量：10
+Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.~~~機能するには電源が​​必要です。 `このマシンを収容する工場に電源を接続する必要があります。
+Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).~~~機能するには電源が​​必要です。 `月額費用：1,200ドル`電源は、 このマシンを収容する工場またはマシン自体（外部の場合）に接続する必要があります。
+Only X crates created by this crate maker can be active in your colony at a time.`If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.~~~このボックスの製造業者によって作成された30のボックスのみが、一度にコロニーでアクティブになります。`` 制限に達すると、ボックスの製造元は、アクティブなボックスが販売または破棄されるまで、新しいボックスの作成を一時停止します。
+Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.~~~特定の数のボックスまたはカートをスキップして、影響を受けずに通過させるように設定できます。
+Sets which crates will be moved, depending on what resources they hold.~~~リソースに従って移動するようにボックスを設定します。
+Monthly power costs:~~~毎月の電力コスト：
+Monthly tax costs:~~~毎月の税金費用：
+Sets what resources will be accepted by trucks which stop here.~~~ここで停止するトラックが受け入れるリソースを設定します。
+Sets the priority drones will give to this station relative to others.`Drone can be set to not bring crates here at all, if it's set to "OFF".~~~このステーションのドローンに与えられるドローンの優先度を設定します。 `ステーションがオフに設定されている場合、ドローンはここに箱を持ってこないことを選択します。
+Sets the priority drones will take from this station.`Drone can be set to not take crates from here at all, if it's set to "OFF".~~~このステーションからドローンが取る優先度を設定します`ステーションがオフに設定されている場合、 ドローンはここから箱を取らないことを選択します。
+Sets which remote connector to be connected to if any exist in this container's factory. Only one container per factory can be set to a given color.~~~このコンテナのファクトリに存在する場合、 接続するリモートコネクタを設定します。`特定の色に設定できるのは、工場ごとに1つのコンテナのみです。
+Sets what singular resource type will be allowed in.~~~許可される単一のリソースタイプを設定します。
+Requires power to function.`Monthly costs: $X~~~機能するには電源が​​必要です。`月額費用：1,200ドル
+MiningRigWaterHover~~~水は抽出速度を30％向上させます。`使用容量：3
+oilDerrickWaterHover~~~水は抽出速度を30％向上させます。`使用容量：3
+RESEARCHBAYPOWERHOVER~~~機能するには電源が​​必要です。`月額費用：200ドル`使用容量：2
+miningRigPowerHover~~~機能するには電源が​​必要です。`月額料金：800ドル`使用容量：3
+refinerPowerHover~~~機能するには電源が​​必要です。`月額費用：800ドル`このマシンを収容する工場に電源を接続する必要があります。
+crateMakerPowerHover~~~機能するには電源が​​必要です。`月額費用：1,200ドル`使用容量：1（外部の場合）`電源は、このマシンを収容する工場またはマシン自体（外部の場合）に接続する必要があります。
+clawTrainCrateGateHover~~~-「許可しない」をオンにすると、クレーンは矢印の方向に通過できなくなります。``-「最小ボックス」がオンになっている場合、クレーンが通過するには少なくとも最小量のクレートを保持している必要があります。``-「最大ボックス」がオンになっている場合、クレーンは通過するために最大量のクレートの下で保持する必要があります。
+researchBayWaterHover~~~水を接続すると、室内の水冷が可能になります。 `水冷により研究速度が10％向上`使用容量：2
+researchBayProcessingHover~~~含まれるリソースを経時的にテクノロジーポイントに変換します。 `ドル価値に相当する研究価値。
+combinerPowerHover~~~機能するには電源が​​必要です。`月額費用：4,000ドル`このマシンを収容する工場に電源を接続する必要があります。
+researchBayFillBar~~~テクノロジーポイントは、青いノッチまでバーを埋めると請求できます。``特定のテクノロジーのロックを解除するには、特定のリソースタイプでの調査が必要です。
+addMinecartHover~~~この列車に別のカートを追加します。`費用は2,500ドルです。
+removeMinecartHover~~~単一のカートを削除/販売します。`2,500ドルで販売。
+removeClawHover~~~単一のクレーンを削除/販売します。`2,000ドルで販売。
+addClawHover~~~単一のクレーンを追加します。`費用は2,000ドルです。
+farmWaterHover~~~機能するには水が必要です。`使用容量：3
+researchPointHover~~~テクノロジーポイント
+timeHover~~~月-年
+dronePopHover~~~ドローン人口
+mineTrackHighway~~~高速道路（高さレベル2または3）での移動中にカートがより速く移動する
+Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.~~~これらの拡張機能を購入して、 現在のインフラストラクチャの容量と速度をアップグレードしてください。
+Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase~~~リソース要件-一部のロック解除では、 購入するために特定のリソースをリサーチベイで処理する必要があります
+Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.~~~重量要件-一部のロック解除では、 購入するために特定の3か月の重量出力レコードに到達する必要があります。
+TRANFER-TUBE~~~トランスファーチューブ
+To add minecarts or clawtrains to a track: select the track you've built and press the "add" button to buy some.~~~カートまたはクレーンをレールに追加するには、 作成したレールを選択し、「追加」ボタンを押して購入します。
+It's possible to transfer resources between a step conveyor and minetrack via this simple setup.~~~このシンプルなセットアップを介して、 ステップコンベアとレールの間でリソースを転送することが可能です。
+Mouse-over a built structure and press [SPACEBAR] to duplicate the structure.~~~構築された構造の上にマウスを置き、 [スペースバー]を押して構造を複製します。
+Containers can be useful for storing resources.~~~コンテナはリソースの保存に役立ちます。
+Make use of research bays to unlock new structures and technology.~~~リサーチベイを使用して、 =新しい構造とテクノロジーのロックを解除します。
+An unload stations can be set up to destroy the crates which reach the end. It also automatically destroys any empty crates which reach the end~~~最後に到達したボックスを破壊するようにアンロードステーションを設定できます。 また、最後に到達した空のボックスを自動的に破棄します
+Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.~~~カートには最大4つのリソースを保持できます。 これにより、長距離のリソースの輸送に最適です。
+Transfer claws can be useful for connecting or splitting up step conveyor pathways.~~~トランスファークレーンは、ステップコンベヤー経路を接続または分割するのに役立ちます。
+The downward nozzle of a transfer tube can only connect to a step-conveyor or minetrack.~~~トランスファーチューブの下向きノズルは、ステップコンベアまたはカートレールにのみ接続できます。
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~カートは高速道路のレール上をより速く移動し、 ビルドモードでホットキー1、2、3を使用してレールの高さを切り替えます。
+Hold [TAB] to see inside all of your factories at the same time.~~~[TAB]を押して、すべての工場の内部を同時に確認します。
+Avoid sending your drones on long journeys, travel-time matters when designing efficient transport systems.~~~長い旅でドローンを送らないでください。 効率的な輸送システムを設計する際には、移動時間が重要です。
+Remote connectors can be a convenient way to move resources around a crowded factory interior.~~~リモートコネクタは、混雑した工場内をリソースを移動する便利な方法です。
+Don't expand to new resource deposits without fully utilizing your current ones. Bottlenecks in your system can cause major revenue deficiencies, don't let resources get backed up anywhere.~~~現在のリソースを完全に活用せずに、新しいリソースデポジットに拡大しないでください。 システムのボトルネックは、大きな収入不足を引き起こす可能性があり、リソースをどこにもバックアップさせないでください。
+MISSION~~~ミッション
+OK~~~はい
+Exit without saving, are you sure?~~~保存せずに終了しますか？
+Goal:~~~ゴール：
+Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.~~~プレイを続けてマスターメダリオンを獲得するか、シナリオ選択画面に戻ります。
+CONTINUE PLAYING~~~プレイを続ける
+SAVE AND EXIT~~~保存して終了
+Weight Output: 25,000~~~重量出力：30,000
+Weight Goal:~~~重量の目標：
+Game by:~~~ゲーム：
+Sean Cutino and Brad Hall~~~ショーン・クティーノとブラッド・ホール
+Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".~~~ドローンがこのピットストップに与える優先順位を設定します。 `ドローンはオフにすることでボックスをここに持ち込まないように設定できます
+droneBayPowerHover~~~機能するには電源が​​必要です。`月額料金：320ドル`使用容量：0
+trainPowerHover~~~機能するには電源が​​必要です。`月額料金：4,000ドル`使用容量：5
+Revenue~~~収益
+3-month Weight Output Goal:~~~3か月の体重出力目標：
+3-month weight output record of:~~~3ヶ月の体重出力
+MISSION OBJECTIVE~~~ミッションの目的
+SAVED~~~保存済み
+Simple Fields~~~スプリットバレー
+Simple Fields Description~~~この不毛の風景の中の干上がった川床の周りにシステムを作成します
+Big Cliffs~~~ロッキーヒルズ
+Big Cliffs Description~~~曲がりくねった川と湖に囲まれた大きな緑の崖は、工場の拠点に最適な背景を提供します
+Open Space~~~オープンスペース
+Open Space Description~~~シンプルで平らで開かれた砂漠は、制約のない創造性のための肥沃な土地を提供します。
+Big Islands~~~氷河地帯
+Big Islands Description~~~ 融解する氷床から分裂した氷河と豊富な鉱物の堆積物は、 システムを構築するためのフローティングプラットフォームとして機能します。
+Level_Craters~~~クレーター
+Level_CratersDescription~~~この分野には、何千年もの間、巨大な小惑星が打ちつけられ、 それぞれが貴重な鉱石を地面に堆積させてきました。
+Level_CoastLine~~~海岸線
+Level_CoastLineDescription~~~この緑豊かな森林惑星の海の端にあるオイル島を忘れないでください。
+Level_BigLake~~~オアシス湖
+Level_BigLakeDescription~~~砂漠の真ん中に、ヤシの木と葉に囲まれた美しい湖があります。周囲の多くのリソースを活用してください。
+Level_IslandHopper~~~アイランドホッパー
+Level_IslandHopperDescription~~~これらの小さな熱帯の島々の間の多くのパスを接続します。
+Level_CenterMesa~~~ミドルマウンテン
+Level_CenterMesaDescription~~~大きな丘は、周囲に建設される多くの資源鉱床の基盤として機能します。
+Level_Lakes~~~アイスエッジ
+Level_LakesDescription~~~この困難な土地に氷の端から資源を持ち込みます。
+Level_CompactCanyon~~~コンパクトキャニオン
+Level_CompactCanyonDescription~~~小さな峡谷には、この熱い火山の惑星のすべての構造が含まれています。 この小さなスペースにすべてを詰め込む方法を理解する必要があります。
+Level_BigCliffs_ResourceClusters~~~雪の森
+Level_BigCliffs_ResourceClustersDescription~~~この雪に覆われた森林のプロパティには、リソースが非常に密集しています。
+Level_OpenSpaceRocketsOnly~~~ロケットマスター
+Level_OpenSpaceRocketsOnlyDescription~~~この奇妙な緑のスカム惑星で既にロック解除されているロケットから始めます。
+Level_BigLake_CenterResources~~~豊富なリソース
+Level_BigLake_CenterResourcesDescription~~~すべての預金は、土地の中心にある島にあります。
+Per Month~~~月あたり
+PLAY~~~遊びます
+CREDITS~~~クレジット
+QUIT~~~終了する
+NEW COLONY~~~ニューコロニー
+LOAD COLONY~~~コロニーをロード
+START~~~開始
+CANCEL~~~キャンセル
+Starter Mode:~~~スターターモード：
+Drone population.~~~ドローン人口。
+CURRENT TIME:~~~現在の時刻：
+MISSION:~~~ミッション：
+LOAD COLONY:~~~コロニーのロード：
+IN PROGRESS~~~進行中
+LOAD~~~負荷
+DELETE~~~削除
+NAME YOUR COLONY:~~~あなたのコロニーに名前を付けてください：
+DEMOLISH~~~取り壊す
+GREENHOUSE ENABLED~~~使用中の温室
+CONNECTOR COLOR:~~~コネクタの色：
+Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.~~~このコンテナのファクトリに存在する場合、 接続するリモートコネクタを設定します。``特定の色に設定できるのは、工場ごとに1つのコンテナのみです。
+Starter mode provides you with the basics prebuilt. If you are unfamiliar with the game, starter mode is essential.~~~スターターモードは、事前に構築された基礎を提供します。 ゲームに慣れていない場合は、スターターモードが不可欠です。
+Clawtrack pitstops are best utilized in a relay system as shown. Be careful with them, as they can massively downgrade your truck loading efficiency if used improperly.~~~クレーンピットストップは、 図に示すようにリレーシステムで使用するのが最適です。  不適切な使用はトラックの積載効率を著しく低下させる可能性があることに注意してください。
+Edge panning:~~~エッジパン：
+Can be set to skip a certain number of claws, letting them pass by unaffected.~~~特定の数のクレーンをスキップします。彼らは影響を受けずに通り過ぎます。
+COST:~~~コスト：
+SELL:~~~売る：
+CLAIM~~~請求
+SUCCESS!~~~成功
+SuccessMessage~~~プレイを続けてマスターメダリオンを獲得するか、シナリオ選択画面に戻ります。
+MedallionSuccessMessage~~~マスターメダリオンが達成されました！続行するか、シナリオ選択画面に戻ります。
+PLANET SELECT~~~惑星選択
+Very Easy Mode:~~~かんたんモード
+Reduces taxes by 90%~~~税金を100％削減します

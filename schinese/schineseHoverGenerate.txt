@@ -1,0 +1,20 @@
+ARBO~~~ARBO
+Capacitors~~~电容器
+Ash~~~灰烬
+AshAshAshAshAshAshAshAshAshAsh~~~I am the best there ever was I am the best there ever was I am the best there ever was
+Coal~~~煤矿
+Coal Ore~~~粗煤矿
+Ethanol~~~乙醇
+Gold~~~金矿
+Gold Fuel~~~液态金燃料
+Gold Ore~~~粗金矿
+Green Grain~~~绿色作物
+Grain Meal~~~作物食品
+Red Grain~~~红色作物
+Green Grass~~~绿色草地
+Red Grass~~~红色草地
+Iron~~~铁矿
+Iron Ore~~~粗铁矿
+Oil~~~油
+Crude Oil~~~原油
+Steel Plates~~~钢板

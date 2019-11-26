@@ -1,0 +1,36 @@
+﻿Example error~~~error message text:~~~_conveyorImage
+SKAA~~~SKAAAAAAAA a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa
+Building too small~~~建物が小さすぎます
+Insufficient funds.~~~残高不足
+Must be built on a Claw Track.~~~クレーンレール上に構築する必要があります
+Must be built on Claw Track.~~~クレーンレール上に構築する必要があります
+Can't build here.~~~ここで構築できません
+Can't build here~~~ここで構築できません
+Cannot build here.~~~ここで構築できません
+Only connects to Load/Unload Stations~~~添付：~~~_loadStationImage~~~_unloadStationImage
+Must be built inside~~~内部に構築する必要があります
+Must be built inside.~~~内部に構築する必要があります
+Must be built outside~~~外に建てる必要があります
+Must be built outside.~~~外に建てる必要があります
+Structure doesn't accept water~~~構造は水を受け入れません
+Cannot build under transfer tube.~~~トランスファーチューブの下に構築できません
+Cannot connect occupied tracks.~~~使用中の両方のトラック
+Factory too small.~~~工場が小さすぎる
+Transfer tubes don't connect to transfer tubes.~~~移送チューブが移送チューブに接続できません
+Only connects to straight tracks.~~~直線トラックのみに接続する
+Output only connects to conveyors or mine tracks.~~~出力は次のみを使用します~~~_conveyorImage~~~_mineTrackImage
+Port doesn't accept input.~~~ポートは入力を受け入れません
+Port only for water pipes.~~~水道管専用のポート
+Input only connects to conveyors or mine tracks.~~~入力の用途：~~~_conveyorImage~~~_mineTrackImage
+Port doesn't output.~~~ポートは出力されません
+Only connects to conveyors.~~~添付：~~~_conveyorImage
+Must be built into a cliffside.~~~崖の上に建てる必要があります
+Cannot be built over turn.~~~ターンでビルドできません
+Not enough powered drone bays.~~~ドローンベイがもっと必要
+Doesn't interact with conveyors~~~相互作用しない：~~~_conveyorImage
+Doesn't interact with Transfer Tubes~~~移送チューブと相互作用しません
+Can't build under claw track.~~~クレーンレール閉塞
+Can't build over mine track.~~~鉱山レールの閉塞
+Must have another entrance in proximity.~~~近くに別の入り口が必要
+Must have another Rocket Launchpad in proximity.~~~近くに別のロケットが必要
+Must have another Research Dome in proximity.~~~近くに別の研究ドームが必要

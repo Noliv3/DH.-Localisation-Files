@@ -1,0 +1,36 @@
+Example error~~~error message text:~~~_conveyorImage
+SKAA~~~SKAAAAAAAA a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa
+Building too small~~~Строим слишком мало
+Insufficient funds.~~~Недостаточно средств
+Must be built on a Claw Track.~~~Должен быть построен на монорельсе
+Must be built on Claw Track.~~~Должен быть построен на монорельсе
+Can't build here.~~~Не могу построить здесь
+Can't build here~~~Не могу построить здесь
+Cannot build here.~~~Не могу построить здесь
+Only connects to Load/Unload Stations~~~Можно подключиться только к: ~~~_loadStationImage ~~~_unloadStationImage
+Must be built inside~~~Должен быть построен внутри
+Must be built inside.~~~Должен быть построен внутри.
+Must be built outside~~~Должен быть построен снаружи
+Must be built outside.~~~Должен быть построен снаружи.
+Structure doesn't accept water~~~Структура не принимает воду
+Cannot build under transfer tube.~~~Невозможно построить под транспортной трубой
+Cannot connect occupied tracks.~~~Невозможно соединить отдельные дороги
+Factory too small.~~~Слишком маленькая фабрика
+Transfer tubes don't connect to transfer tubes.~~~Транспортные трубы не соединяются с транспортными трубами
+Only connects to straight tracks.~~~Подключается только к прямым дорогам
+Output only connects to conveyors or mine tracks.~~~Выход может подключаться только к: ~~~_conveyorImage ~~~_mineTrackImage
+Port doesn't accept input.~~~Порт не принимает ввод
+Port only for water pipes.~~~Порт только для водопроводных труб
+Input only connects to conveyors or mine tracks.~~~Вход подключается только к: ~~~_conveyorImage ~~~_mineTrackImage
+Port doesn't output.~~~Порт не выводится
+Only connects to conveyors.~~~Можно подключиться только к: ~~~_conveyorImage
+Must be built into a cliffside.~~~Должен быть построен в скале
+Cannot be built over turn.~~~Не может быть построен на повороте
+Not enough powered drone bays.~~~Недостаточно ангаров дронов
+Doesn't interact with conveyors~~~Не взаимодействует с: ~~~_conveyorImage
+Doesn't interact with Transfer Tubes~~~Не взаимодействует с транспортными трубами
+Can't build under claw track.~~~Невозможно построить под монорельсом
+Can't build over mine track.~~~Невозможно построить под рельсами ваганеток
+Must have another entrance in proximity.~~~Должен иметь рядом другой вход
+Must have another Rocket Launchpad in proximity.~~~Рядом должен быть другой Космодром
+Must have another Research Dome in proximity.~~~Рядом должена быть другая Лаборатория

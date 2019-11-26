@@ -1,0 +1,399 @@
+﻿BUY~~~购买
+TRANSFER-TUBE~~~输送管
+POWER POLE~~~电线杆
+LOAD STATION~~~装运站
+UNLOAD STATION~~~卸载站
+CLAWTRAIN TRACK~~~吊爪轨道
+TRAIN TRACK~~~火车轨道
+ROAD~~~道路
+This will destroy the factory and all of its contents, are you sure?~~~您确定要移除这座厂房跟其中全部的设备吗？
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~可储存多个单品项资源。 使用输送管进行存取。
+Transfers Crates from one Conveyor to another Conveyor.~~~将输送带上的包装箱转移至另个输送带。 必须建置于厂房内。
+CRATE MAKER~~~包装箱制造机
+GREEN GRASS~~~绿色草地
+NO~~~否
+YES~~~是
+GREEN~~~绿色
+RED~~~红色
+DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##连接方式：##_conveyorImage
+Must unlock Water Works before unlocking farms~~~解锁农场科技之前必须先解锁水资源科技
+This will destroy the factory and all of its contents, are you sure?~~~您确定要移除这座厂房跟其中全部的设备吗？
+FACTORY~~~厂房
+POWER CONNECTED~~~电源已连接
+WATER CONNECTED~~~水资源已连接
+CONTAINER~~~容器
+ACCEPTED RESOURCE:~~~接受资源为：
+ACCEPTED RESOURCES:~~~接受资源为：
+CONTAINS:~~~内容物：
+DESTROY CONTENTS~~~摧毁内容物
+ANY~~~任何
+REMOTE CONNECTOR~~~远端连接器
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~可以直接存取同一个厂房内的容器。 配对方式必须为相同的容器颜色。 每个厂房只能有一个指定颜色的容器。
+TRANSFER-CLAW~~~传输吊爪
+POWER STATION~~~发电站
+POWER STATIONDESC~~~提供电力输出
+POWER POLEDESC~~~透过电线的连结已延伸电网范围给需要的建筑设备
+ACCEPTED CONTENTS:~~~接受内容物：
+ALL~~~全部
+NONE~~~无
+SKIP EVERY:~~~忽略间隔数：
+OFF~~~关闭
+ON~~~开启
+DRONE PRIORITY:~~~无人机优先顺序：
+ACTIVE CRATES:~~~使用中的包装箱：
+HIGH~~~最高
+MEDIUM~~~中等
+LOW~~~最低
+OFF~~~关闭
+CONTENTS~~~内容物
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~产生并输出包装箱至输送带或卸载站上，也可以透过输送管直接装入所输入的资源至包装箱内。 可建置于厂房内或室外。 (同时间最多可闲置30个包装箱)
+ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~当吊爪经过时，会自动抓起正下方的装运站或卸载站上之包装箱
+CLAWTRAIN PICK-UP STOP~~~吊爪抓取点
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~当吊爪经过时，会自动将爪上的包装箱下放置于正下方的装运站或卸载站上
+CLAWTRAIN DROP-OFF STOP~~~吊爪放置点
+CLAWTRAIN TRUCK LOADER~~~吊爪货车专用卸载点
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~当吊爪经过时，会自动将爪上的包装箱下放置于正下方的货车上
+CLAWTRAIN CRATE GATE~~~吊爪逻辑检查点
+ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~提供吊爪可以判断轨道上运载的包装箱数量，进而决定是否给予通过逻辑检查点。
+PASS REQUIREMENTS:~~~通过条件：
+MAXIMUM CRATES~~~最大包装箱数
+MINIMUM CRATES~~~最小包装箱数
+NEVER ALLOW~~~一律不允许
+TRANSFER-TUBE G2G~~~一般输送管
+Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~将资源从输送口转移至另一个输送口
+TRANSFER-TUBE G2T~~~导出输送管
+TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~将资源从输送口导出至前方的矿车或者输送带上的包装箱
+TRANSFER-TUBE T2G~~~吸入输送管
+TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~将资源从输送带上的包装箱或者矿车上吸入至输送口中
+LOAD-STATION~~~装运站
+LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~当设定无人机优先权后，无人机会自动搬运包装箱至装运站上。 同时也用于吊爪的抓取与放置点
+UNLOAD-STATION~~~卸载站
+UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~当设定无人机优先权后，无人机会自动将卸载站上的包装箱搬运至其它放置处。 同时也用于吊爪的抓取与放置点（于末端时，会自动销毁空的包装箱）
+DESTROY ALL CRATES:~~~销毁所有包装箱：
+ROAD PITSTOP~~~卡车装载站
+ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~卡车将会靠停与此，并且等待包装箱装满后，开离至山洞隧道出口后售出。 可以透过无人机或者吊爪(吊爪货车专用卸载点)来进行包装箱上货车的工作。
+TRAIN LOADING-SILO~~~火车装载筒仓
+TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~将资源输入至下方通过的火车车斗中。 最多可以容纳16个资源
+DRONE BAY~~~无人机库房
+DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~提供4个无人机运算能力
+MINING RIG~~~采矿机
+MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~从资源点上采集资源，必须透过输送管的方式运送
+CURRENTLY MINING:~~~目前挖掘：
+1 PER~~~ 每1个 需花费
+SECONDS~~~秒
+OIL DERRICK~~~油井架
+OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~从石油资源点挖取原油，无线使用将每月花费资金1,000元于电力支出
+CURRENTLY EXTRACTING:~~~目前挖掘：
+FARM PLATFORM~~~水培农作平台
+FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~用作于各种作物的耕种区块，无线使用将每月花费资金400元于电力支出
+GRASS TYPE~~~作物类型
+6 PER~~~ 每6个 需花费
+REFINER~~~精炼机
+REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~将资源更进一步的提炼成更纯的设备，可以使用装运站、输送带或者直接由包装箱制造机输入。(必须建置于厂房内)
+CURRENTLY REFINING:~~~目前精炼：
+COMBINER~~~融合机
+COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~该机器将两种资源结合在一起，在此过程中创建了新资源。 从侧埠获取资源； 将最终产品输出到前埠。 必须在厂房内建造。
+CURRENTLY COMBINING:~~~目前正融合：
+RESEARCH BAY~~~研究室
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~生产研究点数用以升级殖民地中各项设施，或者解锁全新科技。可以接受任何从输送管输入的资源，研究所获得的点数等值于所销售的金额。研究点数必须累积20次以上才能进行获取点数
+PROCESSING CONTENTS INTO:~~~处理内容：
+RESEARCH POINTS~~~研究点数
+MINETRACK~~~矿车轨道
+MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~矿车使用的铁轨，每一台矿车可以容纳四个单位的资源
+MINECARTSMOVETITLE~~~矿车轨道 S型
+MINECARTRAMPTITLE~~~矿车轨道 爬坡处
+CAPACITY~~~最大数
+CARTS~~~车
+ADD CART~~~增加矿车
+ADD~~~增加
+REMOVE CART~~~移除矿车
+REMOVE~~~移除
+CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~用于吊爪所使用的空中轨道系统
+CLAWS~~~吊爪
+ADD CLAWS~~~增加吊爪
+ADD~~~增加
+REMOVE CLAWS~~~移除吊爪
+REMOVE~~~移除
+WATER RESERVOIR~~~水库
+COST~~~花费
+UNLOCK~~~解锁
+GREENHOUSE UNLOCK TITLE~~~解锁温室
+FARMING UNLOCK TITLE~~~解锁农场
+WATERWORKS UNLOCK TITLE~~~解锁水处理
+ROCKET UNLOCK TITLE~~~解锁火箭
+OIL DERRICK UNLOCK TITLE~~~解锁石油井
+FREIGHT TRAIN UNLOCK TITLE~~~解锁货运火车
+REFINER UNLOCK TITLE~~~解锁精炼厂/厂房
+STEP CONVEYOR UNLOCK TITLE~~~解锁输送带
+REMOTE CONNECTOR UNLOCK TITLE~~~解锁远端连结器
+COMBINER UNLOCK TITLE~~~解锁融合机
+CLAWTRAIN CRATE GATE UNLOCK TITLE~~~解锁吊爪逻辑检查点
+CLAWTRAIN TRUCK LOADER UNLOCK TITLE~~~解锁吊爪货车专用卸载点
+CLAW TRAIN UNLOCK TITLE~~~解锁吊爪空中轨道系统
+FREIGHT TRAIN~~~货运火车
+FARMING~~~农业
+GREENHOUSE UNLOCK DESC~~~建造温室可以加速生长速度25％。
+FARMING UNLOCK DESC~~~在水培农作平台上种植作物，增加农作资源。
+WATERWORKS~~~水处理
+WATERWORKS UNLOCK DESC~~~将水输入到不同的设备中来增加运作的效率与额外的功能。
+CARGO ROCKET~~~货运火箭
+ROCKET UNLOCK DESC~~~将满载包装箱的货运火箭发射送至银河交易所，由火箭销售出的包装箱额外增加25％的重量与收入奖励
+OIL DERRICK UNLOCK DESC~~~可以挖取位于原油点下的石油
+TRAIN UNLOCK DESC~~~直接连结至山洞隧道，使用火车与车斗提供更高效率的货物销售方式。货运列车不接受包装箱的方式，而是透过资源筒仓直接装载资源
+REFINER UNLOCK DESC~~~使用精炼机将粗矿石制作成较为高价且较重的资源。 精炼机必须建置于厂房内，且已包装箱作为输入
+STEP CONVEYOR UNLOCK DESC~~~使用输送带可以让您在厂房中有效的运输与分配包装箱。 输送管甚至可以存取位于输送带上的包装箱资源
+REMOTE CONNECTOR UNLOCK DESC~~~使用此设备可以让厂房间较远的容器可以快速交换传输。 在处理大型厂房系统上特别方便
+COMBINER UNLOCK DESC~~~融合机可以将不同的资源进行合并，进而产生更具价值也更重的新资源。融合机不接受包装箱输入，必须使用输送管连接至输送口进行存取
+CLAWTRAIN CRATE GATE UNLOCK DESC~~~提供吊爪可以判断轨道上运载的包装箱数量，进而决定是否给予通过逻辑检查点。
+CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~提供套组吊爪轨道系统使吊爪经过时，会自动将爪上的包装箱下放置于正下方的货车上
+CLAW TRAIN UNLOCK DESC~~~吊爪空中轨道系统提供额外的运送选择，让包装箱的运送也能透过空中吊挂的方式来更快速的运送
+WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~将水资源导入到各项设备中。 无线使用费每月花费资金2,000元
+ROAD ENTRY~~~山洞隧道入口
+ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~用作于销售货物资源的货车 入口点。 当隧道存在时，必须于现有隧道范围内才能兴建新的隧道
+ROAD EXIT~~~山洞隧道出口
+ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~用作于销售货物资源的货车 出口点。 当卡车进入隧道出口后，将会立即支付您相对的酬劳
+POWER STATION~~~发电站
+POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~产生并提供电力
+TRAIN TRACK ENTRY~~~火车铁道入口
+TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~用作于货运火车的 入口点。 当隧道存在时，必须于现有隧道范围内才能兴建新的隧道
+TRAIN TRACK EXIT~~~火车铁道出口
+TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~用作于货运火车的 出口点。 当火车进入隧道出口后，将会立即支付您相对的酬劳
+DRONE~~~无人机
+DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~无人机可自动搬运在装运站、卸载站与货车之间的包装箱。 由无人机库房提供电力。
+Holding:~~~目前持有：
+DESTROY CRATE~~~销毁包装箱
+ROCKET LAUNCHPAD~~~火箭发射平台
+ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~将满载包装箱的货运火箭发射送至银河交易所，由火箭销售出的包装箱额外增加25％的重量与收入奖励。无线使用将每月花费资金1,000元于电力支出
+PAD CONTENTS:~~~发射平台内容：
+ROCKET CONTENTS:~~~火箭内容：
+FACTORY~~~厂房
+FACTORYDESC~~~提供一个室内空间用以建立布局各种室内设备，厂房外墙分为上下两块，可以分别改装成出入口。必须提供电力。
+DOORWAY~~~厂房出入口
+DOORWAYDESC~~~厂房出入口，提供无人机、矿车轨道与吊爪轨道通过
+SMALL CONTAINER~~~小容器
+SMALLCONTAINERDESC~~~可以容纳40个资源，使用输送管作为存取
+LARGE CONTAINER~~~大容器
+LARGECONTAINERDESC~~~可以容纳120个资源，使用输送管作为存取
+GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~用来储存多个单项资源的容器，使用输送管作为存取
+WATER RESERVOIR~~~水库
+WATER RESERVOIRDESC~~~可以将水资源连结至各项设备中。 无线使用将每月花费资金2,000元于电力支出
+WATER PIPE~~~水管
+WATER PIPEDESC~~~使用水管来延伸与连结各项设备。
+GREENHOUSE UPGRADE~~~温室升级
+GREENHOUSE DESC~~~提高成长速度25％。
+STEP CONVEYOR~~~输送带
+STEP CONVEYORDESC~~~以1秒一次的移动方式推移包装箱。 除非最前端的包装箱可以往前移动，否则输送带将会停止动作。
+RESEARCH UNLOCKS~~~研究新技术
++10% highway Minecart speed:~~~+10％矿车移动速度
++20% highway Minecart speed:~~~+20％矿车移动速度
++30% highway Minecart speed:~~~+30％矿车移动速度
++40% highway Minecart speed:~~~+40％矿车移动速度
++50% highway Minecart speed:~~~+50％矿车移动速度
++10% Clawtrain speed~~~+10％吊爪移动速度
++20% Clawtrain speed~~~+20％吊爪移动速度
++30% Clawtrain speed~~~+30％吊爪移动速度
++40% Clawtrain speed~~~+40％吊爪移动速度
++50% Clawtrain speed~~~+50％吊爪移动速度
++10% Drone speed~~~+10％无人机移动速度
++20% Drone speed~~~+20％无人机移动速度
++30% Drone speed~~~+30％无人机移动速度
++40% Drone speed~~~+40％无人机移动速度
++50% Drone speed~~~+50％无人机移动速度
++2 Max Minecarts per track~~~每条轨道+2最大载具
++4 Max Minecarts per track~~~每条轨道+4最大载具
++6 Max Minecarts per track~~~每条轨道+6最大载具
++8 Max Minecarts per track~~~每条轨道+8最大载具
++10 Max Minecarts per track~~~每条轨道+10最大载具
++2 Max Clawtrains per track~~~每条轨道+2最大载具
++4 Max Clawtrains per track~~~每条轨道+4最大载具
++6 Max Clawtrains per track~~~每条轨道+6最大载具
++8 Max Clawtrains per track~~~每条轨道+8最大载具
++10 Max Clawtrains per track~~~+每条轨道+10最大载具
+Train interval -5 sec~~~货运火车发车区间-5秒
+Train interval -10 sec~~~货运火车发车区间-10秒
+Train interval -15 sec~~~货运火车发车区间-15秒
+Train interval -20 sec~~~货运火车发车区间-20秒
+Train interval -25 sec~~~货运火车发车区间-25秒
+Truck interval -1.5 sec~~~卡车发车区间-1.5秒
+Truck interval -3 sec~~~卡车发车区间-3秒
+Truck interval -4.5 sec~~~卡车发车区间-4.5秒
+Truck interval -6 sec~~~卡车发车区间-6秒
+Truck interval -7.5 sec~~~卡车发车区间-7.5秒
+FINANCES~~~财政
+Previous month's revenue:~~~上个月收入：
+Previous 3 month's revenue:~~~最近3个月收入：
+Previous 6 month's revenue:~~~最近6个月收入：
+Previous month's power and taxes:~~~前一个月的电费与税金支出：
+Previous 3 month's power and taxes:~~~前3个月的电费与税金支出：
+Previous 6 month's power and taxes:~~~前6个月的电费与税金支出：
+Record 3-month weight output:~~~最高纪录的3个月输出重量纪录
+CURRENT MONTH:~~~这个月
+Current month's power and taxes:~~~这个月的电费与税金支出：
+Current month's revenue:~~~这个月的收入：
+Current 3-month weight output:~~~这个月的重量输出
+DEMAND BONUS~~~需求奖金
+WEIGHTS~~~重量
+WEIGHT PER 1 CRATESWORTH~~~每包装箱重量
+RECIPES~~~配方
+Recipe For:~~~配方：
+IncompatibleCombination~~~不相容的组合
+TIPS~~~提示
+Minecart tracks are great for transporting resources from distant mining rigs, try it out!~~~矿车轨道非常适合从遥远的采矿设备运输资源，请尝试一下！
+MEDALLION~~~奖章
+MEDALLION:~~~奖章:
+MEDALLION DESC~~~殖民地中的次要挑战，透过挑战每月输出的最高重量来赢得奖章。
+MISSION OBJECTIVES~~~任务目标
+OPTIONS~~~选项
+Edge Panning:~~~边缘移动：
+DOF Tilt-shift:~~~DOF视觉特效：
+Camera friction:~~~镜头平滑：
+DOF Focus:~~~镜头对焦：
+Field of view:~~~视野：
+Reset FOV:~~~重设视野：
+SOUND VOLUME:~~~音量：
+SAVE~~~储存游戏
+SAVE AND EXIT~~~储存并退出
+EXIT~~~退出游戏
+TRAIN TRACKDESC~~~为穿过您的殖民地的货运列车建造这些轨道，以购买您的资源。
+ROADDESC~~~建造这些道路是卡车经过您的殖民地以购买您的包装箱资源的一种旅行方式。
+[  ] to rotate.~~~[  ] 旋转
+[  ] to untether.~~~[  ] 摆脱束缚
+[  ] to toggle turn.~~~[  ] 切换转弯类型
+Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.~~~由于需求量大，大多数资源都以给定资源的任何销售附带的收入红利开头。``随着给定资源使市场饱和，该红利将随着时间的流逝而降低。 需求奖金也适用于资源将产生的研究点。
+The processes for making every potential resource.~~~制作每种潜在资源的过程。
+Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.~~~电力成本-所有用电机器都为您每月的电力费用供款``税金-银河政府征收均衡税，该税基于您在一段时间内从您的殖民地获得的总利润（每周收费2％ 占您总利润的百分比）。 如果出现收入赤字，您的税费将减少以进行调整。
+Weekly power costs:~~~每周电费：
+Connecting water enables interior air conditioning.``Air conditioning lowers the monthly power costs of housed machines by X%.~~~连接水可以实现室内空调。`空调使家用机器的每月电费降低了10％。`容量使用：10
+Some housed machines require power to function.`Capacity use: 10~~~某些装有机器的机器需要电源才能运行。`容量使用：10
+Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.~~~需要电源才能起作用：``电源必须连接到本机所在的厂房。
+Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).~~~这台机器需要电源才能工作。`每月成本：1,200美元。`必须将电源连接到容纳该机器的厂房或机器本身（如果在外面）。
+Only X crates created by this crate maker can be active in your colony at a time.`If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.~~~此包装箱制造商一次只能在您的殖民地中启动30个包装箱。``如果达到限制，此包装箱制造商将暂停创建新的包装箱，直到出售或销毁活动的包装箱为止。
+Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.~~~可以设置为跳过一定数量的包装箱或矿车，使它们不受影响地通过。
+Sets which crates will be moved, depending on what resources they hold.~~~设置将移动哪些包装箱，具体取决于它们拥有的资源。
+Monthly power costs:~~~每月电费：
+Monthly tax costs:~~~每月税金：
+Sets what resources will be accepted by trucks which stop here.~~~设置停在这里的卡车将接受哪些资源。
+Sets the priority drones will give to this station relative to others.`Drone can be set to not bring crates here at all, if it's set to "OFF".~~~设置无人机相对于其他工作站的优先度。`无人机可以设置为完全不将包装箱放在此处（如果已关闭）。
+Sets the priority drones will take from this station.`Drone can be set to not take crates from here at all, if it's set to "OFF".~~~设置无人机将赋予此工作站的优先度。`无人机可以设置为如果不关闭，则根本不从此处取走包装箱。
+Sets which remote connector to be connected to if any exist in this container's factory. Only one container per factory can be set to a given color.~~~设置要连接到的远程连接器（如果此容器的厂房中存在）。``每个厂房只能将一个容器设置为给定颜色。
+Sets what singular resource type will be allowed in.~~~设置允许使用的单一资源类型。
+Requires power to function.`Monthly costs: $X~~~需要电才能正常工作。`每月费用：1,200美元
+MiningRigWaterHover~~~连接水可实现更好的提取。`水可将提取速度提高30％。`使用量：3
+oilDerrickWaterHover~~~连接水可实现更好的提取。`水可将提取速度提高30％。`使用量：3
+RESEARCHBAYPOWERHOVER~~~需要电才能起作用。`月费：$ 200 `容量使用：2
+miningRigPowerHover~~~需要电才能起作用。`月费：$ 800 `容量使用：3
+refinerPowerHover~~~需要电才能起作用。`每月费用：800美元`必须将电源连接到装有此机器的厂房。
+crateMakerPowerHover~~~需要电才能正常工作。`月费：$ 1,200 `容量使用：1（在室外时）`必须将电源连接到装有该机器的厂房或机器本身（如果在室外）。
+clawTrainCrateGateHover~~~-如果从不启用``永不允许''，则爪锁将无法沿箭头方向通过。``如果启用了``最小值''，则吊爪列队必须至少持有最少数量的包装箱才能通过。``如果打开最大值，则吊爪车厢必须保持在最大包装箱内才能通过。
+researchBayWaterHover~~~连接水可实现内部水冷却。`水冷却可将研究速度提高10％`容量利用率：2
+researchBayProcessingHover~~~随着时间的流逝，机器正在将包含的资源转换成研究点。`研究价值等于美元价值。
+combinerPowerHover~~~需要电力才能起作用。`月费：$ 4,000 `必须将电源连接到装有此机器的厂房。
+researchBayFillBar~~~一旦蓝色条被填满，就可以收集研究点。``需要研究特定资源才能解锁某些技术。
+addMinecartHover~~~向此火车添加另一辆车。`费用为$ 2,500。
+removeMinecartHover~~~从这列火车上卸下/出售车辆。`以2,500美元的价格出售。
+removeClawHover~~~从这列火车上卸下/出售吊爪。`以2,000美元的价格出售。
+addClawHover~~~在这列火车上再增加一台吊爪。`费用为2,000美元。
+farmWaterHover~~~需要水才能起作用。`容量使用：3
+researchPointHover~~~研究点数
+timeHover~~~月-年
+dronePopHover~~~无人机人口
+mineTrackHighway~~~矿车在高速公路（高度2或3）上行驶时移动速度更快
+Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.~~~购买这些增强功能可以升级当前基础结构的容量和速度。
+Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase~~~资源需求-有些解锁要求您在研究室中处理了一定数量的特定资源才能购买
+Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.~~~货物重量要求-一些解锁要求您达到一定的3个月货物重量输出记录才能购买。
+TRANFER-TUBE~~~转移管
+To add minecarts or clawtrains to a track: select the track you've built and press the "add" button to buy some.~~~要将车辆或吊爪添加到轨道中：选择已构建的轨道，然后按“添加”按钮购买一些。
+It's possible to transfer resources between a step conveyor and minetrack via this simple setup.~~~通过这种简单的设置，可以在输送带和车辆轨道之间转移资源。
+Mouse-over a built structure and press [SPACEBAR] to duplicate the structure.~~~将滑鼠悬停在已构建的结构上，然后按[SPACEBAR]复制该结构。
+Containers can be useful for storing resources.~~~容器对于存储资源很有用。
+Make use of research bays to unlock new structures and technology.~~~利用研究圆顶来解锁新的结构和技术。
+An unload stations can be set up to destroy the crates which reach the end. It also automatically destroys any empty crates which reach the end~~~可以设置一个卸货站以销毁到达末端的包装箱。 它还会自动销毁到达尽头的所有空箱子
+Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.~~~矿车可以容纳相当于4箱的资源，这使其成为长距离运输资源的理想选择。
+Transfer claws can be useful for connecting or splitting up step conveyor pathways.~~~转移爪可用于连接或拆分阶梯式输送机路径。
+The downward nozzle of a transfer tube can only connect to a step-conveyor or minetrack.~~~传输管的向下喷嘴只能连接到阶梯式输送机或矿用轨道。
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~矿车在高架路段上的行驶速度更快，在构建模式下使用快速键1,2,3可以切换轨道高度。
+Hold [TAB] to see inside all of your factories at the same time.~~~按住[TAB]可以同时查看所有厂房内部。
+Avoid sending your drones on long journeys, travel-time matters when designing efficient transport systems.~~~避免让无人机长途旅行。
+Remote connectors can be a convenient way to move resources around a crowded factory interior.~~~远程连接器是在拥挤的厂房内部移动资源的便捷方法。
+Don't expand to new resource deposits without fully utilizing your current ones. Bottlenecks in your system can cause major revenue deficiencies, don't let resources get backed up anywhere.~~~在没有充分利用当前资源的情况下，请勿扩展到新的资源库。 系统中的瓶颈会导致严重的收入缺陷。 不要让资源在任何地方备份。
+MISSION~~~任务
+OK~~~好
+Exit without saving, are you sure?~~~不保存就退出，确定吗？
+Goal:~~~目标：
+Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.~~~继续玩可获得大奖章，或返回到场景选择萤幕。
+CONTINUE PLAYING~~~继续玩
+SAVE AND EXIT~~~保存并退出
+Weight Output: 25,000~~~重量输出：30,000
+Weight Goal:~~~货物重量目标：
+Game by:~~~游戏制作人：
+Sean Cutino and Brad Hall~~~肖恩·库蒂诺（Sean Cutino）和布拉德·霍尔（Brad Hall）
+Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".~~~设置无人机将给予该站点相对于其他站点的优先度。`如果站点关闭，则可以将无人机设置为根本不将箱子放在此处。
+droneBayPowerHover~~~需要电才能正常工作.`每月费用：320美元`容量使用：0
+trainPowerHover~~~需要电力才能正常工作。`月费：$ 4,000`容量使用：5
+Revenue~~~收入
+3-month Weight Output Goal:~~~3个月货物重量目标：
+3-month weight output record of:~~~3个月货物重量输出
+MISSION OBJECTIVE~~~任务目标
+SAVED~~~游戏已保存
+Simple Fields~~~斯普利特山谷
+Simple Fields Description~~~在干燥的河床周围工作，河床贯穿整个景观，将其分成两半
+Big Cliffs~~~落矶山
+Big Cliffs Description~~~蜿蜒的河流和湖泊环绕的大绿色悬崖为厂房基地提供了完美的背景
+Open Space~~~开放空间
+Open Space Description~~~简单，平坦，开放的沙漠为您不受限制的创造力提供了肥沃的土地。
+Big Islands~~~冰川带
+Big Islands Description~~~冰川从融化的冰原上裂开，富含矿物质，是您赖以生存的漂浮平台。
+Level_Craters~~~火山口
+Level_CratersDescription~~~数千年来，这个领域曾轰动着巨大的小行星，每次都将有价值的矿石沉积到地下。
+Level_CoastLine~~~海岸线
+Level_CoastLineDescription~~~在这个郁郁葱葱的森林星球上的海洋边缘上建立，不要忘记石油岛。
+Level_BigLake~~~绿洲湖
+Level_BigLakeDescription~~~在沙漠的中间，有一个美丽的湖，周围环绕着棕榈树和树叶。
+Level_IslandHopper~~~热带岛屿
+Level_IslandHopperDescription~~~在这些小小的热带岛屿之间连接许多轨道。
+Level_CenterMesa~~~中山
+Level_CenterMesaDescription~~~一座大丘陵山是许多资源矿床的基地，围绕它而建。
+Level_Lakes~~~冰缘
+Level_LakesDescription~~~从这片困难的土地上的冰层边缘带走资源。
+Level_CompactCanyon~~~紧凑峡谷
+Level_CompactCanyonDescription~~~一个微小的峡谷包含了这个热火山星球上的所有建筑物。 您需要弄清楚如何将所有内容打包到这个小空间中。
+Level_BigCliffs_ResourceClusters~~~雪林
+Level_BigCliffs_ResourceClustersDescription~~~在这个白雪皑皑的森林财产中，资源大量聚集。
+Level_OpenSpaceRocketsOnly~~~火箭大师
+Level_OpenSpaceRocketsOnlyDescription~~~从已经在这个奇怪的绿色浮渣星球上解锁的火箭开始。
+Level_BigLake_CenterResources~~~资源丰富
+Level_BigLake_CenterResourcesDescription~~~每笔存款都位于此属性中心的一个岛上。
+Per Month~~~每月
+PLAY~~~进行游戏
+CREDITS~~~开发者
+QUIT~~~离开游戏
+NEW COLONY~~~新殖民地
+LOAD COLONY~~~载入殖民地
+START~~~开始
+CANCEL~~~取消
+Starter Mode:~~~入门模式：
+Drone population.~~~无人机数量。
+CURRENT TIME:~~~目前时间：
+MISSION:~~~任务：
+LOAD COLONY:~~~读取殖民地:
+IN PROGRESS~~~进行中
+LOAD~~~读取
+DELETE~~~删除
+NAME YOUR COLONY:~~~命名您的殖民地：
+DEMOLISH~~~拆除
+GREENHOUSE ENABLED~~~启用温室
+CONNECTOR COLOR:~~~连接器颜色：
+Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.~~~设置要连接到的远程连接器（如果此容器的厂房中存在）。``每个厂房只能将一个容器设置为给定颜色。
+Starter mode provides you with the basics prebuilt. If you are unfamiliar with the game, starter mode is essential.~~~入门模式为您提供了预建的基础知识。 如果您不熟悉游戏，则入门模式至关重要。
+Clawtrack pitstops are best utilized in a relay system as shown. Be careful with them, as they can massively downgrade your truck loading efficiency if used improperly.~~~如图所示，吊爪轨道卡车系统最好与中继系统一起使用。 请当心，因为如果使用不当，它们可能会大大降低卡车的装载效率。
+Edge panning:~~~边缘推动：
+Can be set to skip a certain number of claws, letting them pass by unaffected.~~~可以设置为跳过许多吊爪，让它们通过而不受影响。
+COST:~~~花费：
+SELL:~~~销售：
+CLAIM~~~获取
+SUCCESS!~~~成功！
+SuccessMessage~~~继续玩游戏可获得大师大奖，或返回到场景选择萤幕。
+MedallionSuccessMessage~~~得到了大奖章大师！继续播放或返回到场景选择萤幕。
+PLANET SELECT~~~星体选择
+Very Easy Mode:~~~简单模式
+Reduces taxes by 90%~~~减税100％

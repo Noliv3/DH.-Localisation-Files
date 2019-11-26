@@ -1,0 +1,36 @@
+Example error~~~error message text:~~~_conveyorImage
+SKAA~~~SKAAAAAAAA a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa a   a a a a a a a a a a a a a a a a a  a aa
+Building too small~~~Budynek za mały
+Insufficient funds.~~~Niewystarczające środki
+Must be built on a Claw Track.~~~Musi być zbudowany na szynie dźwigu
+Must be built on Claw Track.~~~Musi być zbudowany na szynie dźwigu
+Can't build here.~~~Nie można tutaj budować
+Can't build here~~~Nie można tutaj budować
+Cannot build here.~~~Nie można tutaj budować
+Only connects to Load/Unload Stations~~~Łączy się tylko z:~~~_loadStationImage~~~_unloadStationImage
+Must be built inside~~~Musi być zbudowany w środku
+Must be built inside.~~~Musi być zbudowany w środku
+Must be built outside~~~Musi być zbudowany na zewnątrz
+Must be built outside.~~~Musi być zbudowany na zewnątrz
+Structure doesn't accept water~~~Struktura nie przyjmuje wody
+Cannot build under transfer tube.~~~Nie można zbudować pod rurką transferową
+Cannot connect occupied tracks.~~~Nie można połączyć oddzielnych zajętych ścieżek
+Factory too small.~~~Fabryka za mała
+Transfer tubes don't connect to transfer tubes.~~~Rurki transferowe nie łączą się z rurkami transferowymi
+Only connects to straight tracks.~~~Łączy się tylko z prostymi torami
+Output only connects to conveyors or mine tracks.~~~Wyjście łączy się tylko z:~~~_conveyorImage~~~_mineTrackImage
+Port doesn't accept input.~~~Port nie przyjmuje danych wejściowych
+Port only for water pipes.~~~Port tylko dla rur wodnych
+Input only connects to conveyors or mine tracks.~~~Wejście łączy się tylko z:~~~_conveyorImage~~~_mineTrackImage
+Port doesn't output.~~~Port nie eksportuje
+Only connects to conveyors.~~~Łączy się tylko z:~~~_conveyorImage
+Must be built into a cliffside.~~~Musi być wbudowany w klif
+Cannot be built over turn.~~~Nie można zbudować na zakręcie
+Not enough powered drone bays.~~~Za mało zatok dronów
+Doesn't interact with conveyors~~~Nie wchodzi w interakcje z:~~~_conveyorImage
+Doesn't interact with Transfer Tubes~~~Nie wchodzi w interakcje z rurkami transferowymi
+Can't build under claw track.~~~niedrożność szyny dźwigu
+Can't build over mine track.~~~niedrożność szyn kopalni
+Must have another entrance in proximity.~~~Musi mieć inne wejście w pobliżu
+Must have another Rocket Launchpad in proximity.~~~Musisz mieć w pobliżu kolejną rakietę
+Must have another Research Dome in proximity.~~~Musi mieć w pobliżu kolejną Kopułę Badań

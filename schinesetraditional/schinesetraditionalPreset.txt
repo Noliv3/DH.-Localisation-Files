@@ -1,0 +1,399 @@
+﻿BUY~~~購買
+TRANSFER-TUBE~~~輸送管
+POWER POLE~~~電線杆
+LOAD STATION~~~裝運站
+UNLOAD STATION~~~卸載站
+CLAWTRAIN TRACK~~~吊爪軌道
+TRAIN TRACK~~~火車軌道
+ROAD~~~道路
+This will destroy the factory and all of its contents, are you sure?~~~您確定要移除這座廠房跟其中全部的設備嗎？
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~可儲存多個單品項資源。 使用輸送管進行存取。
+Transfers Crates from one Conveyor to another Conveyor.~~~將輸送帶上的包裝箱轉移至另個輸送帶。 必須建置於廠房內。
+CRATE MAKER~~~包裝箱製造機
+GREEN GRASS~~~綠色草地
+NO~~~否
+YES~~~是
+GREEN~~~綠色
+RED~~~紅色
+DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##連接方式：##_conveyorImage
+Must unlock Water Works before unlocking farms~~~解鎖農場科技之前必須先解鎖水資源科技
+This will destroy the factory and all of its contents, are you sure?~~~您確定要移除這座廠房跟其中全部的設備嗎？
+FACTORY~~~廠房
+POWER CONNECTED~~~電源已連接
+WATER CONNECTED~~~水資源已連接
+CONTAINER~~~容器
+ACCEPTED RESOURCE:~~~接受資源為：
+ACCEPTED RESOURCES:~~~接受資源為：
+CONTAINS:~~~內容物：
+DESTROY CONTENTS~~~摧毀內容物
+ANY~~~任何
+REMOTE CONNECTOR~~~遠端連接器
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~可以直接存取同一個廠房內的容器。 配對方式必須為相同的容器顏色。 每個廠房只能有一個指定顏色的容器。
+TRANSFER-CLAW~~~傳輸吊爪
+POWER STATION~~~發電站
+POWER STATIONDESC~~~提供電力輸出
+POWER POLEDESC~~~透過電線的連結已延伸電網範圍給需要的建築設備
+ACCEPTED CONTENTS:~~~接受內容物：
+ALL~~~全部
+NONE~~~無
+SKIP EVERY:~~~忽略間隔數：
+OFF~~~關閉
+ON~~~開啟
+DRONE PRIORITY:~~~無人機優先順序：
+ACTIVE CRATES:~~~使用中的包裝箱：
+HIGH~~~最高
+MEDIUM~~~中等
+LOW~~~最低
+OFF~~~關閉
+CONTENTS~~~內容物
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~產生並輸出包裝箱至輸送帶或卸載站上，也可以透過輸送管直接裝入所輸入的資源至包裝箱內。 可建置於廠房內或室外。 (同時間最多可閒置30個包裝箱)
+ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~當吊爪經過時，會自動抓起正下方的裝運站或卸載站上之包裝箱
+CLAWTRAIN PICK-UP STOP~~~吊爪抓取點
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~當吊爪經過時，會自動將爪上的包裝箱下放置於正下方的裝運站或卸載站上
+CLAWTRAIN DROP-OFF STOP~~~吊爪放置點
+CLAWTRAIN TRUCK LOADER~~~吊爪貨車專用卸載點
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~當吊爪經過時，會自動將爪上的包裝箱下放置於正下方的貨車上
+CLAWTRAIN CRATE GATE~~~吊爪邏輯檢查點
+ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~提供吊爪可以判斷軌道上運載的包裝箱數量，進而決定是否給予通過邏輯檢查點。
+PASS REQUIREMENTS:~~~通過條件：
+MAXIMUM CRATES~~~最大包裝箱數
+MINIMUM CRATES~~~最小包裝箱數
+NEVER ALLOW~~~一律不允許
+TRANSFER-TUBE G2G~~~一般輸送管
+Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~將資源從輸送口轉移至另一個輸送口
+TRANSFER-TUBE G2T~~~導出輸送管
+TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~將資源從輸送口導出至前方的礦車或者輸送帶上的包裝箱
+TRANSFER-TUBE T2G~~~吸入輸送管
+TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~將資源從輸送帶上的包裝箱或者礦車上吸入至輸送口中
+LOAD-STATION~~~裝運站
+LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~當設定無人機優先權後，無人機會自動搬運包裝箱至裝運站上。 同時也用於吊爪的抓取與放置點
+UNLOAD-STATION~~~卸載站
+UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~當設定無人機優先權後，無人機會自動將卸載站上的包裝箱搬運至其它放置處。 同時也用於吊爪的抓取與放置點（於末端時，會自動銷毀空的包裝箱）
+DESTROY ALL CRATES:~~~銷毀所有包裝箱：
+ROAD PITSTOP~~~卡車裝載站
+ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~卡車將會靠停與此，並且等待包裝箱裝滿後，開離至山洞隧道出口後售出。 可以透過無人機或者吊爪(吊爪貨車專用卸載點)來進行包裝箱上貨車的工作。
+TRAIN LOADING-SILO~~~火車裝載筒倉
+TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~將資源輸入至下方通過的火車車斗中。 最多可以容納16個資源
+DRONE BAY~~~無人機庫房
+DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~提供4個無人機運算能力
+MINING RIG~~~採礦機
+MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~從資源點上採集資源，必須透過輸送管的方式運送
+CURRENTLY MINING:~~~目前挖掘：
+1 PER~~~ 每1個 需花費
+SECONDS~~~秒
+OIL DERRICK~~~油井架
+OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~從石油資源點挖取原油，無線使用將每月花費資金1,000元於電力支出
+CURRENTLY EXTRACTING:~~~目前挖掘：
+FARM PLATFORM~~~水培農作平台
+FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~用作於各種作物的耕種區塊，無線使用將每月花費資金400元於電力支出
+GRASS TYPE~~~作物類型
+6 PER~~~ 每6個 需花費
+REFINER~~~精煉機
+REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~將資源更進一步的提煉成更純的設備，可以使用裝運站、輸送帶或者直接由包裝箱製造機輸入。(必須建置於廠房內)
+CURRENTLY REFINING:~~~目前精煉：
+COMBINER~~~融合機
+COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~該機器將兩種資源結合在一起，在此過程中創建了新資源。 從側埠獲取資源； 將最終產品輸出到前埠。 必須在廠房內建造。
+CURRENTLY COMBINING:~~~目前正融合：
+RESEARCH BAY~~~研究室
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~生產研究點數用以升級殖民地中各項設施，或者解鎖全新科技。可以接受任何從輸送管輸入的資源，研究所獲得的點數等值於所銷售的金額。研究點數必須累積20次以上才能進行獲取點數
+PROCESSING CONTENTS INTO:~~~處理內容：
+RESEARCH POINTS~~~研究點數
+MINETRACK~~~礦車軌道
+MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~礦車使用的鐵軌，每一台礦車可以容納四個單位的資源
+MINECARTSMOVETITLE~~~礦車軌道 S型
+MINECARTRAMPTITLE~~~礦車軌道 爬坡處
+CAPACITY~~~最大數
+CARTS~~~車
+ADD CART~~~增加礦車
+ADD~~~增加
+REMOVE CART~~~移除礦車
+REMOVE~~~移除
+CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~用於吊爪所使用的空中軌道系統
+CLAWS~~~吊爪
+ADD CLAWS~~~增加吊爪
+ADD~~~增加
+REMOVE CLAWS~~~移除吊爪
+REMOVE~~~移除
+WATER RESERVOIR~~~水庫
+COST~~~花費
+UNLOCK~~~解鎖
+GREENHOUSE UNLOCK TITLE~~~解鎖溫室
+FARMING UNLOCK TITLE~~~解鎖農場
+WATERWORKS UNLOCK TITLE~~~解鎖水處理
+ROCKET UNLOCK TITLE~~~解鎖火箭
+OIL DERRICK UNLOCK TITLE~~~解鎖石油井
+FREIGHT TRAIN UNLOCK TITLE~~~解鎖貨運火車
+REFINER UNLOCK TITLE~~~解鎖精煉廠/廠房
+STEP CONVEYOR UNLOCK TITLE~~~解鎖輸送帶
+REMOTE CONNECTOR UNLOCK TITLE~~~解鎖遠端連結器
+COMBINER UNLOCK TITLE~~~解鎖融合機
+CLAWTRAIN CRATE GATE UNLOCK TITLE~~~解鎖吊爪邏輯檢查點
+CLAWTRAIN TRUCK LOADER UNLOCK TITLE~~~解鎖吊爪貨車專用卸載點
+CLAW TRAIN UNLOCK TITLE~~~解鎖吊爪空中軌道系統
+FREIGHT TRAIN~~~貨運火車
+FARMING~~~農業
+GREENHOUSE UNLOCK DESC~~~建造溫室可以加速生長速度25％。
+FARMING UNLOCK DESC~~~在水培農作平台上種植作物，增加農作資源。
+WATERWORKS~~~水處理
+WATERWORKS UNLOCK DESC~~~將水輸入到不同的設備中來增加運作的效率與額外的功能。
+CARGO ROCKET~~~貨運火箭
+ROCKET UNLOCK DESC~~~將滿載包裝箱的貨運火箭發射送至銀河交易所，由火箭銷售出的包裝箱額外增加25％的重量與收入獎勵
+OIL DERRICK UNLOCK DESC~~~可以挖取位於原油點下的石油
+TRAIN UNLOCK DESC~~~直接連結至山洞隧道，使用火車與車斗提供更高效率的貨物銷售方式。貨運列車不接受包裝箱的方式，而是透過資源筒倉直接裝載資源
+REFINER UNLOCK DESC~~~使用精煉機將粗礦石製作成較為高價且較重的資源。 精煉機必須建置於廠房內，且已包裝箱作為輸入
+STEP CONVEYOR UNLOCK DESC~~~使用輸送帶可以讓您在廠房中有效的運輸與分配包裝箱。 輸送管甚至可以存取位於輸送帶上的包裝箱資源
+REMOTE CONNECTOR UNLOCK DESC~~~使用此設備可以讓廠房間較遠的容器可以快速交換傳輸。 在處理大型廠房系統上特別方便
+COMBINER UNLOCK DESC~~~融合機可以將不同的資源進行合併，進而產生更具價值也更重的新資源。融合機不接受包裝箱輸入，必須使用輸送管連接至輸送口進行存取
+CLAWTRAIN CRATE GATE UNLOCK DESC~~~提供吊爪可以判斷軌道上運載的包裝箱數量，進而決定是否給予通過邏輯檢查點。
+CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~提供套組吊爪軌道系統使吊爪經過時，會自動將爪上的包裝箱下放置於正下方的貨車上
+CLAW TRAIN UNLOCK DESC~~~吊爪空中軌道系統提供額外的運送選擇，讓包裝箱的運送也能透過空中吊掛的方式來更快速的運送
+WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~將水資源導入到各項設備中。 無線使用費每月花費資金2,000元
+ROAD ENTRY~~~山洞隧道入口
+ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~用作於銷售貨物資源的貨車 入口點。 當隧道存在時，必須於現有隧道範圍內才能興建新的隧道
+ROAD EXIT~~~山洞隧道出口
+ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~用作於銷售貨物資源的貨車 出口點。 當卡車進入隧道出口後，將會立即支付您相對的酬勞
+POWER STATION~~~發電站
+POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~產生並提供電力
+TRAIN TRACK ENTRY~~~火車鐵道入口
+TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~用作於貨運火車的 入口點。 當隧道存在時，必須於現有隧道範圍內才能興建新的隧道
+TRAIN TRACK EXIT~~~火車鐵道出口
+TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~用作於貨運火車的 出口點。 當火車進入隧道出口後，將會立即支付您相對的酬勞
+DRONE~~~無人機
+DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~無人機可自動搬運在裝運站、卸載站與貨車之間的包裝箱。 由無人機庫房提供電力。
+Holding:~~~目前持有：
+DESTROY CRATE~~~銷毀包裝箱
+ROCKET LAUNCHPAD~~~火箭發射平台
+ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~將滿載包裝箱的貨運火箭發射送至銀河交易所，由火箭銷售出的包裝箱額外增加25％的重量與收入獎勵。無線使用將每月花費資金1,000元於電力支出
+PAD CONTENTS:~~~發射平台內容：
+ROCKET CONTENTS:~~~火箭內容：
+FACTORY~~~廠房
+FACTORYDESC~~~提供一個室內空間用以建立布局各種室內設備，廠房外牆分為上下兩塊，可以分別改裝成出入口。必須提供電力。
+DOORWAY~~~廠房出入口
+DOORWAYDESC~~~廠房出入口，提供無人機、礦車軌道與吊爪軌道通過
+SMALL CONTAINER~~~小容器
+SMALLCONTAINERDESC~~~可以容納40個資源，使用輸送管作為存取
+LARGE CONTAINER~~~大容器
+LARGECONTAINERDESC~~~可以容納120個資源，使用輸送管作為存取
+GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~用來儲存多個單項資源的容器，使用輸送管作為存取
+WATER RESERVOIR~~~水庫
+WATER RESERVOIRDESC~~~可以將水資源連結至各項設備中。 無線使用將每月花費資金2,000元於電力支出
+WATER PIPE~~~水管
+WATER PIPEDESC~~~使用水管來延伸與連結各項設備。
+GREENHOUSE UPGRADE~~~溫室升級
+GREENHOUSE DESC~~~提高成長速度25％。
+STEP CONVEYOR~~~輸送帶
+STEP CONVEYORDESC~~~以1秒一次的移動方式推移包裝箱。 除非最前端的包裝箱可以往前移動，否則輸送帶將會停止動作。
+RESEARCH UNLOCKS~~~研究新技術
++10% highway Minecart speed:~~~+10％礦車移動速度
++20% highway Minecart speed:~~~+20％礦車移動速度
++30% highway Minecart speed:~~~+30％礦車移動速度
++40% highway Minecart speed:~~~+40％礦車移動速度
++50% highway Minecart speed:~~~+50％礦車移動速度
++10% Clawtrain speed~~~+10％吊爪移動速度
++20% Clawtrain speed~~~+20％吊爪移動速度
++30% Clawtrain speed~~~+30％吊爪移動速度
++40% Clawtrain speed~~~+40％吊爪移動速度
++50% Clawtrain speed~~~+50％吊爪移動速度
++10% Drone speed~~~+10％無人機移動速度
++20% Drone speed~~~+20％無人機移動速度
++30% Drone speed~~~+30％無人機移動速度
++40% Drone speed~~~+40％無人機移動速度
++50% Drone speed~~~+50％無人機移動速度
++2 Max Minecarts per track~~~每條軌道+2最大載具
++4 Max Minecarts per track~~~每條軌道+4最大載具
++6 Max Minecarts per track~~~每條軌道+6最大載具
++8 Max Minecarts per track~~~每條軌道+8最大載具
++10 Max Minecarts per track~~~每條軌道+10最大載具
++2 Max Clawtrains per track~~~每條軌道+2最大載具
++4 Max Clawtrains per track~~~每條軌道+4最大載具
++6 Max Clawtrains per track~~~每條軌道+6最大載具
++8 Max Clawtrains per track~~~每條軌道+8最大載具
++10 Max Clawtrains per track~~~+每條軌道+10最大載具
+Train interval -5 sec~~~貨運火車發車區間-5秒
+Train interval -10 sec~~~貨運火車發車區間-10秒
+Train interval -15 sec~~~貨運火車發車區間-15秒
+Train interval -20 sec~~~貨運火車發車區間-20秒
+Train interval -25 sec~~~貨運火車發車區間-25秒
+Truck interval -1.5 sec~~~卡車發車區間-1.5秒
+Truck interval -3 sec~~~卡車發車區間-3秒
+Truck interval -4.5 sec~~~卡車發車區間-4.5秒
+Truck interval -6 sec~~~卡車發車區間-6秒
+Truck interval -7.5 sec~~~卡車發車區間-7.5秒
+FINANCES~~~財政
+Previous month's revenue:~~~上個月收入：
+Previous 3 month's revenue:~~~最近3個月收入：
+Previous 6 month's revenue:~~~最近6個月收入：
+Previous month's power and taxes:~~~前一個月的電費與稅金支出：
+Previous 3 month's power and taxes:~~~前3個月的電費與稅金支出：
+Previous 6 month's power and taxes:~~~前6個月的電費與稅金支出：
+Record 3-month weight output:~~~最高紀錄的3個月輸出重量紀錄
+CURRENT MONTH:~~~這個月
+Current month's power and taxes:~~~這個月的電費與稅金支出：
+Current month's revenue:~~~這個月的收入：
+Current 3-month weight output:~~~這個月的重量輸出
+DEMAND BONUS~~~需求獎金
+WEIGHTS~~~重量
+WEIGHT PER 1 CRATESWORTH~~~每包裝箱重量
+RECIPES~~~配方
+Recipe For:~~~配方：
+IncompatibleCombination~~~不相容的組合
+TIPS~~~提示
+Minecart tracks are great for transporting resources from distant mining rigs, try it out!~~~礦車軌道非常適合從遙遠的採礦設備運輸資源，請嘗試一下！
+MEDALLION~~~獎章
+MEDALLION:~~~獎章:
+MEDALLION DESC~~~殖民地中的次要挑戰，透過挑戰每月輸出的最高重量來贏得獎章。
+MISSION OBJECTIVES~~~任務目標
+OPTIONS~~~選項
+Edge Panning:~~~邊緣移動：
+DOF Tilt-shift:~~~DOF視覺特效：
+Camera friction:~~~鏡頭平滑：
+DOF Focus:~~~鏡頭對焦：
+Field of view:~~~視野：
+Reset FOV:~~~重設視野：
+SOUND VOLUME:~~~音量：
+SAVE~~~儲存遊戲
+SAVE AND EXIT~~~儲存並退出
+EXIT~~~退出遊戲
+TRAIN TRACKDESC~~~為穿過您的殖民地的貨運列車建造這些軌道，以購買您的資源。
+ROADDESC~~~建造這些道路是卡車經過您的殖民地以購買您的包裝箱資源的一種旅行方式。
+[  ] to rotate.~~~[  ] 旋轉
+[  ] to untether.~~~[  ] 擺脫束縛
+[  ] to toggle turn.~~~[  ] 切換轉彎類型
+Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.~~~由於需求量大，大多數資源都以給定資源的任何銷售附帶的收入紅利開頭。``隨著給定資源使市場飽和，該紅利將隨著時間的流逝而降低。 需求獎金也適用於資源將產生的研究點。
+The processes for making every potential resource.~~~製作每種潛在資源的過程。
+Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.~~~電力成本-所有用電機器都為您每月的電力費用供款``稅金-銀河政府徵收均衡稅，該稅基於您在一段時間內從您的殖民地獲得的總利潤（每週收費2％ 占您總利潤的百分比）。 如果出現收入赤字，您的稅費將減少以進行調整。
+Weekly power costs:~~~每週電費：
+Connecting water enables interior air conditioning.``Air conditioning lowers the monthly power costs of housed machines by X%.~~~連接水可以實現室內空調。`空調使家用機器的每月電費降低了10％。`容量使用：10
+Some housed machines require power to function.`Capacity use: 10~~~某些裝有機器的機器需要電源才能運行。`容量使用：10
+Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.~~~需要電源才能起作用：``電源必須連接到本機所在的廠房。
+Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).~~~這台機器需要電源才能工作。`每月成本：1,200美元。`必須將電源連接到容納該機器的廠房或機器本身（如果在外面）。
+Only X crates created by this crate maker can be active in your colony at a time.`If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.~~~此包裝箱製造商一次只能在您的殖民地中啟動30個包裝箱。``如果達到限制，此包裝箱製造商將暫停創建新的包裝箱，直到出售或銷毀活動的包裝箱為止。
+Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.~~~可以設置為跳過一定數量的包裝箱或礦車，使它們不受影響地通過。
+Sets which crates will be moved, depending on what resources they hold.~~~設置將移動哪些包裝箱，具體取決於它們擁有的資源。
+Monthly power costs:~~~每月電費：
+Monthly tax costs:~~~每月稅金：
+Sets what resources will be accepted by trucks which stop here.~~~設置停在這裡的卡車將接受哪些資源。
+Sets the priority drones will give to this station relative to others.`Drone can be set to not bring crates here at all, if it's set to "OFF".~~~設置無人機相對於其他工作站的優先度。`無人機可以設置為完全不將包裝箱放在此處（如果已關閉）。
+Sets the priority drones will take from this station.`Drone can be set to not take crates from here at all, if it's set to "OFF".~~~設置無人機將賦予此工作站的優先度。`無人機可以設置為如果不關閉，則根本不從此處取走包裝箱。
+Sets which remote connector to be connected to if any exist in this container's factory. Only one container per factory can be set to a given color.~~~設置要連接到的遠程連接器（如果此容器的廠房中存在）。``每個廠房只能將一個容器設置為給定顏色。
+Sets what singular resource type will be allowed in.~~~設置允許使用的單一資源類型。
+Requires power to function.`Monthly costs: $X~~~需要電才能正常工作。`每月費用：1,200美元
+MiningRigWaterHover~~~連接水可實現更好的提取。`水可將提取速度提高30％。`使用量：3
+oilDerrickWaterHover~~~連接水可實現更好的提取。`水可將提取速度提高30％。`使用量：3
+RESEARCHBAYPOWERHOVER~~~需要電才能起作用。`月費：$ 200 `容量使用：2
+miningRigPowerHover~~~需要電才能起作用。`月費：$ 800 `容量使用：3
+refinerPowerHover~~~需要電才能起作用。`每月費用：800美元`必須將電源連接到裝有此機器的廠房。
+crateMakerPowerHover~~~需要電才能正常工作。`月費：$ 1,200 `容量使用：1（在室外時）`必須將電源連接到裝有該機器的廠房或機器本身（如果在室外）。
+clawTrainCrateGateHover~~~-如果從不啟用``永不允許''，則爪鎖將無法沿箭頭方向通過。``如果啟用了``最小值''，則吊爪列隊必須至少持有最少數量的包裝箱才能通過。``如果打開最大值，則吊爪車廂必須保持在最大包裝箱內才能通過。
+researchBayWaterHover~~~連接水可實現內部水冷卻。`水冷卻可將研究速度提高10％`容量利用率：2
+researchBayProcessingHover~~~隨著時間的流逝，機器正在將包含的資源轉換成研究點。`研究價值等於美元價值。
+combinerPowerHover~~~需要電力才能起作用。`月費：$ 4,000 `必須將電源連接到裝有此機器的廠房。
+researchBayFillBar~~~一旦藍色條被填滿，就可以收集研究點。``需要研究特定資源才能解鎖某些技術。
+addMinecartHover~~~向此火車添加另一輛車。`費用為$ 2,500。
+removeMinecartHover~~~從這列火車上卸下/出售車輛。`以2,500美元的價格出售。
+removeClawHover~~~從這列火車上卸下/出售吊爪。`以2,000美元的價格出售。
+addClawHover~~~在這列火車上再增加一台吊爪。`費用為2,000美元。
+farmWaterHover~~~需要水才能起作用。`容量使用：3
+researchPointHover~~~研究點數
+timeHover~~~月-年
+dronePopHover~~~無人機人口
+mineTrackHighway~~~礦車在高速公路（高度2或3）上行駛時移動速度更快
+Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.~~~購買這些增強功能可以升級當前基礎結構的容量和速度。
+Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase~~~資源需求-有些解鎖要求您在研究室中處理了一定數量的特定資源才能購買
+Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.~~~貨物重量要求-一些解鎖要求您達到一定的3個月貨物重量輸出記錄才能購買。
+TRANFER-TUBE~~~轉移管
+To add minecarts or clawtrains to a track: select the track you've built and press the "add" button to buy some.~~~要將車輛或吊爪添加到軌道中：選擇已構建的軌道，然後按“添加”按鈕購買一些。
+It's possible to transfer resources between a step conveyor and minetrack via this simple setup.~~~通過這種簡單的設置，可以在輸送帶和車輛軌道之間轉移資源。
+Mouse-over a built structure and press [SPACEBAR] to duplicate the structure.~~~將滑鼠懸停在已構建的結構上，然後按[SPACEBAR]複製該結構。
+Containers can be useful for storing resources.~~~容器對於存儲資源很有用。
+Make use of research bays to unlock new structures and technology.~~~利用研究圓頂來解鎖新的結構和技術。
+An unload stations can be set up to destroy the crates which reach the end. It also automatically destroys any empty crates which reach the end~~~可以設置一個卸貨站以銷毀到達末端的包裝箱。 它還會自動銷毀到達盡頭的所有空箱子
+Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.~~~礦車可以容納相當於4箱的資源，這使其成為長距離運輸資源的理想選擇。
+Transfer claws can be useful for connecting or splitting up step conveyor pathways.~~~轉移爪可用於連接或拆分階梯式輸送機路徑。
+The downward nozzle of a transfer tube can only connect to a step-conveyor or minetrack.~~~傳輸管的向下噴嘴只能連接到階梯式輸送機或礦用軌道。
+Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~礦車在高架路段上的行駛速度更快，在構建模式下使用快速鍵1,2,3可以切換軌道高度。
+Hold [TAB] to see inside all of your factories at the same time.~~~按住[TAB]可以同時查看所有廠房內部。
+Avoid sending your drones on long journeys, travel-time matters when designing efficient transport systems.~~~避免讓無人機長途旅行。
+Remote connectors can be a convenient way to move resources around a crowded factory interior.~~~遠程連接器是在擁擠的廠房內部移動資源的便捷方法。
+Don't expand to new resource deposits without fully utilizing your current ones. Bottlenecks in your system can cause major revenue deficiencies, don't let resources get backed up anywhere.~~~在沒有充分利用當前資源的情況下，請勿擴展到新的資源庫。 系統中的瓶頸會導致嚴重的收入缺陷。 不要讓資源在任何地方備份。
+MISSION~~~任務
+OK~~~好
+Exit without saving, are you sure?~~~不保存就退出，確定嗎？
+Goal:~~~目標：
+Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.~~~繼續玩可獲得大獎章，或返回到場景選擇螢幕。
+CONTINUE PLAYING~~~繼續玩
+SAVE AND EXIT~~~保存並退出
+Weight Output: 25,000~~~重量輸出：30,000
+Weight Goal:~~~貨物重量目標：
+Game by:~~~遊戲製作人：
+Sean Cutino and Brad Hall~~~肖恩·庫蒂諾（Sean Cutino）和布拉德·霍爾（Brad Hall）
+Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".~~~設置無人機將給予該站點相對於其他站點的優先度。`如果站點關閉，則可以將無人機設置為根本不將箱子放在此處。
+droneBayPowerHover~~~需要電才能正常工作.`每月費用：320美元`容量使用：0
+trainPowerHover~~~需要電力才能正常工作。`月費：$ 4,000`容量使用：5
+Revenue~~~收入
+3-month Weight Output Goal:~~~3個月貨物重量目標：
+3-month weight output record of:~~~3個月貨物重量輸出
+MISSION OBJECTIVE~~~任務目標
+SAVED~~~遊戲已保存
+Simple Fields~~~斯普利特山谷
+Simple Fields Description~~~在乾燥的河床周圍工作，河床貫穿整個景觀，將其分成兩半
+Big Cliffs~~~落磯山
+Big Cliffs Description~~~蜿蜒的河流和湖泊環繞的大綠色懸崖為廠房基地提供了完美的背景
+Open Space~~~開放空間
+Open Space Description~~~簡單，平坦，開放的沙漠為您不受限制的創造力提供了肥沃的土地。
+Big Islands~~~冰川帶
+Big Islands Description~~~冰川從融化的冰原上裂開，富含礦物質，是您賴以生存的漂浮平台。
+Level_Craters~~~火山口
+Level_CratersDescription~~~數千年來，這個領域曾轟動著巨大的小行星，每次都將有價值的礦石沉積到地下。
+Level_CoastLine~~~海岸線
+Level_CoastLineDescription~~~在這個鬱鬱蔥蔥的森林星球上的海洋邊緣上建立，不要忘記石油島。
+Level_BigLake~~~綠洲湖
+Level_BigLakeDescription~~~在沙漠的中間，有一個美麗的湖，周圍環繞著棕櫚樹和樹葉。
+Level_IslandHopper~~~熱帶島嶼
+Level_IslandHopperDescription~~~在這些小小的熱帶島嶼之間連接許多軌道。
+Level_CenterMesa~~~中山
+Level_CenterMesaDescription~~~一座大丘陵山是許多資源礦床的基地，圍繞它而建。
+Level_Lakes~~~冰緣
+Level_LakesDescription~~~從這片困難的土地上的冰層邊緣帶走資源。
+Level_CompactCanyon~~~緊湊峽谷
+Level_CompactCanyonDescription~~~一個微小的峽谷包含了這個熱火山星球上的所有建築物。 您需要弄清楚如何將所有內容打包到這個小空間中。
+Level_BigCliffs_ResourceClusters~~~雪林
+Level_BigCliffs_ResourceClustersDescription~~~在這個白雪皚皚的森林財產中，資源大量聚集。
+Level_OpenSpaceRocketsOnly~~~火箭大師
+Level_OpenSpaceRocketsOnlyDescription~~~從已經在這個奇怪的綠色浮渣星球上解鎖的火箭開始。
+Level_BigLake_CenterResources~~~資源豐富
+Level_BigLake_CenterResourcesDescription~~~每筆存款都位於此屬性中心的一個島上。
+Per Month~~~每月
+PLAY~~~進行遊戲
+CREDITS~~~開發者
+QUIT~~~離開遊戲
+NEW COLONY~~~新殖民地
+LOAD COLONY~~~載入殖民地
+START~~~開始
+CANCEL~~~取消
+Starter Mode:~~~入門模式：
+Drone population.~~~無人機數量。
+CURRENT TIME:~~~目前時間：
+MISSION:~~~任務：
+LOAD COLONY:~~~讀取殖民地:
+IN PROGRESS~~~進行中
+LOAD~~~讀取
+DELETE~~~刪除
+NAME YOUR COLONY:~~~命名您的殖民地：
+DEMOLISH~~~拆除
+GREENHOUSE ENABLED~~~啟用溫室
+CONNECTOR COLOR:~~~連接器顏色：
+Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.~~~設置要連接到的遠程連接器（如果此容器的廠房中存在）。``每個廠房只能將一個容器設置為給定顏色。
+Starter mode provides you with the basics prebuilt. If you are unfamiliar with the game, starter mode is essential.~~~入門模式為您提供了預建的基礎知識。 如果您不熟悉遊戲，則入門模式至關重要。
+Clawtrack pitstops are best utilized in a relay system as shown. Be careful with them, as they can massively downgrade your truck loading efficiency if used improperly.~~~如圖所示，吊爪軌道卡車系統最好與中繼系統一起使用。 請當心，因為如果使用不當，它們可能會大大降低卡車的裝載效率。
+Edge panning:~~~邊緣推動：
+Can be set to skip a certain number of claws, letting them pass by unaffected.~~~可以設置為跳過許多吊爪，讓它們通過而不受影響。
+COST:~~~花費：
+SELL:~~~銷售：
+CLAIM~~~獲取
+SUCCESS!~~~成功！
+SuccessMessage~~~繼續玩遊戲可獲得大師大獎，或返回到場景選擇螢幕。
+MedallionSuccessMessage~~~得到了大獎章大師！繼續播放或返回到場景選擇螢幕。
+PLANET SELECT~~~星體選擇
+Very Easy Mode:~~~簡單模式
+Reduces taxes by 90%~~~減稅100％
