@@ -1,38 +1,70 @@
-﻿BUY~~~KAUFEN
-TRANSFER-TUBE~~~TRANSFERRÖHRCHEN
+# STRUKTURE
+TRANSFER-TUBE~~~TRANSFEHRROHR
+TRANSFER-TUBE G2G~~~TRANSFEHRROHR
+Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~Überträgt Ressourcen vom Bodenanschluss einer Struktur in den Bodenanschluss einer anderen Struktur.
+TRANSFER-TUBE G2T~~~TRANSFEHRROHR
+TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~Überträgt Ressourcen vom Bodenhafen einer Struktur auf ein Förderband oder einen Minenwagen.
+TRANSFER-TUBE T2G~~~TRANSFEHRROHR
+TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~Überträgt Ressourcen von einem Förderer oder Minenwagen in das Erdloch einer Struktur.
+
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~Holds up to X cratesworth of a singular resource type. Allows the transfer of resources in and out via transfer-tube.
+FACTORY~~~FABRIK
+This will destroy the factory and all of its contents, are you sure?~~~Das wird die Fabrik und ihren gesamten Inhalt zerstören, sind Sie sicher?
+TRANSFER-CLAW~~~KLAUE
+Transfers Crates from one Conveyor to another Conveyor.~~~Überträgt Kisten von einem Förderer auf einen anderen Förderer. Muss in einer Fabrik gebaut werden.
+POWER POLE~~~STROMMAST
+CRATE MAKER~~~KISTENHERSTELLER
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~Konstruiert und gibt Kisten auf ein Förderband oder eine Entladestation aus. Verfügt über optionale Eingabeports, über die Kisten während der Erstellung gefüllt werden können. Kann drinnen oder draußen gebaut werden. (Begrenzt auf die Produktion von 30 Kisten, die verkauft oder zerstört werden müssen, bevor weitere Kisten hergestellt werden können.)
+
+CONTAINER~~~CONTAINER
 POWER POLE~~~STROMMAST
 LOAD STATION~~~LADESTATION
 UNLOAD STATION~~~STATION ENTLADEN
 CLAWTRAIN TRACK~~~KLAUENSCHIENE
+ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~Befiehlt der vorbeifahrenden Klaue, eine Kiste an der darunter liegenden Lade- / Entladestation aufzunehmen.
+CLAWTRAIN PICK-UP STOP~~~Klauenabholstation
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~Commands the passing claw to attempt to drop-off its currently held crate onto the load/unload station under it.
+CLAWTRAIN DROP-OFF STOP~~~Klauenabsenkungsstopp
+CLAWTRAIN TRUCK LOADER~~~KLAUEN-LKW-LADER
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~Ist auf einer Straße Boxenstopp gebaut. Befehle, die Klauen übergeben, um ihre aktuell gehaltenen Kisten auf den Lastwagen darunter abzulegen.
+CLAWTRAIN CRATE GATE~~~Klauenkistenblocker
+ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~Bildet ein Tor, das so eingestellt werden kann, dass der Durchgang eines Zuges blockiert wird, wenn die Mindest- oder Höchstschwellenanforderungen für beförderte Kisten nicht erfüllt sind.
+PASS REQUIREMENTS:~~~PASS-ANFORDERUNGEN:
+DESTROY ALL CRATES:~~~Zerstöre alle Kisten:
 TRAIN TRACK~~~BAHNGLEIS
 ROAD~~~STRASSE
-This will destroy the factory and all of its contents, are you sure?~~~Das wird die Fabrik und ihren gesamten Inhalt zerstören, sind Sie sicher?
-Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~Holds up to X cratesworth of a singular resource type. Allows the transfer of resources in and out via transfer-tube.
-Transfers Crates from one Conveyor to another Conveyor.~~~Überträgt Kisten von einem Förderer auf einen anderen Förderer. Muss in einer Fabrik gebaut werden.
-CRATE MAKER~~~KISTENHERSTELLER
-GREEN GRASS~~~GRÜNES GRAS
-NO~~~NEIN
-YES~~~JA
-GREEN~~~GRÜN
-RED~~~ROT
-DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Verbindet nur mit:##_conveyorImage
-Must unlock Water Works before unlocking farms~~~Muss Wasser entsperren, bevor Farmen entsperrt werden
-This will destroy the factory and all of its contents, are you sure?~~~Das wird die Fabrik und ihren gesamten Inhalt zerstören, sind Sie sicher?
-FACTORY~~~FABRIK
-POWER CONNECTED~~~STROM ANGESCHLOSSEN
-WATER CONNECTED~~~WASSER ANGESCHLOSSEN
-CONTAINER~~~CONTAINER
-ACCEPTED RESOURCE:~~~AKZEPTIERTE RESSOURCE:
-ACCEPTED RESOURCES:~~~AKZEPTIERTE RESSOURCEN:
-CONTAINS:~~~ENTHÄLT:
-DESTROY CONTENTS~~~INHALT ZERSTÖREN
-ANY~~~IRGENDEIN
-REMOTE CONNECTOR~~~VERBINDER
-REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~Stellt eine direkte Verbindung zu einem Container in derselben Fabrik her. Der Container muss auf eine passende Farbe eingestellt sein, um die Verbindung herzustellen. Nur ein Behälter pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
-TRANSFER-CLAW~~~KLAUE
 POWER STATION~~~KRAFTWERK
 POWER STATIONDESC~~~Erzeugt Elektrizität.
 POWER POLEDESC~~~Überträgt elektrische Energie von einem Kraftwerk zu den verschiedenen Strukturen, die es benötigen.
+REMOTE CONNECTOR~~~VERBINDER
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~Stellt eine direkte Verbindung zu einem Container in derselben Fabrik her. Der Container muss auf eine passende Farbe eingestellt sein, um die Verbindung herzustellen. Nur ein Behälter pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
+
+
+CONTAINS:~~~ENTHÄLT:
+GREEN GRASS~~~GRÜNES GRAS
+ANY~~~IRGENDEIN
+NO~~~NEIN
+YES~~~JA
+BUY~~~KAUFEN
+GREEN~~~GRÜN
+RED~~~ROT
+DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Verbindet nur mit:##_conveyorImage
+## Research 
+Must unlock Water Works before unlocking farms~~~Muss Wasser entsperren, bevor Farmen entsperrt werden
+RESEARCH BAY~~~FORSCHUNGSBUCHT
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~Generiert Forschungspunkte, die für das Upgrades-Menü ausgegeben werden können, um verschiedene Koloniefunktionen zu verbessern oder neue Strukturen freizuschalten. Erhält eine Ressource als Eingabe und gibt Forschungspunkte zurück, die dem Dollarwert der angegebenen Ressource entsprechen. Forschungspunkte können beansprucht werden, nachdem 20 Kisten bearbeitet wurden.
+
+POWER CONNECTED~~~STROM ANGESCHLOSSEN
+WATER CONNECTED~~~WASSER ANGESCHLOSSEN
+
+ACCEPTED RESOURCE:~~~AKZEPTIERTE RESSOURCE:
+ACCEPTED RESOURCES:~~~AKZEPTIERTE RESSOURCEN:
+
+DESTROY CONTENTS~~~INHALT ZERSTÖREN
+
+
+
+
 ACCEPTED CONTENTS:~~~AKZEPTIERTER INHALT:
 ALL~~~ALLE
 NONE~~~KEINER
@@ -46,30 +78,19 @@ MEDIUM~~~MITTEL
 LOW~~~NIEDRIG
 OFF~~~AUS
 CONTENTS~~~INHALT
-CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~Konstruiert und gibt Kisten auf ein Förderband oder eine Entladestation aus. Verfügt über optionale Eingabeports, über die Kisten während der Erstellung gefüllt werden können. Kann drinnen oder draußen gebaut werden. (Begrenzt auf die Produktion von 30 Kisten, die verkauft oder zerstört werden müssen, bevor weitere Kisten hergestellt werden können.)
-ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~Befiehlt der vorbeifahrenden Klaue, eine Kiste an der darunter liegenden Lade- / Entladestation aufzunehmen.
-CLAWTRAIN PICK-UP STOP~~~Klauenabholstation
-ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~Commands the passing claw to attempt to drop-off its currently held crate onto the load/unload station under it.
-CLAWTRAIN DROP-OFF STOP~~~Klauenabsenkungsstopp
-CLAWTRAIN TRUCK LOADER~~~KLAUEN-LKW-LADER
-ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~Ist auf einer Straße Boxenstopp gebaut. Befehle, die Klauen übergeben, um ihre aktuell gehaltenen Kisten auf den Lastwagen darunter abzulegen.
-CLAWTRAIN CRATE GATE~~~Klauenkistenblocker
-ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~Bildet ein Tor, das so eingestellt werden kann, dass der Durchgang eines Zuges blockiert wird, wenn die Mindest- oder Höchstschwellenanforderungen für beförderte Kisten nicht erfüllt sind.
-PASS REQUIREMENTS:~~~PASS-ANFORDERUNGEN:
+SECONDS~~~Sekunden
+6 PER~~~ 
+1 PER~~~ 
+
 MAXIMUM CRATES~~~MAXIMALE KÄSTEN
 MINIMUM CRATES~~~MINDESTKÄSTEN
 NEVER ALLOW~~~NIE ERLAUBEN
-TRANSFER-TUBE G2G~~~Transferröhrchen
-Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~Überträgt Ressourcen vom Bodenanschluss einer Struktur in den Bodenanschluss einer anderen Struktur.
-TRANSFER-TUBE G2T~~~Transferröhrchen
-TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~Überträgt Ressourcen vom Bodenhafen einer Struktur auf ein Förderband oder einen Minenwagen.
-TRANSFER-TUBE T2G~~~Transferröhrchen
-TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~Überträgt Ressourcen von einem Förderer oder Minenwagen in das Erdloch einer Struktur.
+
 LOAD-STATION~~~LADESTATION
 LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~Hier können Drohnen so eingestellt werden, dass sie Kisten absetzen. Verbindet sich auch mit Klauenstopps.
 UNLOAD-STATION~~~ENTLADESTATION
 UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~Hier können Drohnen aufgestellt werden, um Kisten aufzunehmen. Verbindet sich auch mit Klauenanschlägen. (Leere Kisten, die das Ende erreichen, werden zerstört)
-DESTROY ALL CRATES:~~~Zerstöre alle Kisten:
+
 ROAD PITSTOP~~~LKW-STATION
 ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~Lastwagen halten hier an und warten darauf, mit Kisten mit zu verkaufenden Ressourcen beladen zu werden. Drohnen oder Krallen können so eingestellt werden, dass sie Kisten auf die Lastwagen werfen, die hier anhalten.
 TRAIN LOADING-SILO~~~Zugsilo
@@ -79,23 +100,22 @@ DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAY
 MINING RIG~~~BERGBAUMASCHINE
 MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~Gewinnt aus dem Boden Rohstoffe wie Kohleerz, Eisenerz und Golderz. Muss auf einer Rohstoffablagerung aufgebaut sein.
 CURRENTLY MINING:~~~Derzeitiger Bergbau:
-1 PER~~~ 
-SECONDS~~~Sekunden
+
+
 OIL DERRICK~~~ÖlBohrturm
 OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~Extrahiert Rohöl aus dem Boden. Muss auf einem Ölvorkommen gebaut werden. Verbraucht kabellos 1.000 US-Dollar pro Monat.
 CURRENTLY EXTRACTING:~~~Derzeit extrahieren:
 FARM PLATFORM~~~BAUERNHOFPLATTFORM
 FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~Dient als wachsende Plattform für Gras. Verbraucht kabellos 400 US-Dollar pro Monat.
 GRASS TYPE~~~GRASART
-6 PER~~~ 
+
 REFINER~~~Raffinerie
 REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~Wandelt Ressourcen von ihrer unraffinierten Form in ihre reine Form um. Muss in einer Fabrik gebaut werden. Empfängt Kisten als Eingabe von einer Ladestation, einem Förderer oder einem Kistenhersteller.
 CURRENTLY REFINING:~~~AKTUELLE VEREDELUNG:
 COMBINER~~~Kombinierer
 COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~Kombiniert zwei Ressourcen und erstellt dabei neue Ressourcen. Nimmt Ressourcen von den Nebenhäfen auf; gibt das Endprodukt an den vorderen Anschluss aus. Muss in einer Fabrik gebaut werden.
 CURRENTLY COMBINING:~~~AKTUELL KOMBINIERT:
-RESEARCH BAY~~~FORSCHUNGSBUCHT
-RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~Generiert Forschungspunkte, die für das Upgrades-Menü ausgegeben werden können, um verschiedene Koloniefunktionen zu verbessern oder neue Strukturen freizuschalten. Erhält eine Ressource als Eingabe und gibt Forschungspunkte zurück, die dem Dollarwert der angegebenen Ressource entsprechen. Forschungspunkte können beansprucht werden, nachdem 20 Kisten bearbeitet wurden.
+
 PROCESSING CONTENTS INTO:~~~INHALT VERARBEITEN ZU:
 RESEARCH POINTS~~~FORSCHUNGSPUNKTE
 MINETRACK~~~Wagenbahn
