@@ -1,346 +1,277 @@
-﻿BUY~~~KAUFEN
-TRANSFER-TUBE~~~TRANSFERRÖHRCHEN
-POWER POLE~~~STROMMAST
-LOAD STATION~~~LADESTATION
-UNLOAD STATION~~~STATION ENTLADEN
-CLAWTRAIN TRACK~~~KLAUENSCHIENE
-TRAIN TRACK~~~BAHNGLEIS
-ROAD~~~STRASSE
-This will destroy the factory and all of its contents, are you sure?~~~Das wird die Fabrik und ihren gesamten Inhalt zerstören, sind Sie sicher?
-Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~Holds up to X cratesworth of a singular resource type. Allows the transfer of resources in and out via transfer-tube.
-Transfers Crates from one Conveyor to another Conveyor.~~~Überträgt Kisten von einem Förderer auf einen anderen Förderer. Muss in einer Fabrik gebaut werden.
-CRATE MAKER~~~KISTENHERSTELLER
-GREEN GRASS~~~GRÜNES GRAS
-NO~~~NEIN
 YES~~~JA
+NO~~~NEIN
+OK~~~OK
+OFF~~~AUS
+ON~~~EIN
+ALL~~~ALLE
+ANY~~~IRGENDEIN
+NONE~~~KEINER
+MISSION~~~MISSION
+Goal:~~~Ziele:
+CLAIM~~~Anspruch
+SELL:~~~VERKAUFEN:
+BUY~~~KAUFEN
+ADD~~~hinzufügen
+Holding:~~~Halten:
+REMOVE~~~entfernen
+SECONDS~~~Sekunden
 GREEN~~~GRÜN
 RED~~~ROT
-DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Verbindet nur mit:##_conveyorImage
-Must unlock Water Works before unlocking farms~~~Muss Wasser entsperren, bevor Farmen entsperrt werden
-This will destroy the factory and all of its contents, are you sure?~~~Das wird die Fabrik und ihren gesamten Inhalt zerstören, sind Sie sicher?
-FACTORY~~~FABRIK
-POWER CONNECTED~~~STROM ANGESCHLOSSEN
-WATER CONNECTED~~~WASSER ANGESCHLOSSEN
-CONTAINER~~~CONTAINER
-ACCEPTED RESOURCE:~~~AKZEPTIERTE RESSOURCE:
-ACCEPTED RESOURCES:~~~AKZEPTIERTE RESSOURCEN:
-CONTAINS:~~~ENTHÄLT:
-DESTROY CONTENTS~~~INHALT ZERSTÖREN
-ANY~~~IRGENDEIN
-REMOTE CONNECTOR~~~VERBINDER
-REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~Stellt eine direkte Verbindung zu einem Container in derselben Fabrik her. Der Container muss auf eine passende Farbe eingestellt sein, um die Verbindung herzustellen. Nur ein Behälter pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
-TRANSFER-CLAW~~~KLAUE
-POWER STATION~~~KRAFTWERK
-POWER STATIONDESC~~~Erzeugt Elektrizität.
-POWER POLEDESC~~~Überträgt elektrische Energie von einem Kraftwerk zu den verschiedenen Strukturen, die es benötigen.
-ACCEPTED CONTENTS:~~~AKZEPTIERTER INHALT:
-ALL~~~ALLE
-NONE~~~KEINER
+UNLOCK~~~FREISCHALTEN
+NEVER ALLOW~~~NIE ERLAUBEN
 SKIP EVERY:~~~Rate überspringen:
-OFF~~~AUS
-ON~~~AUF
-DRONE PRIORITY:~~~DROHNEN-PRIORITÄT:
+1 PER~~~ 
+6 PER~~~ 
 ACTIVE CRATES:~~~Aktive Kisten:
-HIGH~~~HOCH
-MEDIUM~~~MITTEL
-LOW~~~NIEDRIG
-OFF~~~AUS
+ROCKET CONTENTS:~~~RAKETEN INHALT:
+PAD CONTENTS:~~~BASIS INHALT:
+CAPACITY~~~KAPAZITÄT
+CONTAINS:~~~ENTHÄLT:
 CONTENTS~~~INHALT
-CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~Konstruiert und gibt Kisten auf ein Förderband oder eine Entladestation aus. Verfügt über optionale Eingabeports, über die Kisten während der Erstellung gefüllt werden können. Kann drinnen oder draußen gebaut werden. (Begrenzt auf die Produktion von 30 Kisten, die verkauft oder zerstört werden müssen, bevor weitere Kisten hergestellt werden können.)
-ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~Befiehlt der vorbeifahrenden Klaue, eine Kiste an der darunter liegenden Lade- / Entladestation aufzunehmen.
-CLAWTRAIN PICK-UP STOP~~~Klauenabholstation
-ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~Commands the passing claw to attempt to drop-off its currently held crate onto the load/unload station under it.
-CLAWTRAIN DROP-OFF STOP~~~Klauenabsenkungsstopp
-CLAWTRAIN TRUCK LOADER~~~KLAUEN-LKW-LADER
-ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~Ist auf einer Straße Boxenstopp gebaut. Befehle, die Klauen übergeben, um ihre aktuell gehaltenen Kisten auf den Lastwagen darunter abzulegen.
+COST:~~~KOSTEN:
+COST~~~KOSTEN
+FINANCES~~~FINANZEN
+LOW~~~NIEDRIG
+MEDIUM~~~MITTEL
+HIGH~~~HOCH
+GRASS TYPE~~~GRASART
+CARGO ROCKET~~~RAKETE
+CARTS~~~Waggon
+CLAWS~~~Krallen
 CLAWTRAIN CRATE GATE~~~Klauenkistenblocker
 ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~Bildet ein Tor, das so eingestellt werden kann, dass der Durchgang eines Zuges blockiert wird, wenn die Mindest- oder Höchstschwellenanforderungen für beförderte Kisten nicht erfüllt sind.
-PASS REQUIREMENTS:~~~PASS-ANFORDERUNGEN:
-MAXIMUM CRATES~~~MAXIMALE KÄSTEN
-MINIMUM CRATES~~~MINDESTKÄSTEN
-NEVER ALLOW~~~NIE ERLAUBEN
-TRANSFER-TUBE G2G~~~Transferröhrchen
-Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~Überträgt Ressourcen vom Bodenanschluss einer Struktur in den Bodenanschluss einer anderen Struktur.
-TRANSFER-TUBE G2T~~~Transferröhrchen
-TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~Überträgt Ressourcen vom Bodenhafen einer Struktur auf ein Förderband oder einen Minenwagen.
-TRANSFER-TUBE T2G~~~Transferröhrchen
-TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~Überträgt Ressourcen von einem Förderer oder Minenwagen in das Erdloch einer Struktur.
-LOAD-STATION~~~LADESTATION
-LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~Hier können Drohnen so eingestellt werden, dass sie Kisten absetzen. Verbindet sich auch mit Klauenstopps.
-UNLOAD-STATION~~~ENTLADESTATION
-UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~Hier können Drohnen aufgestellt werden, um Kisten aufzunehmen. Verbindet sich auch mit Klauenanschlägen. (Leere Kisten, die das Ende erreichen, werden zerstört)
-DESTROY ALL CRATES:~~~Zerstöre alle Kisten:
-ROAD PITSTOP~~~LKW-STATION
-ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~Lastwagen halten hier an und warten darauf, mit Kisten mit zu verkaufenden Ressourcen beladen zu werden. Drohnen oder Krallen können so eingestellt werden, dass sie Kisten auf die Lastwagen werfen, die hier anhalten.
-TRAIN LOADING-SILO~~~Zugsilo
-TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~Überträgt Ressourcen aus dem Silo in vorbeifahrende Eisenbahnwaggons. Enthält 16 Kisten eines bestimmten Ressourcentyps.
-DRONE BAY~~~Drohnenschacht
-DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~Bietet kabellose Rechenleistung für 4 Drohnen.
-MINING RIG~~~BERGBAUMASCHINE
-MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~Gewinnt aus dem Boden Rohstoffe wie Kohleerz, Eisenerz und Golderz. Muss auf einer Rohstoffablagerung aufgebaut sein.
-CURRENTLY MINING:~~~Derzeitiger Bergbau:
-1 PER~~~ 
-SECONDS~~~Sekunden
-OIL DERRICK~~~ÖlBohrturm
-OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~Extrahiert Rohöl aus dem Boden. Muss auf einem Ölvorkommen gebaut werden. Verbraucht kabellos 1.000 US-Dollar pro Monat.
-CURRENTLY EXTRACTING:~~~Derzeit extrahieren:
-FARM PLATFORM~~~BAUERNHOFPLATTFORM
-FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~Dient als wachsende Plattform für Gras. Verbraucht kabellos 400 US-Dollar pro Monat.
-GRASS TYPE~~~GRASART
-6 PER~~~ 
-REFINER~~~Raffinerie
-REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~Wandelt Ressourcen von ihrer unraffinierten Form in ihre reine Form um. Muss in einer Fabrik gebaut werden. Empfängt Kisten als Eingabe von einer Ladestation, einem Förderer oder einem Kistenhersteller.
-CURRENTLY REFINING:~~~AKTUELLE VEREDELUNG:
+CLAWTRAIN DROP-OFF STOP~~~Klauenabsenkungsstopp
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~Commands the passing claw to attempt to drop-off its currently held crate onto the load/unload station under it.
+CLAWTRAIN PICK-UP STOP~~~Klauenabholstation
+ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~Befiehlt der vorbeifahrenden Klaue, eine Kiste an der darunter liegenden Lade- / Entladestation aufzunehmen.
+CLAWTRAIN TRACK~~~KLAUENSCHIENE
+CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~Dient als Gleis für einen einzelnen Krallenzug. Klauen, die das Ende der Spur in umgekehrter Richtung erreichen.
+CLAWTRAIN TRUCK LOADER~~~KLAUEN-LKW-LADER
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~Ist auf einer Straße Boxenstopp gebaut. Befehle, die Klauen übergeben, um ihre aktuell gehaltenen Kisten auf den Lastwagen darunter abzulegen.
 COMBINER~~~Kombinierer
 COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~Kombiniert zwei Ressourcen und erstellt dabei neue Ressourcen. Nimmt Ressourcen von den Nebenhäfen auf; gibt das Endprodukt an den vorderen Anschluss aus. Muss in einer Fabrik gebaut werden.
-CURRENTLY COMBINING:~~~AKTUELL KOMBINIERT:
-RESEARCH BAY~~~FORSCHUNGSBUCHT
-RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~Generiert Forschungspunkte, die für das Upgrades-Menü ausgegeben werden können, um verschiedene Koloniefunktionen zu verbessern oder neue Strukturen freizuschalten. Erhält eine Ressource als Eingabe und gibt Forschungspunkte zurück, die dem Dollarwert der angegebenen Ressource entsprechen. Forschungspunkte können beansprucht werden, nachdem 20 Kisten bearbeitet wurden.
-PROCESSING CONTENTS INTO:~~~INHALT VERARBEITEN ZU:
-RESEARCH POINTS~~~FORSCHUNGSPUNKTE
-MINETRACK~~~Wagenbahn
-MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~Dient als Gleis für einen einzelnen Wagenzug. Karren, die das Ende einer Spur erreichen, kehren ihre Richtung um. Jeder Wagen kann 4 Ressourcen aufnehmen.
-MINECARTSMOVETITLE~~~Wagenbahn
-MINECARTRAMPTITLE~~~Wagen
-CAPACITY~~~KAPAZITÄT
-CARTS~~~Waggon
-ADD CART~~~Waggon hinzufügen
-ADD~~~Hinzufügen
-REMOVE CART~~~Waggon entfernen
-REMOVE~~~entfernen
-CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~Dient als Gleis für einen einzelnen Krallenzug. Klauen, die das Ende der Spur in umgekehrter Richtung erreichen.
-CLAWS~~~Krallen
-ADD CLAWS~~~Krallen hinzufügen
-ADD~~~hinzufügen
-REMOVE CLAWS~~~Kralle entfernen
-REMOVE~~~entfernen
-WATER RESERVOIR~~~WASSER RESERVOIR
-COST~~~KOSTEN
-UNLOCK~~~FREISCHALTEN
-GREENHOUSE UNLOCK TITLE~~~GEWÄCHSHAUS FREISCHALTEN
-FARMING UNLOCK TITLE~~~LANDWIRTSCHAFT FREISCHALTEN
-WATERWORKS UNLOCK TITLE~~~WASSER FREISCHALTEN
-ROCKET UNLOCK TITLE~~~RAKETE FREISCHALTEN
-OIL DERRICK UNLOCK TITLE~~~ÖLBOHRTURM FREISCHALTEN
-FREIGHT TRAIN UNLOCK TITLE~~~ZUG FREISCHALTEN
-REFINER UNLOCK TITLE~~~RAFFINERIE / FABRIK FREISCHALTEN
-STEP CONVEYOR UNLOCK TITLE~~~FÖRDERER FREISCHALTEN
-REMOTE CONNECTOR UNLOCK TITLE~~~VERBINDER FREISCHALTEN
-COMBINER UNLOCK TITLE~~~KOMBINATOR FREISCHALTEN
-CLAWTRAIN CRATE GATE UNLOCK TITLE~~~KLAUENKISTENBLOCKER FREISCHALTEN
-CLAWTRAIN TRUCK LOADER UNLOCK TITLE~~~KLAUE-ZUG-LKW-LADER FREISCHALTEN
-CLAW TRAIN UNLOCK TITLE~~~KLAUE-ZUG FREISCHALTEN
-FREIGHT TRAIN~~~ZUG FREISCHALTEN
-FARMING~~~LANDWIRTSCHAFT FREISCHALTEN
-GREENHOUSE UNLOCK DESC~~~Beschleunige die Wachstumsgeschwindigkeit aller Farmen um 25%, ganz einfach mit dem Gewächshaus Modul.
-FARMING UNLOCK DESC~~~Baue auf einer Hydrokultur-Plattform verschiedene Gras Sorten an, um Ihrer Lieferkette landwirtschaftliche Ressourcen hinzuzufügen.
-WATERWORKS~~~WASSER
-WATERWORKS UNLOCK DESC~~~Verbessere die Fähigkeiten / Geschwindigkeit verschiedener Maschinen in deiner Kolonie, indem du sie an dein Wassersystem anschließt.
-CARGO ROCKET~~~RAKETE
-ROCKET UNLOCK DESC~~~Starte mit Kisten gefüllte Raketen, um alle Ressourcen auf dem galaktischen Markt zu verkaufen. Aufgrund der hohen Nachfrage außerhalb der Welt, gewähren die von Raketen verkauften Ressourcen einen Gewichts- / Einnahmenbonus von 30%.
-OIL DERRICK UNLOCK DESC~~~Pumpe diese wertvolle schwarze Flüssigkeit aus dem Boden, und baue schnellstmöglich diese Maschine.
-TRAIN UNLOCK DESC~~~Baue Züge durch die Kolonie, um alle Ressourcen auf höchst effiziente Weise zu verkaufen. Güterzüge erhalten keine Kisten, sondern Ressourcen über Silos. Diese Silos können über Waggons beladen werden.
-REFINER UNLOCK DESC~~~Verfeiner die leichten Erze mit dem Refiner in (schwerere) raffinierte Ressourcen. Baue auch eine Fabrik, in der der Refiner und viele andere Maschinen gebaut werden müssen. Der Refiner empfängt Kisten als Eingaben.
-STEP CONVEYOR UNLOCK DESC~~~Verteile mithilfe eines Fördersystems Kisten gleichmäßig und effizient auf Maschinen im Werk. Aber auch Förderklauen helfen das System zu verbessern, um zum Beispiel Kisten zwischen separaten Förderbändern zu bewegen. Verbindungsrohre können sogar mit vorbeifahrenden Kisten auf einem Förderband verbunden werden.
-REMOTE CONNECTOR UNLOCK DESC~~~Verwende dieses Bauteil, um eine Remoteverbindung mit einem Container von einem möglicherweise entfernten Standort in einer freigegebenen Fabrik herzustellen. Das Bauteil ist besonders praktisch, wenn es sich um große Kombinatorsysteme handelt.
-COMBINER UNLOCK DESC~~~Kombiniere verfeinerte Ressourcen zu (viel schwereren) kombinierten Ressourcen, die Fabrikmaschinen dazu einfach in Ihre Lieferkette integrieren. Anstatt Kisten aufzunehmen, gibt der Kombinierer Ressourcen über Verbindungsrohr / aus.
-CLAWTRAIN CRATE GATE UNLOCK DESC~~~Verwende dieses Modul, um einen Klauenzug daran zu hindern, einen bestimmten Streckenabschnitt zu durchqueren, bis er eine bestimmte Kistenschwelle erreicht oder überschritten hat.
-CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~Mit dieser speziellen Gleisstruktur können LKWs direkt mit Krallenbahnen beladen werden. Baue einfach eine direkt auf einer LKW-Station und verbinde die Klauenbahngleise.
-CLAW TRAIN UNLOCK DESC~~~Mit diesem umgekehrten Schienensystem aus Greifklauen können Sie Kisten effizient in Ihrer gesamten Kolonie transportieren. Wie Drohnen können auch Klauenzüge Kisten von Lade- / Entladestationen abgeben oder aufnehmen.
-WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~Pumpt Grundwasser in Rohre, die an verschiedene Bauwerke angeschlossen werden können. Verbraucht 2.000 US-Dollar pro Monat.
-ROAD ENTRY~~~STRASSENEINGANG
-ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~Dient als Einstiegspunkt für Lastwagen, die in Ihre Kolonie einfahren, um Kisten mit Ressourcen abzuholen. Muss in der Nähe anderer Straßentunnel gebaut werden, wenn bereits andere gebaut wurden.
-ROAD EXIT~~~AUSFAHRT
-ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~Dient als Ausgangspunkt für LKWs, die Ihre Kolonie verlassen. LKWs bezahlen für die gelieferten Kisten, sobald sie den Ausgangstunnel passieren.
-POWER STATION~~~KRAFTWERK
-POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~Erzeugt einfache Elektrizität.
-TRAIN TRACK ENTRY~~~ZUG EINTRITT
-TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~Dient als Einstiegspunkt für Züge, die in die Kolonie einfahren, um vorhandene Ressourcen zu kaufen. Muss in der Nähe anderer Eisenbahntunnel gebaut werden, falls bereits andere gebaut wurden.
-TRAIN TRACK EXIT~~~AUSFAHRT
-TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~Dient als Ausgangspunkt für Züge, die Ihre Kolonie verlassen, um ihre Ressourcen zu verkaufen. Züge bezahlen, für die gelieferten Ressourcen, sobald sie den Ausgangstunnel passieren.
-DRONE~~~DROHNE
-DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~Transportiert Kisten von Entladestationen zu Ladestationen oder LKWs an Straßenstationen. Angetrieben von einer Drohnenbucht.
-Holding:~~~Halten:
-DESTROY CRATE~~~ZERSTÖRE KISTEN
-ROCKET LAUNCHPAD~~~RAKETENSTATION
-ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~Dient als Start- und Landeplatz für Raketen. Empfängt Kisten über eine Ladestation und lädt sie in die gerade stationierte Rakete. Sobald die Rakete voll ist, wird sie mit den Kisten verschifft, die auf dem galaktischen Markt mit einem 30% igen Gewichts- / Einnahmebonus verkauft werden sollen. Verbraucht drahtlos 1,000 US-Dollar pro Monat.
-PAD CONTENTS:~~~BASIS INHALT:
-ROCKET CONTENTS:~~~RAKETEN INHALT:
-FACTORY~~~FABRIK
-FACTORYDESC~~~Bietet einen Innenraum, in dem bestimmte Maschinen gebaut werden können. Muss an die Stromversorgung angeschlossen werden, um die im Gehäuse befindlichen Maschinen mit Energie zu versorgen.
+CRATE MAKER~~~KISTENHERSTELLER
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~Konstruiert und gibt Kisten auf ein Förderband oder eine Entladestation aus. Verfügt über optionale Eingabeports, über die Kisten während der Erstellung gefüllt werden können. Kann drinnen oder draußen gebaut werden. (Begrenzt auf die Produktion von 30 Kisten, die verkauft oder zerstört werden müssen, bevor weitere Kisten hergestellt werden können.)
 DOORWAY~~~TÜRE
 DOORWAYDESC~~~Bietet einen Eingang zu einer Fabrik, die von Drohnen, Waggons oder Klauenzügen genutzt werden kann.
+DRONE BAY~~~Drohnenschacht
+DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~Bietet kabellose Rechenleistung für 4 Drohnen.
+DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Verbindet nur mit:##_conveyorImage
+DRONE~~~DROHNE
+DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~Transportiert Kisten von Entladestationen zu Ladestationen oder LKWs an Straßenstationen. Angetrieben von einer Drohnenbucht.
+FACTORY~~~FABRIK
+FACTORYDESC~~~Bietet einen Innenraum, in dem bestimmte Maschinen gebaut werden können. Muss an die Stromversorgung angeschlossen werden, um die im Gehäuse befindlichen Maschinen mit Energie zu versorgen.
+FARM PLATFORM~~~BAUERNHOFPLATTFORM
+FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~Dient als wachsende Plattform für Gras. Verbraucht kabellos 400 US-Dollar pro Monat.
+CONTAINER~~~CONTAINER
 SMALL CONTAINER~~~KLEINER BEHÄLTER
 SMALLCONTAINERDESC~~~Hält bis zu 40 einer Art von Ressource. Ermöglicht den Transfer von Ressourcen über Transfer-Tubes.
 LARGE CONTAINER~~~GROSSER BEHÄLTER
 LARGECONTAINERDESC~~~Hält bis zu 120 einer Art von Ressource. Ermöglicht den Transfer von Ressourcen über Transfer-Tubes.
 GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~Enthält Ressourcen eines einzelnen Typs. Ermöglicht den Transfer von Ressourcen per Transferrohr.
-WATER RESERVOIR~~~WASSER RESERVOIR
-WATER RESERVOIRDESC~~~Pumpt Grundwasser in Rohre, die an verschiedene Bauwerke angeschlossen werden können. Verbraucht 2.000 US-Dollar pro Monat.
-WATER PIPE~~~WASSERROHR
-WATER PIPEDESC~~~Leitet Wasser aus einem Wasserreservoir zu verschiedenen Strukturen.
 GREENHOUSE UPGRADE~~~GEWÄCHSHAUS-UPGRADE
 GREENHOUSE DESC~~~Ein Upgrade für die Farmplattform beschleunigt das Pflanzenwachstum um 25%.
+LOAD STATION~~~LADESTATION
+LOAD-STATION~~~LADESTATION
+LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~Hier können Drohnen so eingestellt werden, dass sie Kisten absetzen. Verbindet sich auch mit Klauenstopps.
+MINETRACK~~~Wagenbahn
+MINECARTRAMPTITLE~~~Wagenrampe
+MINECARTSMOVETITLE~~~Wagen S-kurve
+MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~Dient als Gleis für einen einzelnen Wagenzug. Karren, die das Ende einer Spur erreichen, kehren ihre Richtung um. Jeder Wagen kann 4 Ressourcen aufnehmen.
+MINING RIG~~~BERGBAUMASCHINE
+MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~Gewinnt aus dem Boden Rohstoffe wie Kohleerz, Eisenerz und Golderz. Muss auf einer Rohstoffablagerung aufgebaut sein.
+OIL DERRICK~~~ÖlBohrturm
+OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~Extrahiert Rohöl aus dem Boden. Muss auf einem Ölvorkommen gebaut werden. Verbraucht kabellos 1.000 US-Dollar pro Monat.
+POWER POLE~~~STROMMAST
+POWER POLEDESC~~~Überträgt elektrische Energie von einem Kraftwerk zu den verschiedenen Strukturen, die es benötigen.
+POWER STATION~~~KRAFTWERK
+POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~Erzeugt einfache Elektrizität.
+POWER STATIONDESC~~~Erzeugt Elektrizität für alle Strukturen. Verbinde diese mit Strommasten.
+REFINER~~~RAFFINERIE
+REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~Wandelt Ressourcen von ihrer unraffinierten Form in ihre reine Form um. Muss in einer Fabrik gebaut werden. Empfängt Kisten als Eingabe von einer Ladestation, einem Förderer oder einem Kistenhersteller.
+REMOTE CONNECTOR~~~VERBINDER
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~Stellt eine direkte Verbindung zu einem Container in derselben Fabrik her. Der Container muss auf eine passende Farbe eingestellt sein, um die Verbindung herzustellen. Nur ein Behälter pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
+RESEARCH BAY~~~FORSCHUNGSBUCHT
+researchBayFillBar~~~Forschungspunkte können in Anspruch genommen werden, sobald sich die Leiste bis zur blauen Kerbe füllt. ``Um bestimmte Technologien freizuschalten, muss nach bestimmten Ressourcentypen gesucht werden.
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~Generiert Forschungspunkte, die für das Upgrades-Menü ausgegeben werden können, um verschiedene Koloniefunktionen zu verbessern oder neue Strukturen freizuschalten. Erhält eine Ressource als Eingabe und gibt Forschungspunkte zurück, die dem Dollarwert der angegebenen Ressource entsprechen. Forschungspunkte können beansprucht werden, nachdem 20 Kisten bearbeitet wurden.
+ROAD ENTRY~~~STRASSENEINGANG
+ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~Dient als Einstiegspunkt für Lastwagen, die in Ihre Kolonie einfahren, um Kisten mit Ressourcen abzuholen. Muss in der Nähe anderer Straßentunnel gebaut werden, wenn bereits andere gebaut wurden.
+ROAD EXIT~~~AUSFAHRT
+ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~Dient als Ausgangspunkt für LKWs, die Ihre Kolonie verlassen. LKWs bezahlen für die gelieferten Kisten, sobald sie den Ausgangstunnel passieren.
+ROAD~~~STRASSE
+ROADDESC~~~Dient als Weg für Lastwagen, die durch Ihre Kolonie fahren, um Ihre Kisten mit Ressourcen zu kaufen.
+ROAD PITSTOP~~~LKW-STATION
+ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~Lastwagen halten hier an und warten darauf, mit Kisten mit zu verkaufenden Ressourcen beladen zu werden. Drohnen oder Krallen können so eingestellt werden, dass sie Kisten auf die Lastwagen werfen, die hier anhalten.
+ROCKET LAUNCHPAD~~~RAKETENSTATION
+ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~Dient als Start- und Landeplatz für Raketen. Empfängt Kisten über eine Ladestation und lädt sie in die gerade stationierte Rakete. Sobald die Rakete voll ist, wird sie mit den Kisten verschifft, die auf dem galaktischen Markt mit einem 30% igen Gewichts- / Einnahmebonus verkauft werden sollen. Verbraucht drahtlos 1,000 US-Dollar pro Monat.
 STEP CONVEYOR~~~FÖRDERER
 STEP CONVEYORDESC~~~Verschiebt die Kisten im Sekundentakt. Löst keine Bewegung aus, es sei denn, jede gehaltene Kiste hat eine Position, in der sie sich bewegen kann.
+TRAIN TRACK~~~BAHNGLEIS
+TRAIN TRACKDESC~~~Dient als Gleis für Züge, die durch Ihre Kolonie fahren, um Ihre Ressourcen zu kaufen.
+UNLOAD STATION~~~STATION ENTLADEN
+TRAIN UNLOCK DESC~~~Baue Züge durch die Kolonie, um alle Ressourcen auf höchst effiziente Weise zu verkaufen. Güterzüge erhalten keine Kisten, sondern Ressourcen über Silos. Diese Silos können über Waggons beladen werden.
+TRAIN TRACK ENTRY~~~ZUG EINTRITT
+TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~Dient als Einstiegspunkt für Züge, die in die Kolonie einfahren, um vorhandene Ressourcen zu kaufen. Muss in der Nähe anderer Eisenbahntunnel gebaut werden, falls bereits andere gebaut wurden.
+TRAIN LOADING-SILO~~~ZUGSILO
+TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~Überträgt Ressourcen aus dem Silo in vorbeifahrende Eisenbahnwaggons. Enthält 16 Kisten eines bestimmten Ressourcentyps.
+TRAIN TRACK EXIT~~~AUSFAHRT
+TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~Dient als Ausgangspunkt für Züge, die Ihre Kolonie verlassen, um ihre Ressourcen zu verkaufen. Züge bezahlen, für die gelieferten Ressourcen, sobald sie den Ausgangstunnel passieren.
+TRANSFER-CLAW~~~KLAUE
+Transfers Crates from one Conveyor to another Conveyor.~~~Überträgt Kisten von einem Förderer auf einen anderen Förderer. Muss in einer Fabrik gebaut werden.
+TRANFER-TUBE~~~TRANSFERROHR
+TRANSFER-TUBE~~~TRANSFERROHR
+TRANSFER-TUBE G2G~~~TRANSFERROHR
+Transfer-Tube G2GDESCTransfer-Tube G2GDESCTransfer-Tube G2GDESC~~~Überträgt Ressourcen vom Bodenanschluss einer Struktur in den Bodenanschluss einer anderen Struktur.
+TRANSFER-TUBE G2T~~~TRANSFERROHR
+TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~Überträgt Ressourcen vom Bodenhafen einer Struktur auf ein Förderband oder einen Minenwagen.
+TRANSFER-TUBE T2G~~~TRANSFERROHR
+TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~Überträgt Ressourcen von einem Förderer oder Minenwagen in das Erdloch einer Struktur.
+UNLOAD-STATION~~~ENTLADESTATION
+UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~Hier können Drohnen aufgestellt werden, um Kisten aufzunehmen. Verbindet sich auch mit Klauenanschlägen. (Leere Kisten, die das Ende erreichen, werden zerstört)
+WATER PIPE~~~WASSERROHR
+WATER PIPEDESC~~~Leitet Wasser aus einem Wasserreservoir zu verschiedenen Strukturen.
+WATER RESERVOIR~~~WASSER RESERVOIR
+WATER RESERVOIRDESC~~~Pumpt Grundwasser in Rohre, die an verschiedene Bauwerke angeschlossen werden können. Verbraucht 2.000 US-Dollar pro Monat.
+WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~Pumpt Grundwasser in Rohre, die an verschiedene Bauwerke angeschlossen werden können. Verbraucht 2.000 US-Dollar pro Monat.
+WATERWORKS~~~WASSER
+addClawHover~~~Füge diesem Zug eine weitere Klaue hinzu. `Kostet $ 2.000.
+addMinecartHover~~~Füge diesem Zug einen weiteren Wagen hinzu. `Kostet $ 2.500.
+clawTrainCrateGateHover~~~-Wenn Niemals erlauben aktiviert ist, kann kein Fahrzeug in Pfeilrichtung fahren.``- Wenn die Mindestanzahl an Boxen aktiviert ist, muss ein Fahrzeug mindestens die Mindestanzahl an Boxen enthalten, die passieren sollen.``- Wenn maximale Boxen aktiviert sind, muss ein Fahrzeug unter der maximalen Anzahl von Boxen verfügen, um durchzukommen.
+combinerPowerHover~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: 4.000 USD`Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine befindet.
+crateMakerPowerHover~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: $ 1.200` Kapazitätsverbrauch: 1 (wenn außen)`Der Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine oder die Maschine selbst befindet (wenn sie außen ist).
+Drone population.~~~Drohnenpopulation.
+droneBayPowerHover~~~Benötigt Strom, um zu funktionieren.`Monatliche Kosten: $ 320`Kapazitätsverbrauch: 0
+dronePopHover~~~Drohnenpopulation
+farmWaterHover~~~Benötigt Wasser, um zu funktionieren.`Kapazitätsgebrauch: 3
+miningRigPowerHover~~~Benötigt Strom zum Funktionieren.`Monatliche Kosten: $ 800`Kapazitätsverbrauch: 3
+MiningRigWaterHover~~~Wasseranschluss ermöglicht Fracking.`Fracking erhöht die Extraktionsgeschwindigkeit um 30 %.`Kapazitätsgebrauch: 3
+oilDerrickWaterHover~~~Wasseranschluss ermöglicht Fracking.`Fracking erhöht die Extraktionsgeschwindigkeit um 30 %.`Kapazitätsgebrauch: 3
+refinerPowerHover~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: $ 800`Power muss an die Fabrik angeschlossen werden
+removeClawHover~~~Entfernt / verkauft eine Klaue aus diesem Zug. `Verkauft für $ 2.000.
+removeMinecartHover~~~Entfernt / verkauft einen Wagen aus diesem Zug. `Verkauft für $ 2.500.
+RESEARCHBAYPOWERHOVER~~~Benötigt Strom, um zu funktionieren.`Monatliche Kosten: $ 200`Kapazitätsverbrauch: 2
+researchBayProcessingHover~~~Umwandlung der enthaltenen Ressourcen in Forschungspunkte im Laufe der Zeit. `Forschungswert entspricht dem Dollarwert.
+researchBayWaterHover~~~Wasseranschluss ermöglicht Innenwasserkühlung. `Wasserkühlung erhöht die Forschungsgeschwindigkeit um 10%.`Kapazitätsauslastung: 2
+researchPointHover~~~Forschungspunkte
+timeHover~~~Monat - Jahr
+trainPowerHover~~~Benötigt Strom zum Funktionieren.`Monatliche Kosten: $ 4.000`Kapazitätsauslastung: 5
+RESEARCH POINTS~~~FORSCHUNGSPUNKTE
 RESEARCH UNLOCKS~~~FORSCHUNGSTECHNIK
-+10% highway Minecart speed:~~~+10% Waggongeschwindigkeit der oberen Ebene
-+20% highway Minecart speed:~~~+20% Waggongeschwindigkeit der oberen Ebene
-+30% highway Minecart speed:~~~+30% Waggongeschwindigkeit der oberen Ebene
-+40% highway Minecart speed:~~~+40% Waggongeschwindigkeit der oberen Ebene
-+50% highway Minecart speed:~~~+50% Waggongeschwindigkeit der oberen Ebene
+COMBINER UNLOCK TITLE~~~KOMBINATOR FREISCHALTEN
+COMBINER UNLOCK DESC~~~Kombiniere verfeinerte Ressourcen zu (viel schwereren) kombinierten Ressourcen, die Fabrikmaschinen dazu einfach in Ihre Lieferkette integrieren. Anstatt Kisten aufzunehmen, gibt der Kombinierer Ressourcen über Verbindungsrohr / aus.
+GREENHOUSE UNLOCK TITLE~~~GEWÄCHSHAUS FREISCHALTEN
+GREENHOUSE UNLOCK DESC~~~Beschleunige die Wachstumsgeschwindigkeit aller Farmen um 25%, ganz einfach mit dem Gewächshaus Modul.
+OIL DERRICK UNLOCK TITLE~~~ÖLBOHRTURM FREISCHALTEN
+OIL DERRICK UNLOCK DESC~~~Pumpe diese wertvolle schwarze Flüssigkeit aus dem Boden, und baue schnellstmöglich diese Maschine.
+REFINER UNLOCK TITLE~~~RAFFINERIE / FABRIK FREISCHALTEN
+REFINER UNLOCK DESC~~~Verfeiner die leichten Erze mit dem Refiner in (schwerere) raffinierte Ressourcen. Baue auch eine Fabrik, in der der Refiner und viele andere Maschinen gebaut werden müssen. Der Refiner empfängt Kisten als Eingaben.
+REMOTE CONNECTOR UNLOCK TITLE~~~VERBINDER FREISCHALTEN
+REMOTE CONNECTOR UNLOCK DESC~~~Verwende dieses Bauteil, um eine Remoteverbindung mit einem Container von einem möglicherweise entfernten Standort in einer freigegebenen Fabrik herzustellen. Das Bauteil ist besonders praktisch, wenn es sich um große Kombinatorsysteme handelt.
+ROCKET UNLOCK TITLE~~~RAKETE FREISCHALTEN
+ROCKET UNLOCK DESC~~~Starte mit Kisten gefüllte Raketen, um alle Ressourcen auf dem galaktischen Markt zu verkaufen. Aufgrund der hohen Nachfrage außerhalb der Welt, gewähren die von Raketen verkauften Ressourcen einen Gewichts- / Einnahmenbonus von 30%.
+STEP CONVEYOR UNLOCK TITLE~~~FÖRDERER FREISCHALTEN
+STEP CONVEYOR UNLOCK DESC~~~Verteile mithilfe eines Fördersystems Kisten gleichmäßig und effizient auf Maschinen im Werk. Aber auch Förderklauen helfen das System zu verbessern, um zum Beispiel Kisten zwischen separaten Förderbändern zu bewegen. Verbindungsrohre können sogar mit vorbeifahrenden Kisten auf einem Förderband verbunden werden.
+WATERWORKS UNLOCK TITLE~~~WASSER FREISCHALTEN
+WATERWORKS UNLOCK DESC~~~Verbessere die Fähigkeiten / Geschwindigkeit verschiedener Maschinen in deiner Kolonie, indem du sie an dein Wassersystem anschließt.
+CLAWTRAIN CRATE GATE UNLOCK TITLE~~~KLAUENKISTENBLOCKER FREISCHALTEN
+CLAWTRAIN CRATE GATE UNLOCK DESC~~~Verwende dieses Modul, um einen Klauenzug daran zu hindern, einen bestimmten Streckenabschnitt zu durchqueren, bis er eine bestimmte Kistenschwelle erreicht oder überschritten hat.
+CLAWTRAIN TRUCK LOADER UNLOCK TITLE~~~KLAUE-ZUG-LKW-LADER FREISCHALTEN
+CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~Mit dieser speziellen Gleisstruktur können LKWs direkt mit Krallenbahnen beladen werden. Baue einfach eine direkt auf einer LKW-Station und verbinde die Klauenbahngleise.
+CLAW TRAIN UNLOCK TITLE~~~KLAUE-ZUG FREISCHALTEN
+CLAW TRAIN UNLOCK DESC~~~Mit diesem umgekehrten Schienensystem aus Greifklauen können Sie Kisten effizient in Ihrer gesamten Kolonie transportieren. Wie Drohnen können auch Klauenzüge Kisten von Lade- / Entladestationen abgeben oder aufnehmen.
+FREIGHT TRAIN UNLOCK TITLE~~~ZUG FREISCHALTEN
+FREIGHT TRAIN~~~ZUG FREISCHALTEN
+FARMING UNLOCK TITLE~~~LANDWIRTSCHAFT FREISCHALTEN
+FARMING~~~LANDWIRTSCHAFT FREISCHALTEN
+FARMING UNLOCK DESC~~~Baue auf einer Hydrokultur-Plattform verschiedene Gras Sorten an, um Ihrer Lieferkette landwirtschaftliche Ressourcen hinzuzufügen.
+Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.~~~Aufgrund der hohen Nachfrage aufgrund mangelnder Marktsättigung beginnen die meisten Ressourcen mit einem Einnahmenbonus, der mit jedem Verkauf der jeweiligen Ressource verbunden ist.``Dieser Bonus verschlechtert sich mit der Zeit, wenn Sie den Markt mit der angegebenen Ressource überfüllen. Der Nachfragebonus gilt auch für Forschungspunkte, die eine Ressource generiert.
+Can be set to skip a certain number of claws, letting them pass by unaffected.~~~Kann so eingestellt werden, dass eine bestimmte Anzahl von Klauen übersprungen wird, sodass sie unbeeinträchtigt vorbeikommen.
+Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.~~~Kann so eingestellt werden, dass eine bestimmte Anzahl von Kisten oder Waggons übersprungen wird, so dass sie unbeeinflusst vorbeikommen.
+Connecting water enables interior air conditioning.``Air conditioning lowers the monthly power costs of housed machines by X%.~~~Wasseranschluss ermöglicht die Klimatisierung des Innenraums. `Die Klimatisierung senkt die monatlichen Stromkosten von Maschinen in Wohnhäusern um 15%.` Kapazitätsauslastung: 10
+Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.~~~Spiele weiter, um ein Medaillon zu verdienen, oder kehre zum Bildschirm für die Szenarioauswahl zurück.
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~Holds up to X cratesworth of a singular resource type. Allows the transfer of resources in and out via transfer-tube.
+mineTrackHighway~~~Wagen bewegen sich schneller, wenn sie in der oberen Ebene fahren (Höhenstufe 2 oder 3)
+Must unlock Water Works before unlocking farms~~~Muss Wasser entsperren, bevor Farmen entsperrt werden
+Only X crates created by this crate maker can be active in your colony at a time.`If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.~~~Es können jeweils nur 30 von diesem Kistenbauer erstellte Kisten in Ihrer Kolonie aktiv sein. ``Wenn das Limit erreicht ist, unterbricht dieser Kistenbauer die Erstellung neuer Kisten, bis eine aktive Kiste verkauft oder zerstört wird.
+Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.~~~Energiekosten - Alle stromverbrauchenden Maschinen tragen zu Ihren monatlichen Energiekosten bei. ``Steuern - Die galaktische Regierung erhebt eine Ausgleichssteuer, die auf dem Gesamtgewinn basiert, der mit der Kolonie im Laufe der Zeit erzielt worden ist. (Jede Woche wird 2% Ihres Gesamtgewinns errechnet). Im Falle eines Einkommensdefizits wird die Steuer gesenkt, um sich anzupassen.
+Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.~~~Erwerbe diese Erweiterungen, um die Kapazität und Geschwindigkeit der aktuellen Infrastruktur zu verbessern.
+Remote connectors can be a convenient way to move resources around a crowded factory interior.~~~Tunnelverbinder können eine bequeme Möglichkeit sein, Ressourcen in einem überfüllten Werksinneren zu transportieren.
+Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.~~~Benötigt Strom zum Funktionieren. ``Der Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine befindet.
+Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: $ 1.200`Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine oder die Maschine selbst befindet (falls sie sich außerhalb befindet).
+Requires power to function.`Monthly costs: $X~~~Benötigt Strom zum Funktionieren.`Monatliche Kosten: $ X
+Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase~~~Ressourcenanforderung - Einige Freischaltungen setzen voraus, dass eine bestimmte Menge einer bestimmten Ressource in den Forschungsbuchten verarbeitet wurden.
+Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".~~~Legt die Priorität fest, die Drohnen diesem Boxenstopp im Verhältnis zu anderen geben. `Drohnen können so eingestellt werden, dass Kisten überhaupt nicht hierher gebracht werden, wenn sie auf " AUS " gesetzt sind.
+Sets the priority drones will give to this station relative to others.`Drone can be set to not bring crates here at all, if it's set to "OFF".~~~Legt die Priorität fest, die Drohnen dieser Station im Verhältnis zu anderen Drohnen zuweisen. `Drohnen können so eingestellt werden, dass Kisten überhaupt nicht hierher gebracht werden, wenn sie auf" AUS "gesetzt sind.
+Sets the priority drones will take from this station.`Drone can be set to not take crates from here at all, if it's set to "OFF".~~~Legt die Priorität fest, die Drohnen dieser Station geben. `Drohnen können so eingestellt werden, dass von hier überhaupt keine Kisten entnommen werden, wenn sie auf" OFF "gesetzt sind.
+Sets what resources will be accepted by trucks which stop here.~~~Legt fest, welche Ressourcen von LKWs akzeptiert werden, die hier anhalten.
+Sets what singular resource type will be allowed in.~~~Legt fest, welcher einzelne Ressourcentyp zulässig ist.
+Sets which crates will be moved, depending on what resources they hold.~~~Legt fest, welche Kisten verschoben werden, je nachdem, welche Ressourcen sie enthalten.
+Sets which remote connector to be connected to if any exist in this container's factory. Only one container per factory can be set to a given color.~~~Legt fest, mit welchem Anschluss verbunden werden soll, falls in der Fabrik dieses Containers welche vorhanden sind.``Nur ein Container pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
+Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.~~~Legt fest, mit welchem Anschluss verbunden werden soll, falls in der Fabrik dieses Containers welche vorhanden sind.``Nur ein Container pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
+Some housed machines require power to function.`Capacity use: 10~~~Einige in einem Gehäuse untergebrachte Maschinen benötigen Strom, um zu funktionieren. `Kapazitätsgebrauch: 10
+Starter mode provides you with the basics prebuilt. If you are unfamiliar with the game, starter mode is essential.~~~Der Startermodus bietet die vorgefertigten Basisgrundlagen. Wenn du mit dem Spiel nicht vertraut bist, ist der Startermodus ein prima Einstieg.
+The processes for making every potential resource.~~~Die Prozesse zur Herstellung jeder potenziellen Ressource.
+This will destroy the factory and all of its contents, are you sure?~~~Das wird die Fabrik und ihren gesamten Inhalt zerstören, sind Sie sicher?
+Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.~~~Gewichtsanforderung - Einige Freischaltungen müssen einen bestimmten Verkaufsrekord von 3 Monaten erreichen, um gekauft werden zu können.
 +10% Clawtrain speed~~~+10% Klauenzuggeschwindigkeit
 +20% Clawtrain speed~~~+20% Klauenzuggeschwindigkeit
 +30% Clawtrain speed~~~+30% Klauenzuggeschwindigkeit
 +40% Clawtrain speed~~~+40% Klauenzuggeschwindigkeit
 +50% Clawtrain speed~~~+50% Klauenzuggeschwindigkeit
-+10% Drone speed~~~+10% Drohnengeschwindigkeit
-+20% Drone speed~~~+20% Drohnengeschwindigkeit
-+30% Drone speed~~~+30% Drohnengeschwindigkeit
-+40% Drone speed~~~+40% Drohnengeschwindigkeit
-+50% Drone speed~~~+50% Drohnengeschwindigkeit
-+2 Max Minecarts per track~~~+2 maximale Waggon pro Gleis
-+4 Max Minecarts per track~~~+4 maximale Waggon pro Gleis
-+6 Max Minecarts per track~~~+6 maximale Waggon pro Gleis
-+8 Max Minecarts per track~~~+8 maximale Waggon pro Gleis
-+10 Max Minecarts per track~~~+10 maximale Waggon pro Gleis
++10% highway Minecart speed:~~~+10% Waggongeschwindigkeit der oberen Ebene
++20% highway Minecart speed:~~~+20% Waggongeschwindigkeit der oberen Ebene
++30% highway Minecart speed:~~~+30% Waggongeschwindigkeit der oberen Ebene
++40% highway Minecart speed:~~~+40% Waggongeschwindigkeit der oberen Ebene
++50% highway Minecart speed:~~~+50% Waggongeschwindigkeit der oberen Ebene
 +2 Max Clawtrains per track~~~+2 maximale Krallen pro Spur
 +4 Max Clawtrains per track~~~+4 maximale Krallen pro Spur
 +6 Max Clawtrains per track~~~+6 maximale Krallen pro Spur
 +8 Max Clawtrains per track~~~+8 maximale Krallen pro Spur
 +10 Max Clawtrains per track~~~+10 maximale Krallen pro Spur
-Train interval -5 sec~~~Zugintervall -5 Sekunden
-Train interval -10 sec~~~Zugintervall -10 Sekunden
-Train interval -15 sec~~~Zugintervall -15 Sekunden
-Train interval -20 sec~~~Zugintervall -20 Sekunden
-Train interval -25 sec~~~Zugintervall -25 Sekunden
++2 Max Minecarts per track~~~+2 maximale Waggon pro Gleis
++4 Max Minecarts per track~~~+4 maximale Waggon pro Gleis
++6 Max Minecarts per track~~~+6 maximale Waggon pro Gleis
++8 Max Minecarts per track~~~+8 maximale Waggon pro Gleis
++10 Max Minecarts per track~~~+10 maximale Waggon pro Gleis
++10% Drone speed~~~+10% Drohnengeschwindigkeit
++20% Drone speed~~~+20% Drohnengeschwindigkeit
++30% Drone speed~~~+30% Drohnengeschwindigkeit
++40% Drone speed~~~+40% Drohnengeschwindigkeit
++50% Drone speed~~~+50% Drohnengeschwindigkeit
 Truck interval -1.5 sec~~~Zugintervall -1.5 Sekunden
 Truck interval -3 sec~~~LKW-Intervall -3 Sekunden
 Truck interval -4.5 sec~~~LKW-Intervall -4.5 Sekunden
 Truck interval -6 sec~~~LKW-Intervall -6 Sekunden
 Truck interval -7.5 sec~~~LKW-Intervall -7.5 Sekunden
-FINANCES~~~FINANZEN
-Previous month's revenue:~~~Einnahmen des Vormonats:
-Previous 3 month's revenue:~~~Umsatz der letzten 3 Monate:
-Previous 6 month's revenue:~~~Umsatz der letzten 6 Monate:
-Previous month's power and taxes:~~~Leistung und Steuern des Vormonats:
-Previous 3 month's power and taxes:~~~Leistung und Steuern der letzten 3 Monate:
-Previous 6 month's power and taxes:~~~Leistung und Steuern der letzten 6 Monate:
-Record 3-month weight output:~~~Rekordgewicht von 3 Monaten:
-CURRENT MONTH:~~~AKTUELLER MONAT:
-Current month's power and taxes:~~~Strom und Steuern des laufenden Monats:
-Current month's revenue:~~~Einnahmen des laufenden Monats:
-Current 3-month weight output:~~~Aktuelle 3-Monats-Gewichtsausgabe:
-DEMAND BONUS~~~BONUS NACHFRAGEN
-WEIGHTS~~~GEWICHT
-WEIGHT PER 1 CRATESWORTH~~~GEWICHT PRO 1 KASTEN
-RECIPES~~~REZEPTE
-Recipe For:~~~Rezept für:
-IncompatibleCombination~~~Inkompatible Kombination
+Train interval -5 sec~~~Zugintervall -5 Sekunden
+Train interval -10 sec~~~Zugintervall -10 Sekunden
+Train interval -15 sec~~~Zugintervall -15 Sekunden
+Train interval -20 sec~~~Zugintervall -20 Sekunden
+Train interval -25 sec~~~Zugintervall -25 Sekunden
 TIPS~~~TIPPS
-Minecart tracks are great for transporting resources from distant mining rigs, try it out!~~~Waggongleise eignen sich hervorragend für den Transport von Ressourcen von entfernten Bergbaugeräten. Probiere es aus!
-MEDALLION~~~MEDAILLON
-MEDALLION:~~~MEDAILLON:
-MEDALLION DESC~~~Als sekundäres Ziel für jedes Szenario können Medaillions freigeschaltet werden, indem das monatliches Ziel für die Gewichtsausbeute erreicht wurde.
-MISSION OBJECTIVES~~~MISSIONSZIELE
-OPTIONS~~~OPTIONEN
-Edge Panning:~~~Kantenschub:
-DOF Tilt-shift:~~~Winziger Modus
-Camera friction:~~~Kameraneigungg:
-DOF Focus:~~~Fokus:
-Field of view:~~~Sichtfeld:
-Reset FOV:~~~Sichtfeld zurücksetzen:
-SOUND VOLUME:~~~LAUTSTÄRKE:
-SAVE~~~SPIEL SPEICHERN
-SAVE AND EXIT~~~SPEICHERN UND SCHLIESSEN
-EXIT~~~SCHLIESSEN
-TRAIN TRACKDESC~~~Dient als Gleis für Züge, die durch Ihre Kolonie fahren, um Ihre Ressourcen zu kaufen.
-ROADDESC~~~Dient als Weg für Lastwagen, die durch Ihre Kolonie fahren, um Ihre Kisten mit Ressourcen zu kaufen.
-[  ] to rotate.~~~[  ] rotieren.
-[  ] to untether.~~~[  ] zu lösen.
-[  ] to toggle turn.~~~[  ] umschalten drehen Typ.
-Due to high demand from lack of market saturation, most resources start with a revenue bonus attached to any sale of the given resource.``This bonus will degrade over time as you saturate the market with the given resource. Demand bonus also applies to research points a resource will generate.~~~Aufgrund der hohen Nachfrage aufgrund mangelnder Marktsättigung beginnen die meisten Ressourcen mit einem Einnahmenbonus, der mit jedem Verkauf der jeweiligen Ressource verbunden ist.``Dieser Bonus verschlechtert sich mit der Zeit, wenn Sie den Markt mit der angegebenen Ressource überfüllen. Der Nachfragebonus gilt auch für Forschungspunkte, die eine Ressource generiert.
-The processes for making every potential resource.~~~Die Prozesse zur Herstellung jeder potenziellen Ressource.
-Power costs - All electricity consuming machines contribute to your monthly power expenses``Taxes - The galactic government levies an equilibrium tax which is based on the total profit you've made with your colony over time (Each week charges 2% of your total profit). In the event of an income deficit, your tax will decrease to adjust.~~~Energiekosten - Alle stromverbrauchenden Maschinen tragen zu Ihren monatlichen Energiekosten bei. ``Steuern - Die galaktische Regierung erhebt eine Ausgleichssteuer, die auf dem Gesamtgewinn basiert, der mit der Kolonie im Laufe der Zeit erzielt worden ist. (Jede Woche wird 2% Ihres Gesamtgewinns errechnet). Im Falle eines Einkommensdefizits wird die Steuer gesenkt, um sich anzupassen.
-Weekly power costs:~~~Wöchentliche Stromkosten:
-Connecting water enables interior air conditioning.``Air conditioning lowers the monthly power costs of housed machines by X%.~~~Wasseranschluss ermöglicht die Klimatisierung des Innenraums. `Die Klimatisierung senkt die monatlichen Stromkosten von Maschinen in Wohnhäusern um 15%.` Kapazitätsauslastung: 10
-Some housed machines require power to function.`Capacity use: 10~~~Einige in einem Gehäuse untergebrachte Maschinen benötigen Strom, um zu funktionieren. `Kapazitätsgebrauch: 10
-Requires power to function.``Monthly costs: $X``Power must be connected to the factory housing this machine.~~~Benötigt Strom zum Funktionieren. ``Der Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine befindet.
-Requires power to function.`Monthly costs: $X`Power must be connected to the Factory housing this machine or the machine itself (if it's outside).~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: $ 1.200`Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine oder die Maschine selbst befindet (falls sie sich außerhalb befindet).
-Only X crates created by this crate maker can be active in your colony at a time.`If the limit is reached, this crate maker will pause the creation of new crates until an active crate is sold or destroyed.~~~Es können jeweils nur 30 von diesem Kistenbauer erstellte Kisten in Ihrer Kolonie aktiv sein. ``Wenn das Limit erreicht ist, unterbricht dieser Kistenbauer die Erstellung neuer Kisten, bis eine aktive Kiste verkauft oder zerstört wird.
-Can be set to skip a certain number of crates or minecarts, letting them pass by unaffected.~~~Kann so eingestellt werden, dass eine bestimmte Anzahl von Kisten oder Waggons übersprungen wird, so dass sie unbeeinflusst vorbeikommen.
-Sets which crates will be moved, depending on what resources they hold.~~~Legt fest, welche Kisten verschoben werden, je nachdem, welche Ressourcen sie enthalten.
-Monthly power costs:~~~Monatliche Stromkosten:
-Monthly tax costs:~~~Monatliche Steuerkosten:
-Sets what resources will be accepted by trucks which stop here.~~~Legt fest, welche Ressourcen von LKWs akzeptiert werden, die hier anhalten.
-Sets the priority drones will give to this station relative to others.`Drone can be set to not bring crates here at all, if it's set to "OFF".~~~Legt die Priorität fest, die Drohnen dieser Station im Verhältnis zu anderen Drohnen zuweisen. `Drohnen können so eingestellt werden, dass Kisten überhaupt nicht hierher gebracht werden, wenn sie auf" AUS "gesetzt sind.
-Sets the priority drones will take from this station.`Drone can be set to not take crates from here at all, if it's set to "OFF".~~~Legt die Priorität fest, die Drohnen dieser Station geben. `Drohnen können so eingestellt werden, dass von hier überhaupt keine Kisten entnommen werden, wenn sie auf" OFF "gesetzt sind.
-Sets which remote connector to be connected to if any exist in this container's factory. Only one container per factory can be set to a given color.~~~Legt fest, mit welchem Anschluss verbunden werden soll, falls in der Fabrik dieses Containers welche vorhanden sind.``Nur ein Container pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
-Sets what singular resource type will be allowed in.~~~Legt fest, welcher einzelne Ressourcentyp zulässig ist.
-Requires power to function.`Monthly costs: $X~~~Benötigt Strom zum Funktionieren.`Monatliche Kosten: $ X
-MiningRigWaterHover~~~Wasseranschluss ermöglicht Fracking.`Fracking erhöht die Extraktionsgeschwindigkeit um 30 %.`Kapazitätsgebrauch: 3
-oilDerrickWaterHover~~~Wasseranschluss ermöglicht Fracking.`Fracking erhöht die Extraktionsgeschwindigkeit um 30 %.`Kapazitätsgebrauch: 3
-RESEARCHBAYPOWERHOVER~~~Benötigt Strom, um zu funktionieren.`Monatliche Kosten: $ 200`Kapazitätsverbrauch: 2
-miningRigPowerHover~~~Benötigt Strom zum Funktionieren.`Monatliche Kosten: $ 800`Kapazitätsverbrauch: 3
-refinerPowerHover~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: $ 800`Power muss an die Fabrik angeschlossen werden
-crateMakerPowerHover~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: $ 1.200` Kapazitätsverbrauch: 1 (wenn außen)`Der Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine oder die Maschine selbst befindet (wenn sie außen ist).
-clawTrainCrateGateHover~~~-Wenn Niemals erlauben aktiviert ist, kann kein Fahrzeug in Pfeilrichtung fahren.``- Wenn die Mindestanzahl an Boxen aktiviert ist, muss ein Fahrzeug mindestens die Mindestanzahl an Boxen enthalten, die passieren sollen.``- Wenn maximale Boxen aktiviert sind, muss ein Fahrzeug unter der maximalen Anzahl von Boxen verfügen, um durchzukommen.
-researchBayWaterHover~~~Wasseranschluss ermöglicht Innenwasserkühlung. `Wasserkühlung erhöht die Forschungsgeschwindigkeit um 10%.`Kapazitätsauslastung: 2
-researchBayProcessingHover~~~Umwandlung der enthaltenen Ressourcen in Forschungspunkte im Laufe der Zeit. `Forschungswert entspricht dem Dollarwert.
-combinerPowerHover~~~Benötigt Strom zum Funktionieren. `Monatliche Kosten: 4.000 USD`Strom muss an die Fabrik angeschlossen werden, in der sich diese Maschine befindet.
-researchBayFillBar~~~Forschungspunkte können in Anspruch genommen werden, sobald sich die Leiste bis zur blauen Kerbe füllt. ``Um bestimmte Technologien freizuschalten, muss nach bestimmten Ressourcentypen gesucht werden.
-addMinecartHover~~~Füge diesem Zug einen weiteren Wagen hinzu. `Kostet $ 2.500.
-removeMinecartHover~~~Entfernt / verkauft einen Wagen aus diesem Zug. `Verkauft für $ 2.500.
-removeClawHover~~~Entfernt / verkauft eine Klaue aus diesem Zug. `Verkauft für $ 2.000.
-addClawHover~~~Füge diesem Zug eine weitere Klaue hinzu. `Kostet $ 2.000.
-farmWaterHover~~~Benötigt Wasser, um zu funktionieren.`Kapazitätsgebrauch: 3
-researchPointHover~~~Forschungspunkte
-timeHover~~~Monat - Jahr
-dronePopHover~~~Drohnenpopulation
-mineTrackHighway~~~Wagen bewegen sich schneller, wenn sie in der oberen Ebene fahren (Höhenstufe 2 oder 3)
-Purchase these enhancements to upgrade the capacity and speed of your current infrastructure.~~~Erwerbe diese Erweiterungen, um die Kapazität und Geschwindigkeit der aktuellen Infrastruktur zu verbessern.
-Resource Requirement - Some unlocks require you to have processed a certain amount of a specific resource in your research bays in order to purchase~~~Ressourcenanforderung - Einige Freischaltungen setzen voraus, dass eine bestimmte Menge einer bestimmten Ressource in den Forschungsbuchten verarbeitet wurden.
-Weight Requirement - Some unlocks require you to reach a certain 3-month weight output record in order to purchase.~~~Gewichtsanforderung - Einige Freischaltungen müssen einen bestimmten Verkaufsrekord von 3 Monaten erreichen, um gekauft werden zu können.
-TRANFER-TUBE~~~VERBINDUNGSROHR
 To add minecarts or clawtrains to a track: select the track you've built and press the "add" button to buy some.~~~So werden einem Gleis Wagen oder Klauenzüge hinzugefügt: Wähle dazu das Gleis aus, das gebaut wurde, und klicke dann auf die Schaltfläche "Hinzufügen", um einige zu kaufen.
 It's possible to transfer resources between a step conveyor and minetrack via this simple setup.~~~Über dieses einfache Setup können Ressourcen zwischen Förderer und Minetrack übertragen werden.
 Mouse-over a built structure and press [SPACEBAR] to duplicate the structure.~~~Fahre mit der Maus über eine erstellte Struktur und drücke die [LEERTASTE], um die Struktur zu duplizieren.
 Containers can be useful for storing resources.~~~Container können zum Speichern von Ressourcen hilfreich sein.
+Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.~~~Waggons können bis zu 4 Ressourcen aufnehmen. Dies macht sie ideal für den Transport von Ressourcen über große Entfernungen.
 Make use of research bays to unlock new structures and technology.~~~Nutze alle Forschungsfelder, um neue Strukturen und Technologien zu erschließen.
 An unload stations can be set up to destroy the crates which reach the end. It also automatically destroys any empty crates which reach the end~~~Eine Entladestation kann eingerichtet werden, um die Kisten zu zerstören, die das Ende erreichen. Es zerstört auch automatisch alle leeren Kisten, die das Ende erreichen
-Minecarts can hold up to 4 crates worth of resources, this makes them ideal for transporting resources long distances.~~~Waggons können bis zu 4 Ressourcen aufnehmen. Dies macht sie ideal für den Transport von Ressourcen über große Entfernungen.
 Transfer claws can be useful for connecting or splitting up step conveyor pathways.~~~Übergabeklauen können nützlich sein, um Stufenförderwege zu verbinden oder aufzuteilen.
 The downward nozzle of a transfer tube can only connect to a step-conveyor or minetrack.~~~Die nach unten gerichtete Düse eines Verbindungsrohrs kann nur mit einem Förderer oder einer Wagenbahn verbunden werden.
 Minecarts move faster on highway tracks, use hotkeys 1,2,3 to switch track heights in build mode.~~~Wagen bewegen sich schneller auf den höheren Ebenen, sogenannte Autobahnstrecken. Verwende die Hotkeys [1], [2], [3], um die Streckenhöhe im Bau-Modus zu ändern.
+Minecart tracks are great for transporting resources from distant mining rigs, try it out!~~~Waggongleise eignen sich hervorragend für den Transport von Ressourcen von entfernten Bergbaugeräten. Probiere es aus!
 Hold [TAB] to see inside all of your factories at the same time.~~~Halte die [TAB] -Taste gedrückt, um in alle Fabriken gleichzeitig zu sehen.
 Avoid sending your drones on long journeys, travel-time matters when designing efficient transport systems.~~~Vermeide möglichst, die Drohnen auf lange Reisen zu schicken. Bei der Planung effizienter Transportsysteme spielt die Reisezeit eine enorme Rolle.
-Remote connectors can be a convenient way to move resources around a crowded factory interior.~~~Tunnelverbinder können eine bequeme Möglichkeit sein, Ressourcen in einem überfüllten Werksinneren zu transportieren.
 Don't expand to new resource deposits without fully utilizing your current ones. Bottlenecks in your system can cause major revenue deficiencies, don't let resources get backed up anywhere.~~~Erweitere nicht auf neue Ressourcenpositionen, ohne Ihre aktuellen Positionen voll ausgenutzt zu haben. Engpässe im System können zu erheblichen Einnahmemängeln führen. Lasse auch keine Ressourcen anhäufen.
-MISSION~~~MISSION
-OK~~~OK
-Exit without saving, are you sure?~~~Beenden ohne zu speichern, sicher?
-Goal:~~~Tor:
-Continue playing to earn a Master Extractor's Medallion, or return to the Scenario selection screen.~~~Spiele weiter, um ein Medaillon zu verdienen, oder kehre zum Bildschirm für die Szenarioauswahl zurück.
-CONTINUE PLAYING~~~WEITERSPIELEN
-SAVE AND EXIT~~~SPEICHERN UND SCHLIESSEN
-Weight Output: 25,000~~~Gewichtsausgabe: 30.000
-Weight Goal:~~~Zielgewicht:
-Game by:~~~Spiel von:
-Sean Cutino and Brad Hall~~~Sean Cutino und Brad Hall
-Sets the priority drones will give to this pitstop relative to others.`Drones can be set to not bring crates here at all, if it's set to "OFF".~~~Legt die Priorität fest, die Drohnen diesem Boxenstopp im Verhältnis zu anderen geben. `Drohnen können so eingestellt werden, dass Kisten überhaupt nicht hierher gebracht werden, wenn sie auf " AUS " gesetzt sind.
-droneBayPowerHover~~~Benötigt Strom, um zu funktionieren.`Monatliche Kosten: $ 320`Kapazitätsverbrauch: 0
-trainPowerHover~~~Benötigt Strom zum Funktionieren.`Monatliche Kosten: $ 4.000`Kapazitätsauslastung: 5
-Revenue~~~Einnahmen
-3-month Weight Output Goal:~~~3-Monats-Gewichtsausgabeziel:
-3-month weight output record of:~~~3-monatige Gewichtsausgabe
-MISSION OBJECTIVE~~~MISSIONSZIEL
-SAVED~~~GESPEICHERT
+Clawtrack pitstops are best utilized in a relay system as shown. Be careful with them, as they can massively downgrade your truck loading efficiency if used improperly.~~~Clawtrain-LKW-Lader werden am besten in einem Relaissystem wie gezeigt verwendet. Seien Sie vorsichtig mit ihnen, da sie bei unsachgemäßer Verwendung die Effizienz Ihrer LKW-Beladung massiv herabsetzen können.
+MEDALLION DESC~~~Als sekundäres Ziel für jedes Szenario können Medaillions freigeschaltet werden, indem das monatliches Ziel für die Gewichtsausbeute erreicht wurde.
+PLANET SELECT~~~PLANET AUSWÄHLEN
 Simple Fields~~~Split-Tal
 Simple Fields Description~~~Arbeite hier mit einem ausgetrockneten Flussbett, das aus der Landschaft ragt und diese in Hälften teilt
-Big Cliffs~~~Felsige Hügel
-Big Cliffs Description~~~Große grüne Klippen, umgeben von gewundenen Flüssen und Seen, bilden die perfekte Kulisse für eine Fabrikbasis
 Open Space~~~Freifläche
 Open Space Description~~~Eine einfache, flache, offene Wüste bietet einen fruchtbaren Boden für uneingeschränkte Kreativität.
+Big Cliffs~~~Felsige Hügel
+Big Cliffs Description~~~Große grüne Klippen, umgeben von gewundenen Flüssen und Seen, bilden die perfekte Kulisse für eine Fabrikbasis
 Big Islands~~~Gletschergebiet
 Big Islands Description~~~Gletscher, die sich von einer schmelzenden Eisdecke abspalten und reich an Mineralvorkommen sind, dienen als schwimmende Plattformen, auf denen man eine Basis errichten kann.
 Level_Craters~~~Kraterland
@@ -363,37 +294,69 @@ Level_OpenSpaceRocketsOnly~~~Raketenmeister
 Level_OpenSpaceRocketsOnlyDescription~~~Beginne mit Raketen, die bereits auf diesem seltsamen grünen Abschaumplaneten freigeschaltet wurden.
 Level_BigLake_CenterResources~~~Ressourcenreich
 Level_BigLake_CenterResourcesDescription~~~Jede Einzahlung erfolgt auf einer Insel im Zentrum dieser Liegenschaft.
-Per Month~~~Pro Monat
-PLAY~~~ABSPIELEN
-CREDITS~~~kreditieren
-QUIT~~~VERLASSEN
-NEW COLONY~~~NEUE KOLONIE
-LOAD COLONY~~~LADE KOLONIE
+GREEN GRASS~~~GRÜNES GRAS
+ACCEPTED CONTENTS:~~~AKZEPTIERTER INHALT:
+ACCEPTED RESOURCE:~~~AKZEPTIERTE RESSOURCE:
+ACCEPTED RESOURCES:~~~AKZEPTIERTE RESSOURCEN:
+ADD CART~~~Waggon hinzufügen
+ADD CLAWS~~~Krallen hinzufügen
+CONNECTOR COLOR:~~~ANSCHLUSSFARBE:
+CURRENTLY COMBINING:~~~AKTUELL KOMBINIERT:
+CURRENTLY EXTRACTING:~~~Derzeit extrahieren:
+CURRENTLY MINING:~~~Derzeitiger Bergbau:
+CURRENTLY REFINING:~~~AKTUELLE VEREDELUNG:
+DEMOLISH~~~ZERSTÖREN
+DESTROY ALL CRATES:~~~Zerstöre alle Kisten:
+DESTROY CONTENTS~~~INHALT ZERSTÖREN
+DESTROY CRATE~~~ZERSTÖRE KISTEN
+DRONE PRIORITY:~~~DROHNEN-PRIORITÄT:
+GREENHOUSE ENABLED~~~Gewächshaus aktiviert
+MAXIMUM CRATES~~~MAXIMALE KÄSTEN
+MINIMUM CRATES~~~MINDESTKÄSTEN
+PASS REQUIREMENTS:~~~PASS-ANFORDERUNGEN:
+POWER CONNECTED~~~STROM VERBUNDEN
+PROCESSING CONTENTS INTO:~~~INHALT VERARBEITEN ZU:
+REMOVE CART~~~Waggon entfernen
+REMOVE CLAWS~~~Kralle entfernen
+WATER CONNECTED~~~WASSER VERBUNDEN
 START~~~SPIELEN
 CANCEL~~~ABBRUCH
-Starter Mode:~~~Startermodus:
-Drone population.~~~Drohnenpopulation.
-CURRENT TIME:~~~AKTUELLE UHRZEIT:
-MISSION:~~~MISSION:
+NEW COLONY~~~NEUE KOLONIE
+LOAD COLONY~~~LADE KOLONIE
 LOAD COLONY:~~~LADE DIE KOLONIE
-IN PROGRESS~~~IN BEARBEITUNG
 LOAD~~~LADEN
 DELETE~~~LÖSCHEN
-NAME YOUR COLONY:~~~BENENNE DEINE KOLONIE:
-DEMOLISH~~~ZERSTÖREN
-GREENHOUSE ENABLED~~~Gewächshaus aktiviert
-CONNECTOR COLOR:~~~ANSCHLUSSFARBE:
-Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.~~~Legt fest, mit welchem Anschluss verbunden werden soll, falls in der Fabrik dieses Containers welche vorhanden sind.``Nur ein Container pro Fabrik kann auf eine bestimmte Farbe eingestellt werden.
-Starter mode provides you with the basics prebuilt. If you are unfamiliar with the game, starter mode is essential.~~~Der Startermodus bietet die vorgefertigten Basisgrundlagen. Wenn du mit dem Spiel nicht vertraut bist, ist der Startermodus ein prima Einstieg.
-Clawtrack pitstops are best utilized in a relay system as shown. Be careful with them, as they can massively downgrade your truck loading efficiency if used improperly.~~~Clawtrain-LKW-Lader werden am besten in einem Relaissystem wie gezeigt verwendet. Seien Sie vorsichtig mit ihnen, da sie bei unsachgemäßer Verwendung die Effizienz Ihrer LKW-Beladung massiv herabsetzen können.
-Edge panning:~~~Kantenschub:
-Can be set to skip a certain number of claws, letting them pass by unaffected.~~~Kann so eingestellt werden, dass eine bestimmte Anzahl von Klauen übersprungen wird, sodass sie unbeeinträchtigt vorbeikommen.
-COST:~~~KOSTEN:
-SELL:~~~VERKAUFEN:
-CLAIM~~~Anspruch
-SUCCESS!~~~ERFOLG!
-SuccessMessage~~~Spiele weiter, um ein Meisterextraktionsmedaillon zu erhalten, oder kehre zum Szenario-Auswahlbildschirm zurück.
-MedallionSuccessMessage~~~Meisterextraktionsmedaillon erreicht! Spiele weiter oder kehre zum Szenario-Auswahlbildschirm zurück.
-PLANET SELECT~~~PLANET AUSWÄHLEN
+NAME YOUR COLONY:~~~BENENNE DIE KOLONIE:
+Starter Mode:~~~Startermodus:
 Very Easy Mode:~~~Einfacher Modus
 Reduces taxes by 90%~~~Reduziert die Steuern um 100%
+MISSION OBJECTIVES~~~MISSIONSZIELE
+MISSION OBJECTIVE~~~MISSIONSZIEL
+SAVED~~~GESPEICHERT
+Game by:~~~Spiel von:
+CURRENT TIME:~~~AKTUELLE UHRZEIT:
+IN PROGRESS~~~IN BEARBEITUNG
+MISSION:~~~MISSION:
+MEDALLION~~~MEDAILLON
+MEDALLION:~~~MEDAILLON:
+SUCCESS!~~~ERFOLG!
+CONTINUE PLAYING~~~WEITERSPIELEN
+SuccessMessage~~~Spiele weiter, um ein Meisterextraktionsmedaillon zu erhalten, oder kehre zum Szenario-Auswahlbildschirm zurück.
+MedallionSuccessMessage~~~Meisterextraktionsmedaillon erreicht! Spiele weiter oder kehre zum Szenario-Auswahlbildschirm zurück.
+Camera friction:~~~Kameraneigungg:
+DOF Focus:~~~Fokus:
+DOF Tilt-shift:~~~Winziger Modus
+Edge panning:~~~Kantenschub:
+Edge Panning:~~~Kantenschub:
+Field of view:~~~Sichtfeld:
+Reset FOV:~~~Sichtfeld zurücksetzen:
+SOUND VOLUME:~~~LAUTSTÄRKE:
+Auto Save:~~~Automatisch speichern:
+SAVE~~~SPIEL SPEICHERN
+SAVE AND EXIT~~~SPEICHERN UND SCHLIESSEN
+EXIT~~~SCHLIESSEN
+PLAY~~~SINGLEPLAYER
+CREDITS~~~KREDITS
+OPTIONS~~~OPTIONEN
+QUIT~~~VERLASSEN
+Exit without saving, are you sure?~~~Beenden ohne zu speichern, sicher?
